@@ -23,7 +23,7 @@ from app.agents.normas import ag_normas
 from app.agents.triagem import _consultar
 from tests.test_decisao_casos import DOCUMENTOS, _molde
 
-CASOS = Path(__file__).resolve().parents[1] / "casos_treino"
+CASOS = Path(__file__).resolve().parents[1] / "casos" / "treino"
 
 
 def rodar(caso: str) -> list[str]:

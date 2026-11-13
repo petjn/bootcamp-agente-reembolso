@@ -1,0 +1,4 @@
+{"turno": 1, "mensagem": "oi, entrei no plano agora em maio e tive que ir num pronto atendimento particular. dá pra pedir reembolso? carteirinha 7042 3384 5560 1219"}
+{"turno": 2, "mensagem": "o recibo", "anexo": {"filename": "recibo_pronto_atendimento.pdf", "mime_type": "application/pdf", "path": "recibo_pronto_atendimento.pdf"}}
+{"turno": 3, "mensagem": "mas eu não estava na carência?"}
+{"turno": 4, "mensagem": "obrigado!"}

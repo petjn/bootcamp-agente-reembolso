@@ -1,0 +1,4 @@
+{"turno": 1, "mensagem": "boa noite. carteirinha 7042 7105 3368 9142. fiz uma cintilografia, segue a nota e já mando o pedido do médico", "anexo": {"filename": "nota_cintilografia.pdf", "mime_type": "application/pdf", "path": "nota_cintilografia.pdf"}}
+{"turno": 2, "mensagem": "aqui o pedido", "anexo": {"filename": "pedido_medico_sem_data.pdf", "mime_type": "application/pdf", "path": "pedido_medico_sem_data.pdf"}}
+{"turno": 3, "mensagem": "ele esqueceu de pôr a data. faz diferença?"}
+{"turno": 4, "mensagem": "entendi"}

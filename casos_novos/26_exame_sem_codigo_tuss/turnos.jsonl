@@ -1,4 +1,0 @@
-{"turno": 1, "mensagem": "olá, preciso do reembolso de um ultrassom. carteirinha 7042 6187 0452 9934"}
-{"turno": 2, "mensagem": "o recibo não tem aquele código, serve assim?", "anexo": {"filename": "recibo_ultrassom_sem_codigo.pdf", "mime_type": "application/pdf", "path": "../../anexos/novos/recibo_ultrassom_sem_codigo.pdf"}}
-{"turno": 3, "mensagem": "por que não volta tudo o que eu paguei?"}
-{"turno": 4, "mensagem": "valeu"}

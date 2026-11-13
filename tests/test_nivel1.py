@@ -1,4 +1,4 @@
-﻿"""Nível 1 do mapa de blocos: código com dependência externa, determinístico.
+"""Nível 1 do mapa de blocos: código com dependência externa, determinístico.
 
   * MCP: para cada uma das 17 personas, o cadastro e o histórico que o servidor devolve batem com o
     persona.json do caso. Precisa do servidor MCP no ar (pula se não estiver).
@@ -16,7 +16,7 @@ from app import tools
 from app.agents.documento import ler_texto
 
 RAIZ = Path(__file__).resolve().parents[1]
-PERSONAS = sorted((RAIZ / "casos_treino").glob("*/persona.json"))
+PERSONAS = sorted((RAIZ / "casos" / "treino").glob("*/persona.json"))
 
 
 def _mcp_no_ar() -> bool:
@@ -52,7 +52,7 @@ def test_carteirinha_inexistente():
         tools.consultar_beneficiario("7042000000000000")
 
 
-ANEXOS = sorted((RAIZ / "anexos").glob("*/*.pdf"))
+ANEXOS = sorted(p for grupo in ("treino", "novos", "teste") for p in (RAIZ / "casos" / grupo).glob("*/*.pdf"))
 
 
 @pytest.mark.parametrize("arquivo", ANEXOS, ids=lambda p: p.stem)

@@ -13,8 +13,8 @@ services:
       MCP_OPERADORA_TOKEN: treino
       MCP_OPERADORA_DADOS: /dados
     volumes:
-      # cada casos_treino/*/persona.json vira um beneficiário
-      - ./casos_treino:/dados:ro
+      # cada casos/treino/*/persona.json vira um beneficiário
+      - ./casos/treino:/dados:ro
 
   agente:
     build: .

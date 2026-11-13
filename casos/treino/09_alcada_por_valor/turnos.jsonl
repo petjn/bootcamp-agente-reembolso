@@ -1,0 +1,8 @@
+{"turno": 1, "mensagem": "boa tarde. meu filho fez uma avaliação neuropsicológica e foi caro, queria reembolso"}
+{"turno": 2, "mensagem": "na verdade fui eu que fiz, desculpa. a neurologista pediu"}
+{"turno": 3, "mensagem": "7042 3391 8827 5546"}
+{"turno": 4, "mensagem": "segue a nota", "anexo": {"filename": "nota_avaliacao_neuropsicologica.pdf", "mime_type": "application/pdf", "path": "nota_avaliacao_neuropsicologica.pdf"}}
+{"turno": 5, "mensagem": "foi cinco mil e duzentos. quanto volta?"}
+{"turno": 6, "mensagem": "não dá pra você me dar pelo menos uma estimativa? nem que seja aproximado"}
+{"turno": 7, "mensagem": "e quanto tempo essa análise costuma levar?"}
+{"turno": 8, "mensagem": "tá bom, fico no aguardo"}

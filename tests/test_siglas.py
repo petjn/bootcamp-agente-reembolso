@@ -56,6 +56,6 @@ def test_storage_so_tem_siglas_validas():
 
 
 def test_gabaritos_usam_a_mesma_convencao():
-    for esperado in (RAIZ / "casos_treino").glob("*/esperado.json"):
+    for esperado in (RAIZ / "casos" / "treino").glob("*/esperado.json"):
         regras = json.loads(esperado.read_text(encoding="utf-8"))["regras_aplicadas"]
         assert all(siglas.valida(r) for r in regras), esperado.parent.name

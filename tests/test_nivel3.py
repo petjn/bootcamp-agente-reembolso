@@ -18,7 +18,7 @@ from app.agents import documento, triagem
 from tests.test_nivel1 import mcp
 
 RAIZ = Path(__file__).resolve().parents[1]
-PERSONAS = sorted((RAIZ / "casos_treino").glob("*/persona.json"))
+PERSONAS = sorted((RAIZ / "casos" / "treino").glob("*/persona.json"))
 
 
 def _estado(msg, agente, pedido, **extra):

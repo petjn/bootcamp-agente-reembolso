@@ -1,0 +1,5 @@
+{"turno": 1, "mensagem": "olá, fiz uma cirurgia de hérnia particular e quero pedir o reembolso dos honorários do cirurgião. carteirinha 7042 7738 2105 9946"}
+{"turno": 2, "mensagem": "segue", "anexo": {"filename": "recibo_herniorrafia.pdf", "mime_type": "application/pdf", "path": "recibo_herniorrafia.pdf"}}
+{"turno": 3, "mensagem": "por que vai para um analista? o valor nem passa do limite"}
+{"turno": 4, "mensagem": "e demora quanto?"}
+{"turno": 5, "mensagem": "ok"}

@@ -1,0 +1,7 @@
+{"turno": 1, "mensagem": "oi, boa noite. queria pedir reembolso de uma consulta com meu psiquiatra"}
+{"turno": 2, "mensagem": "7042 3318 6620 4471"}
+{"turno": 3, "mensagem": "tá aqui o recibo", "anexo": {"filename": "recibo_psiquiatria.pdf", "mime_type": "application/pdf", "path": "recibo_psiquiatria.pdf"}}
+{"turno": 4, "mensagem": "e essa consulta entra naquele limite de sessões de terapia por ano? é que eu faço psicoterapia também"}
+{"turno": 5, "mensagem": "paguei 550 e volta só isso?"}
+{"turno": 6, "mensagem": "se da próxima vez eu mandar foto do recibo em vez do pdf, serve?"}
+{"turno": 7, "mensagem": "beleza, valeu"}

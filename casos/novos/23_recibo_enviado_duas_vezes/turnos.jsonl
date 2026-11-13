@@ -1,0 +1,5 @@
+{"turno": 1, "mensagem": "bom dia! minha carteirinha é 7042 2231 5508 6619 e quero pedir reembolso de uma consulta"}
+{"turno": 2, "mensagem": "segue o recibo", "anexo": {"filename": "recibo_endocrinologia.pdf", "mime_type": "application/pdf", "path": "recibo_endocrinologia.pdf"}}
+{"turno": 3, "mensagem": "mandei de novo só pra garantir que chegou", "anexo": {"filename": "recibo_endocrinologia.pdf", "mime_type": "application/pdf", "path": "recibo_endocrinologia.pdf"}}
+{"turno": 4, "mensagem": "então vai cair duas vezes?"}
+{"turno": 5, "mensagem": "ok, obrigado"}

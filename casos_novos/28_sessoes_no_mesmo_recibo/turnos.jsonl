@@ -1,5 +1,0 @@
-{"turno": 1, "mensagem": "oi! carteirinha 7042 5562 8803 4417. quero reembolso das sessões de fono de maio"}
-{"turno": 2, "mensagem": "está tudo nesse recibo", "anexo": {"filename": "recibo_fono_tres_sessoes.pdf", "mime_type": "application/pdf", "path": "../../anexos/novos/recibo_fono_tres_sessoes.pdf"}}
-{"turno": 3, "mensagem": "por que a primeira sessão ficou de fora?"}
-{"turno": 4, "mensagem": "e como foi o cálculo das outras?"}
-{"turno": 5, "mensagem": "certo, obrigado"}

@@ -1,5 +1,0 @@
-{"turno": 1, "mensagem": "boa tarde, carteirinha 7042 6613 2088 7451, queria reembolso de uma consulta de dermato"}
-{"turno": 2, "mensagem": "segue o recibo", "anexo": {"filename": "recibo_dermatologia_mauro.pdf", "mime_type": "application/pdf", "path": "../../anexos/novos/recibo_dermatologia_mauro.pdf"}}
-{"turno": 3, "mensagem": "mas eu paguei o boleto atrasado ontem, já está tudo certo"}
-{"turno": 4, "mensagem": "e as próximas consultas?"}
-{"turno": 5, "mensagem": "tá"}

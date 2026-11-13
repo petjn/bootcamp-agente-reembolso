@@ -35,7 +35,7 @@ referencia/
 
 # ---------------------------------------------------------------- fora do repositório (ficam só no PC)
 # casos que não são mais usados, notebook inacabado e configuração do LangGraph Studio
-casos_arquivados/
+casos/arquivados/
 notebook/
 langgraph.json
 langgraph.traces.json

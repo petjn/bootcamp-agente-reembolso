@@ -14,7 +14,7 @@ import pytest
 from app.decisao import JulgamentoExclusao, decidir
 from app.parametros import Parametros
 
-CASOS = Path(__file__).resolve().parents[1] / "casos_treino"
+CASOS = Path(__file__).resolve().parents[1] / "casos" / "treino"
 
 # caso: (categoria, data do atendimento, TUSS, valor pago, complementares)
 DOCUMENTOS = {

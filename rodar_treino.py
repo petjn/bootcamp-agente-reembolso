@@ -77,7 +77,7 @@ def main() -> int:
         print("suba o container antes de rodar este script.")
         return 2
 
-    pastas = sorted(p for p in (RAIZ / "casos_treino").iterdir()
+    pastas = sorted(p for p in (RAIZ / "casos" / "treino").iterdir()
                     if p.is_dir() and (p / "esperado.json").exists())
     if args.caso:
         pastas = [p for p in pastas if p.name.startswith(args.caso)]

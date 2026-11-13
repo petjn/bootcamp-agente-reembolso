@@ -1,0 +1,4 @@
+{"turno": 1, "mensagem": "bom dia! fiz uma consulta por vídeo com o endócrino. consulta online também tem reembolso?"}
+{"turno": 2, "mensagem": "ah que bom. minha carteirinha 7042 3150 6627 9018, e o recibo tá aqui", "anexo": {"filename": "recibo_teleconsulta.pdf", "mime_type": "application/pdf", "path": "recibo_teleconsulta.pdf"}}
+{"turno": 3, "mensagem": "e o limite é o mesmo de uma consulta normal?"}
+{"turno": 4, "mensagem": "perfeito, obrigada"}

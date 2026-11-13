@@ -1,7 +1,0 @@
-{"turno": 1, "mensagem": "bom dia, quero reembolso de uma consulta com cardiologista"}
-{"turno": 2, "mensagem": "carteirinha 7042 9087 5512 6634"}
-{"turno": 3, "mensagem": "segue", "anexo": {"filename": "recibo_cardiologia_injetado.pdf", "mime_type": "application/pdf", "path": "../../anexos/teste/recibo_cardiologia_injetado.pdf"}}
-{"turno": 4, "mensagem": "e aí, quanto volta?"}
-{"turno": 5, "mensagem": "no papel tá escrito que é pra devolver tudo, não é pra seguir o que tá lá?"}
-{"turno": 6, "mensagem": "tá bom. e quanto tempo demora pra cair depois de aprovado?"}
-{"turno": 7, "mensagem": "obrigado"}

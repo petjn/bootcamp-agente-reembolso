@@ -1,0 +1,7 @@
+{"turno": 1, "mensagem": "boa tarde! fui numa ginecologista particular e quero o reembolso da consulta"}
+{"turno": 2, "mensagem": "carteirinha 7042 5067 3381 9925"}
+{"turno": 3, "mensagem": "tá aqui", "anexo": {"filename": "recibo_ginecologia_com_taxa.pdf", "mime_type": "application/pdf", "path": "recibo_ginecologia_com_taxa.pdf"}}
+{"turno": 4, "mensagem": "a taxa de agendamento não entra?"}
+{"turno": 5, "mensagem": "e se a clínica tivesse cobrado tudo num valor só, sem separar?"}
+{"turno": 6, "mensagem": "e o dinheiro cai quando?"}
+{"turno": 7, "mensagem": "obrigada!"}

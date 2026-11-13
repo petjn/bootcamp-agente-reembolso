@@ -1,5 +1,0 @@
-{"turno": 1, "mensagem": "boa tarde! carteirinha 7042 2960 4418 7735. quero reembolso da consulta com o cardiologista", "anexo": {"filename": "recibo_cardiologia_com_taxa.pdf", "mime_type": "application/pdf", "path": "../../anexos/novos/recibo_cardiologia_com_taxa.pdf"}}
-{"turno": 2, "mensagem": "por que precisa separar?"}
-{"turno": 3, "mensagem": "pronto, o consultório mandou separado", "anexo": {"filename": "recibo_cardiologia_discriminado.pdf", "mime_type": "application/pdf", "path": "../../anexos/novos/recibo_cardiologia_discriminado.pdf"}}
-{"turno": 4, "mensagem": "quanto ficou?"}
-{"turno": 5, "mensagem": "valeu"}

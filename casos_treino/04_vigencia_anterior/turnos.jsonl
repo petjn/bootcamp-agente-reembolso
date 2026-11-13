@@ -1,8 +1,0 @@
-{"turno": 1, "mensagem": "oi, boa tarde. queria pedir reembolso de uma sessão de terapia que fiz em março"}
-{"turno": 2, "mensagem": "7042 6610 4432 0871"}
-{"turno": 3, "mensagem": "tá aqui o recibo", "anexo": {"filename": "recibo_psico_marco.pdf", "mime_type": "application/pdf", "path": "../../anexos/teste/recibo_psico_marco.pdf"}}
-{"turno": 4, "mensagem": "quanto sai?"}
-{"turno": 5, "mensagem": "hm, uma amiga minha fez em maio e voltou bem mais. por que a dela foi maior?"}
-{"turno": 6, "mensagem": "entendi. e essa mudança não vale pra minha também? foi tudo no mesmo ano"}
-{"turno": 7, "mensagem": "ok. e tem algum limite de quantas sessões por ano dá pra pedir?"}
-{"turno": 8, "mensagem": "beleza, obrigada"}

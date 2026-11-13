@@ -1,0 +1,5 @@
+{"turno": 1, "mensagem": "boa noite, fiz uns exames de sangue num laboratório particular. como faço pra ter o reembolso?"}
+{"turno": 2, "mensagem": "minha carteirinha é 7042 3612 9054 8871"}
+{"turno": 3, "mensagem": "essa é a nota", "anexo": {"filename": "nota_laboratorio_tres_exames.pdf", "mime_type": "application/pdf", "path": "nota_laboratorio_tres_exames.pdf"}}
+{"turno": 4, "mensagem": "por que voltou tão pouco do hemograma e do tsh?"}
+{"turno": 5, "mensagem": "valeu"}

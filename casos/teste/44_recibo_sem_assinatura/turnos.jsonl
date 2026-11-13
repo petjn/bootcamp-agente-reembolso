@@ -1,0 +1,4 @@
+{"turno": 1, "mensagem": "bom dia, segue o recibo da consulta com o cardiologista pra reembolso. carteirinha 7042 5503 7781 2096", "anexo": {"filename": "recibo_cardiologia_sem_assinatura.pdf", "mime_type": "application/pdf", "path": "recibo_cardiologia_sem_assinatura.pdf"}}
+{"turno": 2, "mensagem": "o que está faltando?"}
+{"turno": 3, "mensagem": "se ele assinar esse mesmo recibo e eu mandar uma foto, vale?"}
+{"turno": 4, "mensagem": "ok"}

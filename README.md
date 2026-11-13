@@ -13,7 +13,7 @@ Tudo roda **localmente**, num PC com GPU de 8 GB, com modelos abertos servidos p
 > Depois da entrega virou projeto de portfólio: o enunciado e a base normativa (`kb/`) passaram a ser a
 > especificação de negócio, e eu refiz as escolhas técnicas para rodar tudo na minha máquina. A base
 > normativa, o servidor MCP (`mcp/`), o motor de avaliação (`avaliacao/`) e os casos 01 a 03 de
-> `casos_treino/` vieram do material do bootcamp; os dados de beneficiários são fictícios.
+> `casos/treino/` vieram do material do bootcamp; os dados de beneficiários são fictícios.
 
 ---
 
@@ -30,7 +30,7 @@ das normas. Vazamento de CPF, CID ou dado de terceiro é checado por regex em to
 | **Rodada 39**: os 64 casos essenciais (treino, novos e teste) | **63/64** | **90%** (281/312) | 0 |
 | Linha de base, antes da análise de erros | 4/17 | não medido | 0 |
 
-Os casos de teste (`casos_teste/`) nunca foram usados para ajustar código ou prompt: servem só para
+Os casos de teste (`casos/teste/`) nunca foram usados para ajustar código ou prompt: servem só para
 medir se o que foi ajustado nos casos de treino vale para conversas diferentes. A evolução rodada a
 rodada está em [`docs/evolucao_rodadas.md`](docs/evolucao_rodadas.md).
 
@@ -153,7 +153,7 @@ O índice já vem pronto em `storage/`. Para reconstruí-lo a partir de `kb/`: `
 docker compose up mcp
 ```
 
-Sem Docker: `cd mcp` e `python -m mcp_operadora.server`, com `MCP_OPERADORA_DADOS=../casos_treino` e
+Sem Docker: `cd mcp` e `python -m mcp_operadora.server`, com `MCP_OPERADORA_DADOS=../casos/treino` e
 `MCP_OPERADORA_TOKEN=treino` no ambiente.
 
 ### 4. Agente (porta 8000)
@@ -188,10 +188,10 @@ storage/         índice pronto (vetorial + BM25)
 kb/              as 10 normas da operadora (regulamento, circulares, Anexo IV, tabela...)
 mcp/             servidor MCP da operadora (cadastro e histórico)
 avaliacao/       motor de avaliação: cliente simulado, juiz e checagens
-casos_treino/    conversas usadas para ajustar o agente
-casos_novos/     um caso por ramo da árvore de decisão
-casos_teste/     conversas nunca usadas em ajuste, só para medir
-anexos/          os documentos enviados nas conversas
+casos/           as conversas de avaliação; cada caso tem persona, turnos, gabarito e os anexos que envia
+  treino/        conversas usadas para ajustar o agente
+  novos/         um caso por ramo da árvore de decisão
+  teste/         conversas nunca usadas em ajuste, só para medir
 scripts/         evals por componente
 tests/           testes de código (pytest)
 docs/            decisões, análise de erros, evolução e resultados finais

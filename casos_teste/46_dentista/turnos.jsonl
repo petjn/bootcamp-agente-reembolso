@@ -1,4 +1,0 @@
-{"turno": 1, "mensagem": "oi, fui no dentista fazer limpeza. o plano reembolsa? minha carteirinha é 7042 2087 6630 5512"}
-{"turno": 2, "mensagem": "segue o recibo", "anexo": {"filename": "recibo_dentista.pdf", "mime_type": "application/pdf", "path": "../../anexos/teste_novos/recibo_dentista.pdf"}}
-{"turno": 3, "mensagem": "nem a consulta?"}
-{"turno": 4, "mensagem": "ok, obrigado"}

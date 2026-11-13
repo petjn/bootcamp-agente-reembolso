@@ -1,8 +1,0 @@
-{"turno": 1, "mensagem": "boa tarde. comecei a fazer acupuntura pra dor nas costas e queria o reembolso"}
-{"turno": 2, "mensagem": "7042 7738 1164 2290"}
-{"turno": 3, "mensagem": "aqui o recibo da sessão", "anexo": {"filename": "recibo_acupuntura.pdf", "mime_type": "application/pdf", "path": "../../anexos/teste/recibo_acupuntura.pdf"}}
-{"turno": 4, "mensagem": "indicação clínica? não, eu procurei por conta própria mesmo"}
-{"turno": 5, "mensagem": "mas melhorou muito a minha dor, isso não conta?"}
-{"turno": 6, "mensagem": "se eu levar um pedido do meu ortopedista, muda alguma coisa?"}
-{"turno": 7, "mensagem": "e vale pra sessão que eu já fiz ou só pras próximas?"}
-{"turno": 8, "mensagem": "certo, vou falar com ele"}

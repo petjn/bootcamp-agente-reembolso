@@ -1,5 +1,0 @@
-{"turno": 1, "mensagem": "olá, quero pedir reembolso de uma tomografia. minha carteirinha: 7042 9927 4310 6685"}
-{"turno": 2, "mensagem": "aqui a nota", "anexo": {"filename": "nota_tomografia.pdf", "mime_type": "application/pdf", "path": "../../anexos/teste_novos/nota_tomografia.pdf"}}
-{"turno": 3, "mensagem": "o pedido do médico tá aqui", "anexo": {"filename": "pedido_medico_tomografia.pdf", "mime_type": "application/pdf", "path": "../../anexos/teste_novos/pedido_medico_tomografia.pdf"}}
-{"turno": 4, "mensagem": "mas foi esse o papel que o médico me deu"}
-{"turno": 5, "mensagem": "tá bom, vou ver com ele"}

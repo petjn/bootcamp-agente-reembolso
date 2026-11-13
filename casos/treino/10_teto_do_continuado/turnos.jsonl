@@ -1,0 +1,8 @@
+{"turno": 1, "mensagem": "boa tarde, mais uma sessão de terapia pra reembolsar"}
+{"turno": 2, "mensagem": "7042 8852 3307 1195"}
+{"turno": 3, "mensagem": "segue o recibo", "anexo": {"filename": "recibo_psico_trigesima.pdf", "mime_type": "application/pdf", "path": "recibo_psico_trigesima.pdf"}}
+{"turno": 4, "mensagem": "o relatório da psicóloga tá aqui também", "anexo": {"filename": "relatorio_psico_vera.pdf", "mime_type": "application/pdf", "path": "relatorio_psico_vera.pdf"}}
+{"turno": 5, "mensagem": "só isso? paguei 400 na sessão"}
+{"turno": 6, "mensagem": "mas no começo do ano voltava mais por sessão, o que mudou?"}
+{"turno": 7, "mensagem": "e esse limite de sessões conta o que? só psicoterapia ou tudo?"}
+{"turno": 8, "mensagem": "entendi, obrigada por explicar direitinho"}

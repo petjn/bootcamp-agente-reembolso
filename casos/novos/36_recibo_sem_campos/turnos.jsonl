@@ -1,0 +1,4 @@
+{"turno": 1, "mensagem": "bom dia, quero reembolso da consulta com o neurologista. carteirinha 7042 9271 6045 3308"}
+{"turno": 2, "mensagem": "recibo", "anexo": {"filename": "recibo_neurologia_incompleto.pdf", "mime_type": "application/pdf", "path": "recibo_neurologia_incompleto.pdf"}}
+{"turno": 3, "mensagem": "e enquanto isso já dá pra saber quanto eu vou receber?"}
+{"turno": 4, "mensagem": "tá, vou pedir outro recibo"}

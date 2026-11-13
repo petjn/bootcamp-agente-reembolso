@@ -1,8 +1,0 @@
-{"turno": 1, "mensagem": "boa tarde. precisei de um relatório médico detalhado pro meu trabalho e o médico cobrou à parte, dá pra reembolsar isso?"}
-{"turno": 2, "mensagem": "7042 3086 5541 9927"}
-{"turno": 3, "mensagem": "segue a nota", "anexo": {"filename": "recibo_relatorio_medico.pdf", "mime_type": "application/pdf", "path": "../../anexos/teste/recibo_relatorio_medico.pdf"}}
-{"turno": 4, "mensagem": "só isso? paguei 150"}
-{"turno": 5, "mensagem": "mas eu não fiz terapia esse ano, esse limite não era das sessões?"}
-{"turno": 6, "mensagem": "poxa, não fazia ideia que somava tudo. tem como consultar quanto ainda me resta?"}
-{"turno": 7, "mensagem": "e se eu precisar de outro relatório desses ainda esse ano?"}
-{"turno": 8, "mensagem": "entendi, obrigado pela explicação"}

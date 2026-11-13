@@ -50,7 +50,7 @@ FALTANDO = {"nota_avaliacao_neuropsicologica.pdf": ["C7"]}
 def _anexos() -> dict[str, tuple[dict, str]]:
     """arquivo -> (anexo do turno, nome da persona do caso)."""
     saida = {}
-    for pasta in sorted(p.parent for p in (RAIZ / "casos_treino").glob("*/persona.json")):
+    for pasta in sorted(p.parent for p in (RAIZ / "casos" / "treino").glob("*/persona.json")):
         nome = json.loads((pasta / "persona.json").read_text(encoding="utf-8"))["nome"]
         for linha in (pasta / "turnos.jsonl").read_text(encoding="utf-8").splitlines():
             a = json.loads(linha).get("anexo")
