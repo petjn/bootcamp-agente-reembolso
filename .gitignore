@@ -53,7 +53,7 @@ scripts/*
 # docs: só o essencial para entender o projeto e os resultados
 # (os relatórios de cada rodada e os traces ficam só na máquina local)
 docs/*
-!docs/LEIAME.md
+!docs/README.md
 !docs/diario_de_decisoes.md
 !docs/como_funciona/
 !docs/resultados/

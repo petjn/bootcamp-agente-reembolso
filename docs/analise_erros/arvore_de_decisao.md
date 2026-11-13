@@ -1,6 +1,6 @@
 # Árvore de decisão do pedido de reembolso (2026-10-17)
 
-> Os códigos D (D78, D93...) são entradas do [diário de decisões](../diario_de_decisoes.md); os demais termos estão no [glossário](../LEIAME.md#glossário).
+> Os códigos D (D78, D93...) são entradas do [diário de decisões](../diario_de_decisoes.md); os demais termos estão no [glossário](../README.md#glossário).
 
 Mapa de todas as regras das normas que decidem um pedido, na ordem da NT-02, item 6.1. Cada nó diz a pergunta, o fato
 de que ela precisa, de onde esse fato pode vir, os desfechos de cada ramo, a regra e se o código de hoje faz isso.

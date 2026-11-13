@@ -5,7 +5,7 @@ as correções e nunca usadas para ajustar nada. O código ficou congelado, e ca
 modelo não responde sempre igual. Nenhuma resposta mostrou CPF, código de doença ou dado de outra pessoa.
 
 Os códigos D85, D93... indicam a versão do código: a entrada do [`diário de decisões`](../diario_de_decisoes.md)
-até a qual as correções tinham entrado. Termos novos estão no glossário de [`docs/LEIAME.md`](../LEIAME.md).
+até a qual as correções tinham entrado. Termos novos estão no glossário de [`docs/README.md`](../README.md).
 
 **Resultado:** decisão certa **8/8 nas 3 execuções**; turnos **23, 22 e 22 de 25 (média 89%)**.
 

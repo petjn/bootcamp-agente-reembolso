@@ -1,6 +1,6 @@
 # Análise de erros por partes (rodadas 1 e 2, casos 01 a 03)
 
-> Os códigos D (D78, D93...) são entradas do [diário de decisões](../diario_de_decisoes.md); os demais termos estão no [glossário](../LEIAME.md#glossário).
+> Os códigos D (D78, D93...) são entradas do [diário de decisões](../diario_de_decisoes.md); os demais termos estão no [glossário](../README.md#glossário).
 
 Cada componente tem partes com saída própria, e o erro é marcado na parte que saiu bem pior do que um
 especialista com a mesma entrada. Para separar, li as saídas intermediárias: o que cada parte devolveu (os

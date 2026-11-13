@@ -118,7 +118,7 @@ Do 4 de 17 inicial ao 8 de 8 final, o método foi a **análise de erros** (como 
 
 Cada rodada de correções ficou registrada em [`docs/resultados/evolucao.md`](docs/resultados/evolucao.md).
 
-**Para ler mais, comece por [`docs/LEIAME.md`](docs/LEIAME.md)**: é o guia da documentação, com um glossário dos
+**Para ler mais, comece por [`docs/README.md`](docs/README.md)**: é o guia da documentação, com um glossário dos
 termos do projeto e das normas.
 
 ---

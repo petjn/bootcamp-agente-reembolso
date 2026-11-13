@@ -2,7 +2,7 @@
 
 Cada linha é uma **rodada**: todas as conversas de teste rodadas de novo depois de um grupo de correções. A
 tabela mostra como o agente saiu de 4 decisões certas em 17 conversas para o resultado final. Termos novos
-estão no glossário de [`docs/LEIAME.md`](../LEIAME.md).
+estão no glossário de [`docs/README.md`](../README.md).
 
 Como ler as colunas:
 - **Decisão certa**: em quantas conversas o desfecho do último turno bateu com o gabarito.

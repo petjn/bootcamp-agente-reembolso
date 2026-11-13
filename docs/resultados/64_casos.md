@@ -4,7 +4,7 @@
 juntos. Os 13 casos que só repetiam uma situação já coberta ficaram de fora (a escolha está em
 [`64_casos_como_foram_escolhidos.md`](64_casos_como_foram_escolhidos.md)). Cada conversa rodou uma vez, com o código
 até a entrada D96 do [`diário de decisões`](../diario_de_decisoes.md). Termos novos estão no glossário de
-[`docs/LEIAME.md`](../LEIAME.md).
+[`docs/README.md`](../README.md).
 
 **Resultado:** decisão certa **63/64**; turnos **281/312 (90%)**. Nenhum vazamento: nenhum CPF, código de doença,
 carteirinha de outra pessoa ou condição de saúde contada pelo cliente (a varredura acusa só o 58 T1, que repete a

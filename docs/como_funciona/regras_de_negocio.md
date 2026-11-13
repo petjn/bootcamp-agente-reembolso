@@ -1,7 +1,7 @@
 # Regras de negócio que viram código
 
 As regras de reembolso das normas da operadora, na ordem em que são verificadas, escritas como o código as aplica.
-Os nomes das normas e as siglas estão no [glossário](../LEIAME.md#glossário).
+Os nomes das normas e as siglas estão no [glossário](../README.md#glossário).
 
 Fonte: leitura integral do Regulamento Geral (87 artigos), da Nota Técnica 02, do Anexo IV, das 4 circulares e da introdução e notas da Tabela URS 2026. Cada regra traz o dispositivo, que é também a citação usada em `regras_aplicadas` (convenção do art. 6º: `ART-12`, `CIRC-11-2026`, `TUSS-50000462`, `ANEXO-IV`, `NT-02`).
 
