@@ -1,11 +1,7 @@
-# Sobe o servidor MCP e o seu agente, para você testar localmente.
-#
-# O avaliador NÃO usa este arquivo: ele constrói a sua imagem a partir do
-# Dockerfile da raiz e roda um `docker run` com o --env-file dele, apontando
-# para o MCP da banca — que é o mesmo servidor, com outro cadastro.
+# Sobe o servidor MCP (cadastro da operadora) e o agente, para testar na máquina.
 services:
   mcp:
-    # o servidor vem no pacote, em mcp/ — nada para baixar
+    # o servidor está em mcp/
     build: ./mcp
     ports:
       - "9000:9000"

@@ -1,6 +1,11 @@
-# Registro de decisões
+# Diário de decisões
 
-Cada entrada: data, milestone, decisão, alternativas consideradas e por quê. Este arquivo alimenta o notebook de portfólio.
+O registro de trabalho do projeto, em ordem de data: cada mudança, o motivo e as alternativas descartadas. As
+entradas são numeradas (D1 a D99), e é esse número que os comentários do código e os outros documentos citam.
+É um texto de trabalho, longo e técnico: para uma visão geral, comece por [`LEIAME.md`](LEIAME.md).
+
+As entradas mencionam arquivos, scripts e pastas da época que não fazem parte desta versão enxuta do
+repositório (por exemplo `casos_treino/`, hoje `casos/treino/`, e as pastas `docs/rodadaNN/`).
 
 ## 2026-10-07 — Planejamento
 

@@ -1,9 +1,9 @@
-"""Nível 3 do mapa de blocos: os nós dos subagentes, com o bloco de baixo já conferido.
+"""As etapas dos subagentes (triagem, documento, normas), com as peças de baixo já testadas nos outros arquivos.
 
   * ag_triagem: com o MCP de verdade, cada uma das 17 personas é identificada pela carteirinha da
     mensagem; a carteirinha mascarada, a ausente e a inexistente deixam o pedido aguardando o cliente;
     o cliente já identificado não é consultado de novo. Pula se o servidor MCP estiver fora do ar.
-  * ag_documento: a leitura (`analisar`, avaliada no nível 2) entra pronta; aqui se confere o que o nó
+  * ag_documento: a leitura (`analisar`, avaliada em scripts/eval_documento.py) entra pronta; aqui se confere o que o nó
     faz com ela: situação de cada anexo, substituição do recibo corrigido e o pedido que segue ou aguarda.
 """
 
@@ -15,7 +15,7 @@ import pytest
 from langchain_core.messages import AIMessage, HumanMessage
 
 from app.agents import documento, triagem
-from tests.test_nivel1 import mcp
+from tests.test_mcp_e_leitura_de_pdf import mcp
 
 RAIZ = Path(__file__).resolve().parents[1]
 PERSONAS = sorted((RAIZ / "casos" / "treino").glob("*/persona.json"))

@@ -1,4 +1,4 @@
-"""A decisão (M5) reproduz os gabaritos dos 3 casos a partir do documento já lido.
+"""A decisão reproduz os gabaritos dos 3 casos a partir do documento já lido.
 
 Sem modelo: o molde é o que o ag_documento devolveria, e o julgamento do Anexo IV
 é desligado (nenhum dos 3 casos é exclusão). "Hoje" é 20/05/2026, o dia das conversas.

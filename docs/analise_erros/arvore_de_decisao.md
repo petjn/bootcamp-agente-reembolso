@@ -1,9 +1,11 @@
-﻿# Árvore de decisão do pedido de reembolso (2026-10-17)
+# Árvore de decisão do pedido de reembolso (2026-10-17)
+
+> Os códigos D (D78, D93...) são entradas do [diário de decisões](../diario_de_decisoes.md); os demais termos estão no [glossário](../LEIAME.md#glossário).
 
 Mapa de todas as regras das normas que decidem um pedido, na ordem da NT-02, item 6.1. Cada nó diz a pergunta, o fato
 de que ela precisa, de onde esse fato pode vir, os desfechos de cada ramo, a regra e se o código de hoje faz isso.
 Fontes lidas: Regulamento Geral, Circulares 04/2025, 09/2025, 11/2026 e 02/2026, NT-02, Anexo IV e Tabela URS 2026
-(inclusive as observações de cada linha e as notas do fim). Parte da auditoria (`auditoria_norma_codigo.md`).
+(inclusive as observações de cada linha e as notas do fim). Parte da auditoria (`auditoria_normas_x_codigo.md`).
 Este documento não muda o agente. Revisto no mesmo dia (ver "Revisão" no fim).
 
 ## Quando a árvore é usada
@@ -202,7 +204,7 @@ pendência certos por campo (6.1, 6.2, 6.6); P21, P22 e P24 (6.9, 6.10); prazo d
 
 ## Revisão (2026-10-17, mesmo dia)
 
-Reconferido contra o texto das normas e os gabaritos de `casos_treino`. Mudou: o ponto 4 já estava decidido (ajuste do
+Reconferido contra o texto das normas e os gabaritos de `casos/treino`. Mudou: o ponto 4 já estava decidido (ajuste do
 caso 08); a recomendação do ponto 2 passou de negar pelo Anexo IV, 6.5, para não processar pelo art. 8º (P03); o ponto 3
 ganhou o pacote sem discriminação (Anexo IV, 10.3 e 10.4, contra o Caso 03); o ponto 8 ganhou o custo da opção
 recomendada; a seção "Quando a árvore é usada" diz que ela vale só para a decisão de um pedido com documento.

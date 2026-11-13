@@ -1,6 +1,6 @@
 # Fluxograma do agente: todos os caminhos
 
-O grafo do LangGraph (`docs/grafo_agente.md`) mostra só os nós e as ligações. Este
+O grafo do LangGraph (`grafo.md`) mostra só os nós e as ligações. Este
 fluxograma abre cada nó e mostra os caminhos possíveis dentro dele. Em azul, o que o modelo
 decide; em cinza, o que é código.
 
@@ -96,7 +96,8 @@ flowchart TD
         RS2 -- não --> RS3["Filtro: siglas viram nomes; sai código interno, CPF, CID e carteirinha"]
     end
 
-    RS3 --> OUT([Resposta + campos estruturados: decisão, valor, regras, protocolo, pendências])
+    RS3 --> RV["revisar: o modelo confere a resposta contra os dados e corrige; passa de novo pelo filtro"]:::llm
+    RV --> OUT([Resposta + campos estruturados: decisão, valor, regras, protocolo, pendências])
 
     classDef llm fill:#dbeafe,stroke:#2563eb,color:#1e3a8a
 ```

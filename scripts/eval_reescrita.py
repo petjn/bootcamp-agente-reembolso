@@ -1,4 +1,4 @@
-"""Eval da reescrita da mensagem (nível 2): segurança e texto.
+"""Eval da reescrita da mensagem: segurança e texto.
 
     python -m scripts.eval_reescrita [repeticoes]
 

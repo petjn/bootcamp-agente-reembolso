@@ -2,7 +2,7 @@
 
 O avaliador manda só a mensagem nova e o `session_id`; o resto vem do checkpointer.
 
-Como nos exemplos do LangGraph (pasta `referencia/`), a conversa fica em `mensagens`: as
+Como nos tutoriais oficiais do LangGraph, a conversa fica em `mensagens`: as
 mensagens do cliente (já reescritas), as chamadas do supervisor (AIMessage com
 `tool_calls`), o que cada agente devolveu (ToolMessage) e as respostas ao cliente. Os
 pedidos ficam em `pedidos`, registrados pelo supervisor, com a situação e o resultado de

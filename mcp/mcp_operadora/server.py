@@ -7,7 +7,7 @@ candidato escreve contra este servidor é o mesmo que roda na bateria.
 
 Configuração, toda por ambiente:
 
-    MCP_OPERADORA_DADOS      pasta `casos_treino/` ou arquivo JSON de cadastro
+    MCP_OPERADORA_DADOS      pasta `casos/treino/` ou arquivo JSON de cadastro
     MCP_OPERADORA_TOKEN      se definido, exigido no header Authorization
     MCP_OPERADORA_ESQUEMA    v1 (padrão) ou v2 — ver esquema.py
     MCP_OPERADORA_HOST       padrão 127.0.0.1
@@ -30,7 +30,7 @@ from mcp.server.fastmcp import FastMCP
 from .dados import Cadastro
 from .esquema import beneficiario as montar_beneficiario
 
-PADRAO_DADOS = "./casos_treino"
+PADRAO_DADOS = "../casos/treino"
 
 
 def _config() -> dict[str, Any]:
@@ -156,7 +156,7 @@ def main() -> int:
         mcp, estado = construir(cfg)
     except (FileNotFoundError, ValueError) as erro:
         print(f"erro ao carregar o cadastro: {erro}", file=sys.stderr)
-        print(f"aponte MCP_OPERADORA_DADOS para uma pasta casos_treino/ ou um JSON.",
+        print(f"aponte MCP_OPERADORA_DADOS para uma pasta casos/treino/ ou um JSON.",
               file=sys.stderr)
         return 2
 

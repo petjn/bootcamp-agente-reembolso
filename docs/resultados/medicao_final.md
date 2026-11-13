@@ -1,9 +1,16 @@
-# Medição final: 8 casos nunca vistos (72 a 79), 3 execuções (2026-10-21)
+# Medição final: 8 conversas nunca vistas, 3 vezes cada (2026-10-21)
 
-Código da D93 (com as correções das lacunas), congelado. Os casos 72 a 74 (4º lote, que seguiram nunca vistos) e 75 a
-79 (5º lote, D94). Cada caso rodou 3 vezes, em processos separados do Claude, em 54 min. Nenhum vazamento nas respostas.
+**O que é:** o teste mais honesto do agente. São as conversas 72 a 79 de `casos/teste/`, escritas depois de todas
+as correções e nunca usadas para ajustar nada. O código ficou congelado, e cada conversa rodou 3 vezes, porque o
+modelo não responde sempre igual. Nenhuma resposta mostrou CPF, código de doença ou dado de outra pessoa.
+
+Os códigos D85, D93... indicam a versão do código: a entrada do [`diário de decisões`](../diario_de_decisoes.md)
+até a qual as correções tinham entrado. Termos novos estão no glossário de [`docs/LEIAME.md`](../LEIAME.md).
 
 **Resultado:** decisão certa **8/8 nas 3 execuções**; turnos **23, 22 e 22 de 25 (média 89%)**.
+
+As medições anteriores com conversas de teste, para comparar (cada lote foi escrito depois das correções do
+anterior):
 
 | Medição de teste | Código | Decisão | Turnos |
 |---|---|---|---|

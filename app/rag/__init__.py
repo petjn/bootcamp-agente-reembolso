@@ -179,7 +179,7 @@ def reordenar(pergunta: str, achados, k: int):
     O `SentenceTransformerRerank` do LlamaIndex lê só o texto do embedding (sem o
     contexto). Para itens curtos, como "3.3. Acupuntura.", é o parágrafo de abertura
     do grupo que diz que ali se trata de reembolso; com ele, o reranker acerta mais
-    (docs/avaliacao_busca.md).
+    (avaliação da busca, docs/diario_de_decisoes.md).
     """
     from llama_index.core.schema import MetadataMode, NodeWithScore
 
@@ -193,7 +193,7 @@ def reordenar(pergunta: str, achados, k: int):
 
 
 # Peso do BM25 na fusão (o da busca densa é 1 − peso). Com 0,5 a RRF ponderada é a RRF
-# comum. Escolhido pela avaliação em docs/avaliacao_busca.md: com o reranker lendo o
+# comum. Escolhido pela avaliação da busca (diário de decisões): com o reranker lendo o
 # contexto, RRF 0,5 teve o melhor acerto no top 5 e o melhor MRR.
 PESO_BM25 = 0.5
 FUSAO = "rrf"
@@ -246,8 +246,8 @@ def norma_primeiro(achados):
     return sorted(achados, key=lambda a: a.node.metadata["tipo_documento"] == "apoio")
 
 
-# Quantos candidatos cada busca traz e o que vai para o modelo (docs/avaliacao_corte.md e
-# docs/experimento_referencias.md). A nota do reranker não é comparável entre perguntas
+# Quantos candidatos cada busca traz e o que vai para o modelo (avaliações do corte e das referências,
+# registradas no diário de decisões). A nota do reranker não é comparável entre perguntas
 # (trecho obrigatório já saiu com 0,001 e irrelevante com 0,99), então o corte é por
 # posição: os 3 primeiros trechos de norma, e os artigos que eles citam entram junto
 # (ver `mencionados`). Com 3 já fechava 30/30 (D14); voltou de 5 para 3 para o modelo

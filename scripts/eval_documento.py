@@ -1,4 +1,4 @@
-﻿"""Eval da leitura de documento (nível 2): classificação e molde dos 19 anexos dos casos de treino.
+"""Eval da leitura de documento: classificação e molde dos 19 anexos dos casos de treino.
 
     python -m scripts.eval_documento [repeticoes] [nomes]
 

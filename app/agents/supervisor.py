@@ -1,6 +1,6 @@
 """Supervisor — o modelo que coordena os subagentes. O grafo está em grafo.py.
 
-Segue os exemplos do LangGraph (agente ReAct e agente com memória da pasta `referencia/`):
+Segue os tutoriais oficiais do LangGraph (agente ReAct e agente com memória):
 
   * o modelo é chamado com `[SystemMessage(papel, regras e situação do atendimento)] +
     mensagens`: a conversa inteira, com as chamadas que ele já fez e o que cada agente

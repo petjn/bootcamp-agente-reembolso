@@ -2,48 +2,50 @@
 
 **Autor:** Petkovic Januário
 
-Um agente de IA que atende o beneficiário de um plano de saúde no pedido de reembolso: conversa em
-português ao longo de vários turnos, consulta o cadastro da operadora, lê e classifica o documento
-enviado (recibo, nota fiscal, relatório, pedido médico...), encontra a regra **vigente na data do
-atendimento** e decide, citando os artigos que fundamentam a decisão.
+Um agente de IA que atende o cliente de um plano de saúde que quer **reembolso** de uma consulta, exame ou
+terapia que pagou do próprio bolso. Numa conversa em português, ao longo de várias mensagens, ele:
 
-Tudo roda **localmente**, num PC com GPU de 8 GB, com modelos abertos servidos pelo Ollama.
+1. **entende o pedido**, mesmo quando o cliente escreve fora de ordem, erra uma data ou muda de assunto;
+2. **consulta o cadastro** do cliente na operadora (plano, data de adesão, pedidos anteriores);
+3. **lê o documento** enviado (recibo, nota fiscal, relatório, pedido médico, até foto) e diz se ele serve;
+4. **acha a regra que valia na data do atendimento**, porque as normas da operadora mudam com o tempo;
+5. **decide** (aprovado, aprovado em parte, negado, pendente de documento ou encaminhado a um analista),
+   calcula o valor e cita os artigos que fundamentam a decisão.
 
-> O projeto nasceu da avaliação final do bootcamp de engenharia de IA da [triggo.ai](https://triggo.ai).
-> Depois da entrega virou projeto de portfólio: o enunciado e a base normativa (`kb/`) passaram a ser a
-> especificação de negócio, e eu refiz as escolhas técnicas para rodar tudo na minha máquina. A base
-> normativa, o servidor MCP (`mcp/`), o motor de avaliação (`avaliacao/`) e os casos 01 a 03 de
-> `casos/treino/` vieram do material do bootcamp; os dados de beneficiários são fictícios.
+Tudo roda **na própria máquina**, num PC com placa de vídeo de 8 GB, com modelos de linguagem abertos.
+
+> O projeto nasceu da avaliação final do bootcamp de engenharia de IA da [triggo.ai](https://triggo.ai) e
+> depois virou projeto de portfólio. Vieram do bootcamp: as normas da operadora (`kb/`), o servidor que simula o
+> cadastro (`mcp/`), o avaliador (`avaliacao/`) e as conversas 01 a 03. Todos os dados de clientes são fictícios.
 
 ---
 
 ## Resultados
 
-Cada caso é uma conversa inteira. Um modelo faz o papel do cliente, o agente responde, e cada turno é
-julgado: **o turno foi atendido?** No último turno confere-se também a **decisão** (aprovado, aprovado
-parcial, negado, pendente de documento, escalado para analista, despesa não coberta) contra o gabarito
-das normas. Vazamento de CPF, CID ou dado de terceiro é checado por regex em todas as respostas.
+O agente é medido com **conversas de teste**: um modelo de linguagem faz o papel do cliente, o agente
+responde, e outro modelo faz o papel de juiz. Cada mensagem é julgada (**o agente respondeu o que o cliente
+pediu?**) e, no fim, confere-se se a **decisão** bate com o gabarito tirado das normas. Nenhuma resposta pode
+mostrar CPF, código de doença ou dado de outra pessoa.
 
-| Medição | Decisão certa | Turnos atendidos | Vazamentos |
+| Medição | Decisão certa | Mensagens atendidas | Dados expostos |
 |---|---|---|---|
-| **Medição final** em casos nunca vistos (72 a 79), código congelado, 3 execuções | **8/8** | **89%** | 0 |
-| **Rodada 39**: os 64 casos essenciais (treino, novos e teste) | **63/64** | **90%** (281/312) | 0 |
-| Linha de base, antes da análise de erros | 4/17 | não medido | 0 |
+| **Medição final:** 8 conversas que o agente nunca viu, 3 vezes cada | **8 de 8** | **89%** | nenhum |
+| **Todos os casos importantes:** 64 conversas de todos os grupos | **63 de 64** | **90%** | nenhum |
+| Ponto de partida, antes das correções | 4 de 17 | não medido | nenhum |
 
-Os casos de teste (`casos/teste/`) nunca foram usados para ajustar código ou prompt: servem só para
-medir se o que foi ajustado nos casos de treino vale para conversas diferentes. A evolução rodada a
-rodada está em [`docs/evolucao_rodadas.md`](docs/evolucao_rodadas.md).
+A medição final é a mais honesta: as conversas foram escritas depois de todas as correções e nunca foram usadas
+para ajustar o agente. Detalhes em [`docs/resultados/`](docs/resultados/).
 
 ---
 
-## Arquitetura
+## Como o agente funciona
 
-O agente é um grafo do **LangGraph** com um supervisor que delega para subagentes (handoff explícito)
-e volta a decidir depois de cada retorno.
+O agente é um **grafo de etapas** montado com LangGraph. Uma etapa central, o **supervisor**, olha o que já se
+sabe da conversa e decide qual especialista chamar a seguir, até ter o que responder.
 
 ```mermaid
 graph TD
-    start([mensagem do cliente + anexo]) --> reescrever
+    start([mensagem do cliente + documento]) --> reescrever
     reescrever --> supervisor
     supervisor -.-> ag_triagem
     supervisor -.-> ag_documento
@@ -53,72 +55,71 @@ graph TD
     ag_normas -.-> supervisor
     supervisor -.-> responder
     responder --> revisar
-    revisar --> fim([resposta + campos estruturados])
+    revisar --> fim([resposta + dados da decisão])
 ```
 
-| Nó | O que faz |
+| Etapa | O que faz |
 |---|---|
-| `reescrever` | Reescreve a mensagem na 1ª pessoa e separa os pedidos (reembolso, dúvida, andamento...). Também barra instrução maliciosa escondida na mensagem. |
-| `supervisor` | Lê a ficha da sessão e os pedidos abertos e chama **uma** ferramenta por vez. Único nó com *thinking* ligado. |
-| `ag_triagem` | Consulta cadastro e histórico do beneficiário no **servidor MCP** da operadora. Pedido sobre outra pessoa fica fora do escopo (art. 8º). |
-| `ag_documento` | Lê o anexo (PyMuPDF ou OCR com Tesseract), preenche um molde Pydantic e classifica: ativo, complementar, duplicado, inválido ou de terceiro. |
-| `ag_normas` | Busca a norma vigente na data (RAG híbrido) e aplica a árvore de decisão: exclusões do Anexo IV, alçada, carência, prazo, documentos faltantes e cálculo item a item. |
-| `responder` | Escreve cada parte da resposta só com os dados dela. |
-| `revisar` | Confere a resposta contra os dados antes de enviar; um filtro final tira CPF, CID e códigos internos. |
+| `reescrever` | Reescreve a mensagem de forma clara e separa os pedidos (reembolso, dúvida, andamento de pedido...). Também barra tentativas de dar ordens ao sistema escondidas na mensagem. |
+| `supervisor` | Decide a próxima etapa. É a única que "pensa antes de responder" (modo *thinking*). |
+| `ag_triagem` | Consulta o cadastro e o histórico do cliente na operadora. Recusa pedidos sobre outra pessoa. |
+| `ag_documento` | Lê o documento (texto do PDF ou leitura da imagem), preenche um formulário com data, itens e valores e diz se o documento serve. |
+| `ag_normas` | Busca nas normas a regra que valia na data e aplica as verificações: exclusões, carência, prazo, documentos faltando, limite para analista e cálculo do valor. |
+| `responder` | Escreve a resposta ao cliente. |
+| `revisar` | Confere a resposta contra os dados antes de enviar e tira CPF, código de doença e códigos internos. |
 
-O fluxograma completo, com todos os caminhos dentro de cada nó, está em
-[`docs/fluxograma_agente.md`](docs/fluxograma_agente.md).
+### O modelo interpreta, o código decide
 
-### O que é do modelo e o que é do código
+Esta é a escolha central do projeto. Um modelo de linguagem pequeno entende bem o que as pessoas escrevem, mas
+erra contas e esquece condições. Por isso cada tarefa ficou com quem faz melhor:
 
-Uma escolha central do projeto: **o modelo interpreta linguagem, o código decide regra**. Um modelo
-pequeno erra conta e esquece condição; código não.
-
-| Modelo (Gemma 4) | Código (Python) |
+| Modelo de linguagem | Código Python |
 |---|---|
-| Entender o que o cliente pediu | Abrir sessão e consultar o MCP |
-| Escolher o próximo passo (supervisor) | Extrair texto do PDF ou da imagem |
-| Preencher o molde do documento lido | Conferir o molde contra o texto e achar o procedimento na Tabela |
-| Julgar se o procedimento está no Anexo IV de exclusões | Vigência: qual circular valia na data do atendimento |
-| Escrever e revisar a resposta | Carência, prazo, alçada, teto, coparticipação e saldo anual |
-| | Filtrar CPF, CID e dado de terceiro da resposta |
+| Entender o que o cliente pediu | Consultar o cadastro |
+| Escolher a próxima etapa | Tirar o texto do PDF ou da foto |
+| Preencher o formulário do documento lido | Conferir o formulário contra o texto e achar o procedimento na tabela de preços |
+| Julgar se o procedimento está na lista do que o plano não cobre | Saber qual versão da regra valia na data do atendimento |
+| Escrever e revisar a resposta | Carência, prazo, limites, cálculo do valor e saldo do ano |
+| | Tirar dados pessoais da resposta |
 
-### Busca nas normas (RAG)
+### Como ele acha a regra certa
 
-- **Indexação com LlamaIndex**, vector store embarcado (`SimpleVectorStore`), gravado em `storage/`.
-- **Busca híbrida**: embeddings (EmbeddingGemma) + BM25, seguida de **reranker** (`bge-reranker-v2-m3`).
-- **Grafo normativo das circulares**: sabe qual circular alterou ou revogou qual artigo, para responder
-  com a redação vigente na data do atendimento e não a mais recente.
-- **Parâmetros extraídos do texto** (prazos, tetos, alçadas) em vez de fixados no código.
+As normas (regulamento, circulares, tabela de preços, lista de exclusões) foram cortadas em trechos e
+indexadas. Para cada pergunta, o agente:
 
-### Modelos
+- busca de dois jeitos ao mesmo tempo, **por palavras** (BM25) e **por significado** (embeddings), e um terceiro
+  modelo (*reranker*) põe os trechos achados em ordem de relevância. Isso é o que se chama de RAG com busca híbrida;
+- consulta um **mapa das circulares**, que diz qual circular mudou qual artigo e desde quando, para usar a
+  redação que valia **na data do atendimento**, e não a mais recente;
+- usa os **números tirados do próprio texto** das normas (prazos, tetos, limites), em vez de números escritos
+  no código.
+
+### Modelos usados
 
 | Papel | Modelo | Onde roda |
 |---|---|---|
-| Chat | `gemma4:e4b-it-qat` | GPU (3,1 GB) |
-| Embeddings | `embeddinggemma:300m` | CPU no atendimento, GPU na indexação |
-| Reranker | `bge-reranker-v2-m3` | GPU, ao lado do chat |
+| Conversa | `gemma4:e4b-it-qat` | placa de vídeo (3,1 GB) |
+| Busca por significado | `embeddinggemma:300m` | processador |
+| Ordenar os trechos | `bge-reranker-v2-m3` | placa de vídeo |
 
-O `gemma4:12b` e o Qwen3.5-9B também foram testados; o e4b com o revisor ficou na mesma faixa do 12b
-em metade do tempo (rodadas 18 a 20 em `docs/evolucao_rodadas.md`).
+Também foram testados o `gemma4:12b` e o Qwen3.5-9B. O modelo menor, com a etapa de revisão, acertou praticamente
+o mesmo que o 12b (121 contra 123 de 132 mensagens) na metade do tempo.
 
 ---
 
-## Como o projeto foi melhorado: análise de erros
+## Como o agente foi melhorado
 
-Do 4/17 inicial ao 8/8 final, o método foi o da **análise de erros** (Andrew Ng): ler os traces dos
-casos que erram, montar uma planilha **caso × componente** marcando onde o passo saiu pior do que um
-especialista faria, contar a porcentagem por componente e atacar primeiro o que mais erra, com um
-**eval por componente** antes de confirmar ponta a ponta.
+Do 4 de 17 inicial ao 8 de 8 final, o método foi a **análise de erros** (como ensina Andrew Ng):
 
-Toda mudança está registrada com número e motivo em [`docs/decisoes.md`](docs/decisoes.md) (D1 a D99).
-Outros documentos úteis:
+1. rodar todas as conversas e ler o passo a passo das que erraram;
+2. marcar, para cada erro, **qual etapa** saiu pior do que um especialista faria;
+3. contar os erros por etapa e corrigir primeiro a que mais erra;
+4. testar a etapa corrigida sozinha (os *evals* em `scripts/`) antes de rodar tudo de novo.
 
-- [`docs/como_funciona_cada_no.md`](docs/como_funciona_cada_no.md) e [`docs/turno_ponta_a_ponta.md`](docs/turno_ponta_a_ponta.md): um turno do começo ao fim.
-- [`docs/estrategia_chunking.md`](docs/estrategia_chunking.md): como as normas foram quebradas em trechos.
-- [`docs/regras_negocio.md`](docs/regras_negocio.md): as regras de reembolso que o código aplica.
-- [`docs/analise_erros/`](docs/analise_erros/): árvore de decisão, cobertura dos ramos, planilha caso × componente e auditoria norma × código.
-- [`docs/rodada39/resultado.md`](docs/rodada39/resultado.md) e [`docs/rodada_teste5/resultado.md`](docs/rodada_teste5/resultado.md): os resultados da tabela acima, caso a caso.
+Cada rodada de correções ficou registrada em [`docs/resultados/evolucao.md`](docs/resultados/evolucao.md).
+
+**Para ler mais, comece por [`docs/LEIAME.md`](docs/LEIAME.md)**: é o guia da documentação, com um glossário dos
+termos do projeto e das normas.
 
 ---
 
@@ -127,13 +128,13 @@ Outros documentos úteis:
 ### 1. Pré-requisitos
 
 - Python 3.11
-- [Ollama](https://ollama.com) com os modelos:
+- [Ollama](https://ollama.com), que roda os modelos na máquina, com:
 
   ```bash
   ollama pull gemma4:e4b-it-qat
   ollama pull embeddinggemma:300m
   ```
-- Tesseract com português (para recibo em foto) e, opcionalmente, Docker.
+- Tesseract com português (para ler recibo em foto) e, se quiser, Docker.
 
 ### 2. Ambiente
 
@@ -142,12 +143,15 @@ python -m venv .venv
 .venv\Scripts\activate          # Windows  (Linux/Mac: source .venv/bin/activate)
 pip install -r requirements.txt
 copy .env.exemplo .env          # Linux/Mac: cp .env.exemplo .env
-python -m app.llm               # confere que o chat e os embeddings respondem
+python -m app.llm               # confere que os modelos respondem
 ```
 
-O índice já vem pronto em `storage/`. Para reconstruí-lo a partir de `kb/`: `python -m ingest.build`.
+O índice das normas já vem pronto em `storage/`. Para refazê-lo a partir de `kb/`: `python -m ingest.build`.
 
-### 3. Servidor MCP da operadora (porta 9000)
+### 3. Servidor do cadastro da operadora (porta 9000)
+
+O agente consulta o cadastro dos clientes por um servidor MCP (um padrão para dar ferramentas a agentes de IA).
+Ele vem no projeto e lê os clientes fictícios de `casos/treino/`:
 
 ```bash
 docker compose up mcp
@@ -162,17 +166,16 @@ Sem Docker: `cd mcp` e `python -m mcp_operadora.server`, com `MCP_OPERADORA_DADO
 uvicorn app.main:app --port 8000
 ```
 
-Contrato HTTP: `GET /health`, `POST /chat` (`session_id`, `mensagem`, anexo opcional em base64) e
-`POST /reset`. A resposta traz o texto e os campos estruturados (decisão, valor, regras citadas,
-protocolo, pendências).
+A API tem três rotas: `GET /health` (está no ar?), `POST /chat` (manda uma mensagem, com documento opcional em
+base64, e recebe a resposta com os dados da decisão) e `POST /reset` (apaga as conversas).
 
-### 5. Rodar os casos
+### 5. Testar
 
 ```bash
-python rodar_treino.py              # todos os casos de treino
-python rodar_treino.py --caso 02 -v # um caso, mostrando cada turno
-pytest                              # testes de código (decisão, vigência, guardrails...)
-python -m scripts.eval_documento    # eval de um componente (também: eval_anexo_iv, eval_normas,
+python rodar_treino.py              # roda as conversas de treino, com cliente simulado e juiz
+python rodar_treino.py --caso 02 -v # uma conversa, mostrando cada mensagem
+pytest                              # testes do código (decisão, datas, filtros...)
+python -m scripts.eval_documento    # testa uma etapa sozinha (também: eval_anexo_iv, eval_normas,
                                     # eval_reescrita, eval_busca)
 ```
 
@@ -181,18 +184,20 @@ python -m scripts.eval_documento    # eval de um componente (também: eval_anexo
 ## Onde fica o quê
 
 ```
-app/agents/      o grafo: supervisor, reescrita, triagem, documento, normas, resposta
-app/             contrato HTTP, saída Pydantic, decisão, vigência, siglas
-ingest/          constrói o índice, a Tabela URS, os parâmetros e o grafo normativo em storage/
-storage/         índice pronto (vetorial + BM25)
-kb/              as 10 normas da operadora (regulamento, circulares, Anexo IV, tabela...)
-mcp/             servidor MCP da operadora (cadastro e histórico)
-avaliacao/       motor de avaliação: cliente simulado, juiz e checagens
-casos/           as conversas de avaliação; cada caso tem persona, turnos, gabarito e os anexos que envia
-  treino/        conversas usadas para ajustar o agente
-  novos/         um caso por ramo da árvore de decisão
-  teste/         conversas nunca usadas em ajuste, só para medir
-scripts/         evals por componente
-tests/           testes de código (pytest)
-docs/            decisões, análise de erros, evolução e resultados finais
+app/             o agente
+  agents/        as etapas do grafo: supervisor, reescrita, triagem, documento, normas, resposta
+  decisao.py     a árvore de decisão do pedido
+  main.py        a API (/health, /chat, /reset)
+ingest/          prepara as normas para a busca e grava o resultado em storage/
+storage/         o índice das normas, pronto para uso
+kb/              as 10 normas da operadora (regulamento, circulares, lista de exclusões, tabela de preços...)
+mcp/             o servidor que simula o cadastro da operadora
+avaliacao/       o avaliador: cliente simulado, juiz e verificações
+casos/           as conversas de teste, cada uma com o cliente, as mensagens, o gabarito e os documentos
+  treino/        usadas para encontrar e corrigir erros
+  ramos/         uma para cada caminho da árvore de decisão
+  teste/         nunca usadas para corrigir, só para medir
+scripts/         testes de cada etapa isolada (evals)
+tests/           testes automáticos do código (pytest)
+docs/            documentação: como funciona, resultados, análise de erros e diário de decisões
 ```

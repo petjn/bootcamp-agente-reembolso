@@ -1,16 +1,16 @@
-# Rodada 39: os casos essenciais (2026-10-21, D97)
+# Como os 64 casos essenciais foram escolhidos (2026-10-21)
 
-Pedido do usuário: "Considere todos os casos disponíveis. Alguns talvez cubram coisas que outros já cobrem. Selecione
+O pedido foi: "Considere todos os casos disponíveis. Alguns talvez cubram coisas que outros já cobrem. Selecione
 todos que forem essenciais para testar todas as lacunas e deixe de fora os que estariam apenas repetindo algo que já
 foi testado. Então, rode."
 
-Código da D96. Uma execução de cada caso, no Studio. A cobertura de cada ramo está em
-`docs/analise_erros/cobertura_ramos.md`; os casos 01 a 03 são da banca e ficam sempre.
+Cada caso rodou uma vez. A cobertura de cada ramo está em
+`docs/analise_erros/cobertura_dos_ramos.md`; os casos 01 a 03 vieram do bootcamp e ficam sempre.
 
 ## Entram (64)
 
 - Treino: 01, 02, 03, 04, 05, 07, 08, 09, 10, 11, 13, 14, 15, 16, 17
-- Novos: 18, 19, 20, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 50
+- Ramos: 18, 19, 20, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 50
 - Teste: 43, 44, 45, 48, 51, 53, 54, 57, 58, 59, 62, 63, 64, 65, 66, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79
 
 Além dos ramos do mapa: 18 (consulta de psiquiatria não conta como sessão, art. 35, parágrafo único), 25 (recibo de

@@ -1,4 +1,4 @@
-"""Decisão do pedido de reembolso (M5): a árvore de decisão (docs/analise_erros/arvore_de_decisao.md, D78 e D79),
+"""Decisão do pedido de reembolso: a árvore de decisão (docs/analise_erros/arvore_de_decisao.md, D78 e D79),
 na ordem da NT-02, item 6.1. A lista ARVORE, no fim, é a árvore: um nó por verificação.
 
     6.4   data do atendimento          sem ela, pendência

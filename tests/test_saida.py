@@ -1,4 +1,4 @@
-"""Nível 0: a saída do /chat (`grafo.saida`) em cada tipo de desfecho, como o avaliador a compara."""
+"""A saída do /chat (`grafo.saida`) em cada tipo de desfecho, como o avaliador a compara."""
 
 from langchain_core.messages import AIMessage, HumanMessage
 

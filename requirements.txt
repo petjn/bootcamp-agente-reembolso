@@ -1,72 +1,45 @@
-# ============================================================== leia isto
-# Este conjunto é SUGERIDO, não obrigatório.
-#
-# São as bibliotecas com que a prova foi montada e testada, nas versões que
-# resolvem juntas no Python 3.11 — a mesma do Dockerfile. Instalar isto e sair
-# codificando funciona: `python -m app.llm` responde de primeira.
-#
-# Você pode trocar, subir ou descer versão, e usar outras bibliotecas. Só três
-# coisas não são negociáveis, e elas estão no enunciado, não aqui:
-#
-#   1. as exigências de arquitetura do item 4 (orquestração com grafo,
-#      indexação com LlamaIndex, vector store embarcado, busca híbrida,
-#      saída em Pydantic);
-#   2. o contrato HTTP do item 6 — /health, /chat e /reset na porta 8000;
-#   3. o `docker build` tem de funcionar sem rede além do PyPI e em até
-#      10 minutos, e o índice já vem pronto em storage/.
-#
-# Se você mudar de versão, fixe a que usou. Build que resolve dependência na
-# hora quebra sozinho entre o seu teste e a correção.
-# ==========================================================================
+# Bibliotecas do projeto, com as versões fixadas (Python 3.11, a mesma do Dockerfile).
+# Versão fixada evita que uma atualização de biblioteca quebre o projeto sem aviso.
 
-# ------------------------------------------------- API do container (item 6)
-# FastAPI é sugestão; qualquer framework que sirva as três rotas serve.
-# Pydantic, não: o item 4 exige saída estruturada com ele.
+# ------------------------------------------------------------------ API (/health, /chat, /reset)
 fastapi==0.141.1
 uvicorn[standard]==0.52.1
-pydantic==2.13.4
+pydantic==2.13.4          # a resposta do /chat é um modelo Pydantic
 httpx==0.28.1
 
-# ------------------------------------------- modelo — Ollama local (ver app/llm.py)
-# Gemma 4 (chat) e EmbeddingGemma 2 (embeddings) servidos pelo Ollama.
+# ------------------------------------------------------------------ modelos locais (ver app/llm.py)
+# Gemma 4 (conversa) e EmbeddingGemma (busca por significado), servidos pelo Ollama.
 langchain-ollama==1.1.0
 llama-index-embeddings-ollama==0.10.0
 ollama==0.6.3
-# reranker cross-encoder (bge-reranker-v2-m3) via SentenceTransformerRerank.
-# torch CPU: instale antes, com --index-url https://download.pytorch.org/whl/cpu
-# Na máquina de desenvolvimento usamos torch==2.14.1+cu130 (--index-url .../whl/cu130)
-# para o reranker rodar na GPU; o container fica com a versão CPU (limite de 4 GB). Ver D11.
+# Reranker (bge-reranker-v2-m3), que reordena os trechos achados na busca.
+# Precisa do torch: para rodar no processador, instale antes com
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# Para rodar na placa de vídeo, use a versão do torch para CUDA (ex.: --index-url .../whl/cu130).
 sentence-transformers==6.1.0
 
-# ------------------------------------------------------------ observabilidade
+# ------------------------------------------------------------------ observabilidade (opcional)
 langsmith==0.14.4
 
-# ------------------------------------------------------------------- testes
+# ------------------------------------------------------------------ testes
 pytest==9.1.1
 
-# ----------------------------------------------------- recuperação (item 4)
-# LlamaIndex é exigido para indexação. O SimpleVectorStore já vem no core;
-# se preferir FAISS ou Chroma, acrescente aqui — servidor separado é proibido.
+# ------------------------------------------------------------------ busca nas normas
+# LlamaIndex monta o índice; o SimpleVectorStore já vem no core e é gravado em storage/.
 llama-index-core==0.14.23
 llama-index-retrievers-bm25==0.7.1
-#   faiss-cpu==1.13.0
-#   chromadb==1.4.1
 
-# -------------------------------------------------------- orquestração (item 4)
-# LangGraph é o padrão sugerido. LlamaIndex Workflows e smolagents também são
-# aceitos; `if/elif` puro, não.
+# ------------------------------------------------------------------ o grafo do agente
 langgraph==1.2.10
 langchain-core==1.5.3
 
-# --------------------------------------------------------- leitura de anexos
-# O anexo pode ser foto de recibo: o Dockerfile já traz poppler e tesseract-por.
+# ------------------------------------------------------------------ leitura dos documentos
+# PDF com texto pelo PyMuPDF; foto ou PDF escaneado pelo Tesseract (o Dockerfile já o instala).
 pymupdf==1.28.2
 pytesseract==0.3.13
 pillow==12.3.0
 python-docx==1.2.0
 
-# ---------------------------------------------------------------------- MCP
-# 1.x, e não 2.0: a série 2.0 removeu o `mcp.server.fastmcp`, que é o que o
-# servidor em mcp/ usa. Esta versão serve às duas pontas — o servidor que você
-# sobe para testar e o cliente que você escreve.
+# ------------------------------------------------------------------ MCP (consulta ao cadastro)
+# 1.x, e não 2.0: a série 2.0 removeu o `mcp.server.fastmcp`, que o servidor em mcp/ usa.
 mcp==1.29.0

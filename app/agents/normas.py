@@ -1,4 +1,4 @@
-"""Normas — recuperação, vigência, verificações e decisão (M5).
+"""Normas — recuperação, vigência, verificações e decisão.
 
 Recebe do supervisor uma chamada (o pedido vem nos argumentos) e devolve o pedido resolvido
 e uma ToolMessage com o resultado:

@@ -1,6 +1,9 @@
-# Estratégia de chunking
+# Como as normas foram divididas para a busca
 
-Status: **implementada em 2026-10-08** (`ingest/chunking.py`, `ingest/build.py`, `app/rag`). Resultados da busca em `docs/avaliacao_busca.md`.
+Para achar a regra certa, o agente não lê as normas inteiras a cada pergunta: elas são cortadas antes em pedaços
+(em inglês, *chunks*), e a busca devolve só os pedaços que interessam. Este documento explica onde cortar, o que
+cada pedaço carrega junto (os *metadados*) e como isso permite saber qual versão de um artigo valia numa data. O
+código está em `ingest/chunking.py`, `ingest/build.py` e `app/rag`.
 
 ## Princípios
 

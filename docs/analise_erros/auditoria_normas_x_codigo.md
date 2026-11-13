@@ -1,9 +1,11 @@
 # Auditoria norma × código, segunda (2026-10-21, D93)
 
+> Os códigos D (D78, D93...) são entradas do [diário de decisões](../diario_de_decisoes.md); os demais termos estão no [glossário](../LEIAME.md#glossário).
+
 Refeita depois das D78 a D92. Fontes lidas por inteiro: Regulamento Geral (arts. 1º a 87), NT-02 (campos C1 a C10,
 Anexos A a E, códigos P01 a P35, Casos 01 a 36) e Anexo IV (grupos 1 a 11). Código lido: `app/decisao.py` (a árvore),
 `app/calculo`, `app/agents/documento.py`, `app/agents/normas.py`, `app/agents/supervisor.py`. A primeira auditoria
-(`auditoria_norma_codigo.md`, de 17/10) teve as lacunas 1 a 6 e a maior parte das menores corrigidas nas D78 a D92.
+(de 17/10, não incluída aqui) teve as lacunas 1 a 6 e a maior parte das menores corrigidas nas D78 a D92.
 
 ## Lacunas achadas e corrigidas (D93)
 

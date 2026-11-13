@@ -1,4 +1,4 @@
-"""Regras da auditoria norma × código de 2026-10-21 (D93), sem modelo: o molde é o que o leitor devolveria."""
+"""Regras achadas na auditoria normas × código (docs/analise_erros/auditoria_normas_x_codigo.md), sem modelo: o molde é o que o leitor devolveria."""
 
 from datetime import date
 from decimal import Decimal

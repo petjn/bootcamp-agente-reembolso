@@ -1,4 +1,4 @@
-"""Documento — leitura, classificação, conferência e registro de cada anexo (M3).
+"""Documento — leitura, classificação, conferência e registro de cada anexo.
 
 Recebe o anexo em base64 e, na mesma rodada, mesmo sem nenhuma mensagem:
 

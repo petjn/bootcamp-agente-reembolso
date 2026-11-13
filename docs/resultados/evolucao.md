@@ -1,15 +1,22 @@
-# Evolução das rodadas (17 casos de treino)
+# Evolução do agente, rodada a rodada
 
-Uma linha por rodada completa, atualizada a cada rodada nova. Critério igual em todas:
-- **Decisão** e **artigos**: checagens objetivas da `avaliacao/` sobre o último turno
-  (`python -m scripts.julgar_rodada docs/rodadaNN`).
-- **Turnos**: julgados por mim, turno a turno, contra a mensagem do cliente e o `_perguntas_abertas` do
-  gabarito, com discernimento (132 turnos nos 17 casos).
-- **Vazamentos**: CPF, CID ou dado de terceiro em qualquer resposta (regex da avaliação).
+Cada linha é uma **rodada**: todas as conversas de teste rodadas de novo depois de um grupo de correções. A
+tabela mostra como o agente saiu de 4 decisões certas em 17 conversas para o resultado final. Termos novos
+estão no glossário de [`docs/LEIAME.md`](../LEIAME.md).
 
-Os detalhes caso a caso e turno a turno estão em `docs/rodada39/resultado.md` e `docs/rodada_teste5/resultado.md`
-(os das rodadas anteriores ficaram fora do repositório para deixá-lo enxuto); as mudanças,
-em `docs/decisoes.md` (D-número). A mesma tabela, para planilha, está em `docs/evolucao_rodadas.csv`.
+Como ler as colunas:
+- **Decisão certa**: em quantas conversas o desfecho do último turno bateu com o gabarito.
+- **Artigos completos**: em quantas a resposta citou todos os artigos que fundamentam a decisão.
+- **Turnos atendidos**: em quantas mensagens o agente respondeu o que o cliente pediu.
+- **Vazamentos**: respostas que mostraram CPF, código de doença ou dado de outra pessoa (sempre zero).
+- **O que entrou antes da rodada**: as correções feitas; o código entre parênteses (D34, D35...) é a entrada do
+  [`diário de decisões`](../diario_de_decisoes.md) que explica cada uma.
+
+Até a rodada 34 o conjunto era de 17 conversas de treino; da 35 em diante entram as conversas de `ramos/` (chamadas de "novos" na tabela), e as
+linhas "teste" medem conversas nunca vistas. Linhas de conjuntos diferentes não são comparáveis entre si.
+
+O detalhe das duas medições finais está em [`medicao_final.md`](medicao_final.md) e [`64_casos.md`](64_casos.md).
+A mesma tabela, para planilha, está em `evolucao.csv`.
 
 ## Tabela
 

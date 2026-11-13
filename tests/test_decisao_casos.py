@@ -1,4 +1,4 @@
-"""Nível 0: a decisão (código) reproduz o gabarito dos casos de treino 04 a 16, a partir do molde que o
+"""A decisão (código) reproduz o gabarito dos casos de treino 04 a 16, a partir do molde que o
 documento deveria produzir (conferido à mão contra cada PDF) e do cadastro e histórico de cada persona.
 
 O julgamento do Anexo IV é do modelo e tem teste próprio; aqui ele entra pronto: "não excluído" em todos,

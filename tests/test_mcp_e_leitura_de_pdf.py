@@ -1,4 +1,4 @@
-"""Nível 1 do mapa de blocos: código com dependência externa, determinístico.
+"""Código que depende de algo de fora (servidor MCP, arquivos PDF), sem modelo de linguagem.
 
   * MCP: para cada uma das 17 personas, o cadastro e o histórico que o servidor devolve batem com o
     persona.json do caso. Precisa do servidor MCP no ar (pula se não estiver).
@@ -52,7 +52,7 @@ def test_carteirinha_inexistente():
         tools.consultar_beneficiario("7042000000000000")
 
 
-ANEXOS = sorted(p for grupo in ("treino", "novos", "teste") for p in (RAIZ / "casos" / grupo).glob("*/*.pdf"))
+ANEXOS = sorted(p for grupo in ("treino", "ramos", "teste") for p in (RAIZ / "casos" / grupo).glob("*/*.pdf"))
 
 
 @pytest.mark.parametrize("arquivo", ANEXOS, ids=lambda p: p.stem)

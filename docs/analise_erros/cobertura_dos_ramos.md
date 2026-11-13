@@ -1,7 +1,9 @@
 # Cobertura dos ramos da árvore pelos casos (atualizada em 2026-10-21, D95)
 
+> Os códigos D (D78, D93...) são entradas do [diário de decisões](../diario_de_decisoes.md); os demais termos estão no [glossário](../LEIAME.md#glossário).
+
 Cada ramo da árvore de decisão (`app/decisao.py`, lista `ARVORE`; `arvore_de_decisao.md`) e da conversa, com os casos
-que passam por ele: treino (01 a 17), novos (18 a 41 e 50) e de teste (42 a 79). A primeira versão (D80) cobria só os
+que passam por ele: treino (01 a 17), ramos (18 a 41 e 50) e de teste (42 a 79). A primeira versão (D80) cobria só os
 39 casos de ajuste.
 
 ## Conversa
@@ -79,7 +81,7 @@ que passam por ele: treino (01 a 17), novos (18 a 41 e 50) e de teste (42 a 79).
 
 | Ramo | Onde está coberto | Por que não tem caso |
 |---|---|---|
-| código TUSS que não existe na Tabela → P14 | teste de código (`test_auditoria_d93.py`) | lacuna da D93, sem caso ainda |
+| código TUSS que não existe na Tabela → P14 | teste de código (`tests/test_regras_da_auditoria.py`) | lacuna da D93, sem caso ainda |
 | relatório cobrado à parte para sanar a pendência → complementar (NT-02, 8.4) | só o código | lacuna da D93, sem caso ainda |
 | relatório sem assinatura → P22 | teste de código | ramo raro |
 | pedido médico sem o solicitante → P24 | teste de código | ramo raro |
@@ -92,4 +94,4 @@ Situação do contrato e plano na data do atendimento (art. 30, § 1º; art. 3º
 profissional dos pedidos anteriores (art. 36 entre documentos), relatório de pedido anterior (art. 73, § 5º),
 duplicidade em outro protocolo (art. 17), página faltando (art. 14, § 3º), registro irregular (art. 68, § 2º), valor por
 extenso diferente do numérico (P17), rasura (P30), comprovante de pagamento (P31), idioma estrangeiro sem tradução
-(P32), dados bancários (P33), numeração fiscal (P35). Ver `auditoria_norma_codigo_2.md`.
+(P32), dados bancários (P33), numeração fiscal (P35). Ver `auditoria_normas_x_codigo.md`.

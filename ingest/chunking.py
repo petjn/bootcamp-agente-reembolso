@@ -1,4 +1,4 @@
-"""Corta a kb/ em chunks pela unidade da norma, com metadados (docs/estrategia_chunking.md).
+"""Corta a kb/ em chunks pela unidade da norma, com metadados (docs/como_funciona/divisao_das_normas_para_busca.md).
 
     python -m ingest.chunking          # resumo por documento, sem gravar nada
 

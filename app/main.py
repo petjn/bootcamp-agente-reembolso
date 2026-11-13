@@ -1,4 +1,4 @@
-﻿"""API do agente. As 3 rotas são obrigatórias; o miolo é seu.
+"""API do agente. As 3 rotas são obrigatórias; o miolo é seu.
 
     uvicorn app.main:app --host 0.0.0.0 --port 8000
 """
@@ -13,8 +13,8 @@ from fastapi import FastAPI
 from app.llm import carregar_env
 from app.schemas import ChatRequest, ChatResponse
 
-# Lê o `.env` no start. O que já vem do ambiente vence — é assim que a banca
-# injeta as credenciais dela no `docker run`.
+# Lê o `.env` no start. O que já vem do ambiente vence: assim, quem roda o
+# container pode passar as próprias credenciais no `docker run`.
 carregar_env()
 
 app = FastAPI(title="Agente de Reembolso")

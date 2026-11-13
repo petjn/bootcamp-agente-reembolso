@@ -51,29 +51,18 @@ scripts/*
 !scripts/eval_busca.py
 
 # docs: só o essencial para entender o projeto e os resultados
+# (os relatórios de cada rodada e os traces ficam só na máquina local)
 docs/*
-!docs/decisoes.md
-!docs/evolucao_rodadas.md
-!docs/evolucao_rodadas.csv
-!docs/fluxograma_agente.md
-!docs/grafo_agente.md
-!docs/como_funciona_cada_no.md
-!docs/turno_ponta_a_ponta.md
-!docs/estrategia_chunking.md
-!docs/regras_negocio.md
+!docs/LEIAME.md
+!docs/diario_de_decisoes.md
+!docs/como_funciona/
+!docs/resultados/
 !docs/analise_erros/
 docs/analise_erros/*
 !docs/analise_erros/arvore_de_decisao.md
-!docs/analise_erros/cobertura_ramos.md
-!docs/analise_erros/planilha_por_partes.md
-!docs/analise_erros/auditoria_norma_codigo_2.md
-!docs/rodada39/
-docs/rodada39/*
-!docs/rodada39/resultado.md
-!docs/rodada39/selecao.md
-!docs/rodada_teste5/
-docs/rodada_teste5/*
-!docs/rodada_teste5/resultado.md
+!docs/analise_erros/cobertura_dos_ramos.md
+!docs/analise_erros/planilha_de_erros.md
+!docs/analise_erros/auditoria_normas_x_codigo.md
 
 # ---------------------------------------------------------------- sistema
 .DS_Store

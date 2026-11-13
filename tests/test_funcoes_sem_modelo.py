@@ -1,4 +1,4 @@
-"""Nível 0 do mapa de blocos (docs/mapa_blocos_testes.md): funções de código, sem modelo e sem rede.
+"""Funções de código puro, sem modelo e sem rede: datas, cálculo, vigência, siglas, filtros.
 Cada situação tem um gabarito."""
 
 from datetime import date

@@ -1,4 +1,4 @@
-"""Eval do julgamento do Anexo IV (nível 2): procedimento excluído, de fronteira ou coberto.
+"""Eval do julgamento do Anexo IV (a lista do que o plano não cobre): procedimento excluído, de fronteira ou coberto.
 
     python -m scripts.eval_anexo_iv [repeticoes]
 

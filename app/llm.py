@@ -1,8 +1,8 @@
-﻿"""Onde o modelo entra. Tudo local, servido pelo Ollama.
+"""Onde o modelo entra. Tudo local, servido pelo Ollama.
 
 O projeto original usava Gemini 2.5 Flash Lite e gemini-embedding-2 por um
-gateway da banca. Aqui usamos a família aberta do Google, Gemma 4, rodando
-na máquina (ver docs/decisoes.md, D2, D2b e D11):
+gateway do bootcamp. Aqui usamos a família aberta do Google, Gemma 4, rodando
+na máquina (ver docs/diario_de_decisoes.md, D2, D2b e D11):
 
     chat        gemma4:e4b-it-qat       na GPU, inteiro (3,1 GB), sem thinking
     embeddings  embeddinggemma:300m     na CPU no atendimento, GPU no ingest

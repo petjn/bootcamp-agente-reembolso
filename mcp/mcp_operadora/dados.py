@@ -2,7 +2,7 @@
 
 A fonte pode ser:
 
-  * uma pasta `casos_treino/` — cada `*/persona.json` vira um beneficiário. É o
+  * uma pasta de casos (`casos/treino/`) — cada `*/persona.json` vira um beneficiário. É o
     modo do candidato: ele aponta para a própria pasta e o servidor fica em dia
     com os casos que ele recebeu, sem duplicar arquivo nenhum;
   * um arquivo JSON com uma lista de beneficiários. É o modo da banca na

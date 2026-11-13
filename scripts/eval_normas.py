@@ -1,10 +1,10 @@
-"""Eval do nó ag_normas (nível 3): o reembolso de cada caso de treino decidido com tudo de verdade
+"""Eval da etapa ag_normas: o reembolso de cada caso de treino decidido com tudo de verdade
 menos a leitura do documento.
 
     python -m scripts.eval_normas [casos]
 
 O molde entra pronto e conferido à mão (o mesmo de tests/test_decisao_casos.py; a leitura tem eval
-próprio, no nível 2). O resto é real: cadastro e histórico do MCP, julgamento do Anexo IV pelo modelo,
+próprio, em scripts/eval_documento.py). O resto é real: cadastro e histórico do MCP, julgamento do Anexo IV pelo modelo,
 protocolo aberto no MCP. A data de hoje é a da conversa do caso. Confere decisão, valor, regras
 essenciais e protocolo, como o avaliador.
 """
