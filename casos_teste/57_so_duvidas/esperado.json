@@ -1,0 +1,15 @@
+{
+  "decisao": null,
+  "_conta": "sem pedido nem documento: só dúvidas de regra",
+  "_perguntas_abertas": [
+    {
+      "turno": 1,
+      "espera": "90 dias corridos da data do atendimento (art. 12 e art. 13)"
+    },
+    {
+      "turno": 2,
+      "espera": "atendimento no exterior: reembolso pelos mesmos tetos, com o valor convertido pela taxa de câmbio de venda da data do atendimento; recibo em idioma estrangeiro com tradução simples dos campos obrigatórios (art. 69)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

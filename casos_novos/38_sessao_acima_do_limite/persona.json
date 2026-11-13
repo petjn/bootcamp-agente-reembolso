@@ -1,0 +1,292 @@
+{
+  "carteirinha": "7042 1836 7702 5094",
+  "nome": "Patrícia Moura Ventura",
+  "cpf": "613.750.284-27",
+  "plano": "Pleno",
+  "data_adesao": "2018-02-01",
+  "sessoes_terapia_ano": 40,
+  "status": "ATIVO",
+  "observacao": "Dados fictícios. Caso novo, um ramo da árvore de decisão (D80).",
+  "historico": [
+    {
+      "protocolo": "20260000601",
+      "data_atendimento": "2026-01-05",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000602",
+      "data_atendimento": "2026-01-08",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000603",
+      "data_atendimento": "2026-01-11",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000604",
+      "data_atendimento": "2026-01-14",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000605",
+      "data_atendimento": "2026-01-17",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000606",
+      "data_atendimento": "2026-01-20",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000607",
+      "data_atendimento": "2026-01-23",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000608",
+      "data_atendimento": "2026-01-26",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000609",
+      "data_atendimento": "2026-01-29",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000610",
+      "data_atendimento": "2026-02-01",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000611",
+      "data_atendimento": "2026-02-05",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000612",
+      "data_atendimento": "2026-02-08",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000613",
+      "data_atendimento": "2026-02-11",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000614",
+      "data_atendimento": "2026-02-14",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000615",
+      "data_atendimento": "2026-02-17",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000616",
+      "data_atendimento": "2026-02-20",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000617",
+      "data_atendimento": "2026-02-23",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000618",
+      "data_atendimento": "2026-02-26",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000619",
+      "data_atendimento": "2026-03-01",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000620",
+      "data_atendimento": "2026-03-04",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000621",
+      "data_atendimento": "2026-03-08",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000622",
+      "data_atendimento": "2026-03-11",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000623",
+      "data_atendimento": "2026-03-14",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000624",
+      "data_atendimento": "2026-03-17",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000625",
+      "data_atendimento": "2026-03-20",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000626",
+      "data_atendimento": "2026-03-23",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000627",
+      "data_atendimento": "2026-03-26",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000628",
+      "data_atendimento": "2026-03-29",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000629",
+      "data_atendimento": "2026-04-01",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000630",
+      "data_atendimento": "2026-04-04",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000631",
+      "data_atendimento": "2026-04-08",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000632",
+      "data_atendimento": "2026-04-11",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000633",
+      "data_atendimento": "2026-04-14",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000634",
+      "data_atendimento": "2026-04-17",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000635",
+      "data_atendimento": "2026-04-20",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000636",
+      "data_atendimento": "2026-04-23",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000637",
+      "data_atendimento": "2026-04-26",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000638",
+      "data_atendimento": "2026-04-29",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000639",
+      "data_atendimento": "2026-05-02",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    },
+    {
+      "protocolo": "20260000640",
+      "data_atendimento": "2026-05-05",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 70.0
+    }
+  ]
+}

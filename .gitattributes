@@ -1,0 +1,7 @@
+# arquivos binários: o Git não mexe em quebra de linha
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.docx binary
+*.npy binary

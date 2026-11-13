@@ -1,0 +1,23 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "PENDENTE_DOCUMENTO",
+  "valor_solicitado_brl": 200.0,
+  "pendencias": [
+    "P21"
+  ],
+  "pendencias_no_turno_2": [
+    "P20"
+  ],
+  "_conta": "6 sessões no histórico de 2026; a de 12/05 é a 7ª ≥ 5ª → relatório exigido (art. 73, § 3º, CIRC-02-2026; P20). O relatório enviado não indica a manutenção do tratamento (NT-02, Anexo D, 8.1, VI; P21; D78, ponto 6)",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "relatório clínico do profissional, exigido a partir da 5ª sessão do ano; esta é a 7ª"
+    },
+    {
+      "turno": 4,
+      "espera": "a indicação expressa de manutenção do tratamento (NT-02, Anexo D, 8.1, VI)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

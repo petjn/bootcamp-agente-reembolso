@@ -1,0 +1,5 @@
+{"turno": 1, "mensagem": "oi, carteirinha 7042 0451 3367 8892. queria reembolso de drenagem linfática"}
+{"turno": 2, "mensagem": "recibo da sessão", "anexo": {"filename": "recibo_drenagem.pdf", "mime_type": "application/pdf", "path": "../../anexos/novos/recibo_drenagem.pdf"}}
+{"turno": 3, "mensagem": "tenho o relatório do ortopedista que pediu a drenagem depois da cirurgia, serve?", "anexo": {"filename": "relatorio_indicacao_drenagem.pdf", "mime_type": "application/pdf", "path": "../../anexos/novos/relatorio_indicacao_drenagem.pdf"}}
+{"turno": 4, "mensagem": "quanto vou receber?"}
+{"turno": 5, "mensagem": "obrigada"}

@@ -1,0 +1,19 @@
+{
+  "carteirinha": "7042 5527 0193 4466",
+  "nome": "Eduardo Vilela Rocha",
+  "cpf": "426.093.715-80",
+  "plano": "Pleno",
+  "data_adesao": "2019-08-01",
+  "sessoes_terapia_ano": 0,
+  "status": "ATIVO",
+  "observacao": "Dados fictícios. Caso novo, um ramo da árvore de decisão (D80).",
+  "historico": [
+    {
+      "protocolo": "20260000701",
+      "data_atendimento": "2026-02-10",
+      "categoria": "RELATORIO_CLINICO",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 76.08
+    }
+  ]
+}

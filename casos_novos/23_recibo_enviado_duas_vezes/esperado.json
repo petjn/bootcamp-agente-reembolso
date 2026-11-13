@@ -1,0 +1,27 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 400.0,
+  "valor_reembolso_brl": 320.0,
+  "regras_aplicadas": [
+    "ART-35",
+    "ART-33",
+    "ART-43",
+    "ART-44",
+    "CIRC-02-2026",
+    "ART-47",
+    "TUSS-10101071"
+  ],
+  "_conta": "R$ 400,00 < teto 5 URS = R$ 475,50 (art. 35); Pleno, 39 meses de adesão em 06/05/2026 → acima de 36, 20% (CIRC-02-2026); 400 × 0,80 = R$ 320,00. O segundo envio é o mesmo documento: duplicidade, vale o primeiro (art. 17, § 1º; NT-02, Caso 28); a decisão não muda",
+  "_perguntas_abertas": [
+    {
+      "turno": 3,
+      "espera": "o arquivo é o mesmo já recebido: não abre outro pedido (art. 17)"
+    },
+    {
+      "turno": 4,
+      "espera": "não: um só reembolso por atendimento; vale o primeiro envio (art. 17)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

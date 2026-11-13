@@ -1,0 +1,22 @@
+{
+  "categoria_documento": "DESPESA_NAO_COBERTA",
+  "decisao": "NEGADO",
+  "valor_solicitado_brl": 800.0,
+  "valor_reembolso_brl": 0.0,
+  "regras_aplicadas": [
+    "ART-51",
+    "ANEXO-IV"
+  ],
+  "_conta": "criolipólise é procedimento estético excluído (Anexo IV, 1.19; art. 52); a exclusão prevalece sobre teto e carência, sem pendência (art. 51; Anexo IV, 11.4; NT-02, Caso 12)",
+  "_perguntas_abertas": [
+    {
+      "turno": 3,
+      "espera": "a exclusão vale ainda que feita por profissional habilitado e em clínica (art. 52; Anexo IV, 1)"
+    },
+    {
+      "turno": 4,
+      "espera": "sim, pedido de reanálise em 150 dias (art. 20), indicando os pontos de discordância"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

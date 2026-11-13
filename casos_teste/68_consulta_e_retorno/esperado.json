@@ -1,0 +1,18 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 450.0,
+  "valor_reembolso_brl": 225.0,
+  "_conta": "retorno com o mesmo profissional 10 dias depois, sem justificativa clínica: não reembolsável (art. 36; NT-02, Caso 34). Consulta: 5 URS = R$ 475,50 > R$ 300,00; Essencial, 56 meses → acima de 36, 25%; 300 × 0,75 = R$ 225,00",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "segunda consulta com o mesmo profissional em menos de 15 dias só com justificativa clínica (art. 36)"
+    },
+    {
+      "turno": 3,
+      "espera": "a justificativa clínica do médico no recibo ou em relatório anexo (art. 36, § 1º), sem o cliente precisar contar a condição"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

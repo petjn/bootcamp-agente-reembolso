@@ -1,0 +1,19 @@
+{
+  "carteirinha": "7042 9370 1582 4467",
+  "nome": "Sérgio Moraes Antunes",
+  "cpf": "806.274.913-25",
+  "plano": "Pleno",
+  "data_adesao": "2019-11-01",
+  "sessoes_terapia_ano": 0,
+  "status": "ATIVO",
+  "observacao": "Dados fictícios. Caso de teste do 3º lote, nunca usado em ajuste (D92).",
+  "historico": [
+    {
+      "protocolo": "20260000877",
+      "data_atendimento": "2026-05-04",
+      "categoria": "CONSULTA_MEDICA",
+      "decisao": "NEGADO",
+      "valor_reembolsado_brl": 0.0
+    }
+  ]
+}

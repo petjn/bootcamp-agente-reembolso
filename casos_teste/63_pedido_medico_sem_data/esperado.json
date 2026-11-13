@@ -1,0 +1,16 @@
+{
+  "categoria_documento": "EXAME_DIAGNOSTICO",
+  "decisao": "PENDENTE_DOCUMENTO",
+  "valor_solicitado_brl": 850.0,
+  "pendencias": [
+    "P23"
+  ],
+  "_conta": "cintilografia de tireoide é de alta complexidade (TUSS-40921019, art. 38). O pedido enviado não traz a data da solicitação, que é requisito (NT-02, 9.1, IV) e mostra se ele vale (90 dias, 9.2) → segue a pendência",
+  "_perguntas_abertas": [
+    {
+      "turno": 3,
+      "espera": "faz: a data da solicitação é requisito do pedido médico (NT-02, 9.1, IV) e mostra se ele está dentro dos 90 dias de validade (9.2); é preciso um pedido com data"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

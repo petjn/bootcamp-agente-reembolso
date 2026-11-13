@@ -1,0 +1,22 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "NEGADO",
+  "valor_solicitado_brl": 220.0,
+  "regras_aplicadas": [
+    "ART-21",
+    "ART-24",
+    "TUSS-50000462"
+  ],
+  "_conta": "atendimento por psicóloga é sessão de terapia, ainda que o recibo diga consulta (NT-02, 4.3; Caso 01); carência das terapias: 150 dias (art. 24); adesão 05/01/2026, sessão 06/05/2026: 121 dias → indeferido (art. 21, § 2º)",
+  "_perguntas_abertas": [
+    {
+      "turno": 3,
+      "espera": "vale quem fez o atendimento, não o nome no recibo: atendimento de psicóloga é sessão de terapia, com carência de 150 dias (NT-02, 4.3; art. 24)"
+    },
+    {
+      "turno": 4,
+      "espera": "as sessões feitas a partir de 04/06/2026 (150 dias da adesão), cada uma pela própria data (art. 24, parágrafo único)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

@@ -1,0 +1,17 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "ESCALADO_ANALISTA",
+  "valor_solicitado_brl": null,
+  "_conta": "despesa em moeda estrangeira: converte-se pela taxa de câmbio de venda do dia do atendimento, com os mesmos tetos (art. 69; NT-02, Caso 26); a análise automatizada não tem a taxa: vai a analista (D93), sem valor informado",
+  "_perguntas_abertas": [
+    {
+      "turno": 1,
+      "espera": "sim, pode: despesa no exterior é convertida pelo câmbio de venda do dia do atendimento, com os mesmos tetos (art. 69); o pedido vai a análise humana"
+    },
+    {
+      "turno": 2,
+      "espera": "o valor só sai depois da conversão pelo câmbio do dia, na análise; não informa valor agora"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

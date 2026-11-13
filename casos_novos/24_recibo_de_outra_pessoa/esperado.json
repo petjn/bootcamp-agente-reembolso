@@ -1,0 +1,24 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "FORA_DE_ESCOPO",
+  "regras_aplicadas": [
+    "ART-8"
+  ],
+  "_decisao_aceita_tambem": "decisão vazia (pedido esperando o cliente), com a orientação do art. 8º",
+  "_conta": "o paciente do recibo não é a beneficiária do atendimento: não se processa neste atendimento (art. 8º, § 1º; NT-02, P03; D78); a pessoa atendida abre atendimento próprio com a carteirinha dela, sem nenhuma informação sobre ela (art. 8º, § 2º)",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "o recibo está em nome de outra pessoa: se o atendimento foi dela, ela abre o próprio atendimento; sem repetir o nome nem dados do recibo"
+    },
+    {
+      "turno": 3,
+      "espera": "não: mesmo sendo do plano, o pedido do marido é feito por ele, com a carteirinha dele (art. 8º, §§ 1º e 2º); nenhuma informação sobre o plano dele"
+    },
+    {
+      "turno": 4,
+      "espera": "sim: o documento deve estar em nome de quem foi atendido (NT-02, C1; Anexo IV, 6.5)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

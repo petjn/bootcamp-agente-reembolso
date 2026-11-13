@@ -1,0 +1,15 @@
+{
+  "decisao": null,
+  "_conta": "o histórico traz o pedido de abril (sessão de terapia de 20/04/2026) pendente de documento; o histórico não diz o que falta; não há pedido novo nesta conversa",
+  "_perguntas_abertas": [
+    {
+      "turno": 1,
+      "espera": "pelo histórico, está pendente de documento; não inventa o que falta"
+    },
+    {
+      "turno": 2,
+      "espera": "60 dias corridos da comunicação da pendência, prorrogáveis uma vez (art. 19)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

@@ -1,0 +1,39 @@
+{
+  "categoria_documento": "RELATORIO_CLINICO",
+  "decisao": "APROVADO_PARCIAL",
+  "valor_solicitado_brl": 150.0,
+  "valor_reembolso_brl": 44.8,
+  "regras_aplicadas": [
+    "ART-45",
+    "ART-33",
+    "ART-43",
+    "ART-44",
+    "CIRC-02-2026",
+    "ART-47",
+    "TUSS-10104011"
+  ],
+  "protocolo": null,
+  "pendencias": [],
+  "_titulo": "Relatório médico pedido isoladamente — e o saldo do ano corta pela metade",
+  "_dica": "O relatório apresentado sozinho é categoria própria, com teto próprio — não é documento complementar de outro pedido. E o saldo anual soma TODAS as categorias: quem contou só as terapias do histórico achou saldo de sobra e aprovou o valor inteiro. Saldo menor que o apurado é deferimento parcial.",
+  "_data_da_conversa": "2026-05-22",
+  "_perguntas_abertas": [
+    {
+      "turno": 4,
+      "espera": "o valor não sai inteiro por duas razões somadas: o teto do procedimento limita a base de cálculo, e o saldo do limite anual, já bastante consumido, limita o resultado"
+    },
+    {
+      "turno": 5,
+      "espera": "não: o limite anual é por beneficiário e por ano civil, somados todos os procedimentos e todas as categorias — consultas e exames também o consomem"
+    },
+    {
+      "turno": 6,
+      "espera": "o saldo restante do limite anual, apurado a partir do que já foi pago no ano"
+    },
+    {
+      "turno": 7,
+      "espera": "há restrição de quantidade para o relatório médico circunstanciado no ano civil, além do saldo do limite anual já quase esgotado"
+    }
+  ],
+  "_carteirinhas_de_terceiro": []
+}

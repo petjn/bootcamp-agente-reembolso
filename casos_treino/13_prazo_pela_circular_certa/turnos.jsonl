@@ -1,0 +1,8 @@
+{"turno": 1, "mensagem": "oi, quero pedir reembolso de uma consulta que fiz com o clínico"}
+{"turno": 2, "mensagem": "7042 9963 4470 2218"}
+{"turno": 3, "mensagem": "é esse", "anexo": {"filename": "recibo_clinica_medica.pdf", "mime_type": "application/pdf", "path": "../../anexos/teste/recibo_clinica_medica.pdf"}}
+{"turno": 4, "mensagem": "só pra eu saber: qual é o prazo pra pedir? tenho quase certeza que li 150 dias"}
+{"turno": 5, "mensagem": "então mudou? porque eu vi isso numa circular de vocês mesmo"}
+{"turno": 6, "mensagem": "e conta a partir de quando, da consulta ou de quando eu peço?"}
+{"turno": 7, "mensagem": "entendi. e quanto volta dos 350?"}
+{"turno": 8, "mensagem": "beleza, obrigado pela paciência"}

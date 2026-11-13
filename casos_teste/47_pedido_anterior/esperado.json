@@ -1,0 +1,15 @@
+{
+  "decisao": null,
+  "_conta": "o histórico traz o pedido de abril (atendimento 14/04/2026, consulta médica, aprovado, R$ 213,75); não há pedido novo nesta conversa",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "informa, pelo histórico, que o pedido da consulta de abril foi aprovado"
+    },
+    {
+      "turno": 3,
+      "espera": "R$ 213,75"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

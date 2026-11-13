@@ -1,0 +1,19 @@
+{
+  "carteirinha": "7042 4458 1196 3307",
+  "nome": "Denise Albuquerque Paiva",
+  "cpf": "275.380.614-92",
+  "plano": "Essencial",
+  "data_adesao": "2022-03-01",
+  "sessoes_terapia_ano": 0,
+  "status": "ATIVO",
+  "observacao": "Dados fictícios. Caso de teste, nunca usado em ajuste (D86).",
+  "historico": [
+    {
+      "protocolo": "20260000911",
+      "data_atendimento": "2026-04-14",
+      "categoria": "CONSULTA_MEDICA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 213.75
+    }
+  ]
+}

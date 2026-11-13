@@ -1,0 +1,4 @@
+{"turno": 1, "mensagem": "boa tarde, quero reembolso de consulta. minha carteirinha é 7042 4719 3306 5184"}
+{"turno": 2, "mensagem": "ops, troquei os números. é 7042 4719 3360 5184"}
+{"turno": 3, "mensagem": "segue o recibo", "anexo": {"filename": "recibo_endocrino_claudia.pdf", "mime_type": "application/pdf", "path": "../../anexos/teste_novos/recibo_endocrino_claudia.pdf"}}
+{"turno": 4, "mensagem": "obrigada!"}

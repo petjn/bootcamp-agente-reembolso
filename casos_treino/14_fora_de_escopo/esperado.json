@@ -1,0 +1,28 @@
+{
+  "categoria_documento": null,
+  "decisao": null,
+  "valor_solicitado_brl": null,
+  "valor_reembolso_brl": null,
+  "regras_aplicadas": [],
+  "protocolo": null,
+  "pendencias": [],
+  "_titulo": "Ligou para a empresa errada — cortesia, recusa e nenhum pedido inventado",
+  "_dica": "Ninguém pediu reembolso aqui. Cumprimento se responde com cortesia, não com pedido de carteirinha; assunto alheio se recusa dizendo também o que este canal atende. Se o agente extraiu um pedido, uma categoria ou um valor desta conversa, ele inventou — não havia documento nem despesa.",
+  "_data_da_conversa": "2026-05-22",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "não é a ótica: dizer com clareza que o contato é de outra empresa e, na mesma mensagem, dizer o que este canal atende"
+    },
+    {
+      "turno": 5,
+      "espera": "sim, consulta médica é procedimento reembolsável — sem transformar a pergunta em um pedido nem cobrar documento de quem não pediu nada"
+    },
+    {
+      "turno": 6,
+      "espera": "encerrar com cortesia, sem insistir em abrir pedido"
+    }
+  ],
+  "_carteirinhas_de_terceiro": [],
+  "_por_que_decisao_nula": "Revisado em 20/08/2026. Estava FORA_DE_ESCOPO, e era julgamento meu sem apoio na base. A única menção a 'fora do escopo' em todo o material é o FAQ interno, e ela trata de outra carteirinha surgindo no meio do atendimento — o mesmo guardrail do enunciado, 'pedido sobre terceiro resulta em FORA_DE_ESCOPO'. Aqui não há terceiro nem pedido: a pessoa ligou para a ótica errada e nunca pediu reembolso. O enunciado diz que os campos de decisão ficam nulos enquanto a conversa não chega lá, e esta nunca chegou. O caso 12, que TEM pedido de terceiro, tem desfecho APROVADO — porque o pedido do próprio beneficiário seguiu; isso confirma que o desfecho descreve a análise de reembolso, não o tom da conversa."
+}

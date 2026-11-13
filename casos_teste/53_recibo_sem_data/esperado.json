@@ -1,0 +1,16 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "PENDENTE_DOCUMENTO",
+  "valor_solicitado_brl": 350.0,
+  "pendencias": [
+    "P09"
+  ],
+  "_conta": "sem data do atendimento (nem de emissão) no documento (NT-02, C4) → P09; a data do atendimento é a do campo próprio do documento (art. 13, § 5º), não a que o cliente informa; pendência, sem valor (art. 18)",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "não: a data que vale é a do documento (art. 13, § 5º; NT-02, C4); é preciso o recibo com a data do atendimento"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

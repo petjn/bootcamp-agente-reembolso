@@ -1,0 +1,14 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 380.0,
+  "valor_reembolso_brl": 247.0,
+  "_conta": "turno 1: carteirinha não localizada → pede para conferir o número. Turno 3: 5 URS = R$ 475,50 > R$ 380,00; Essencial, 19 meses → 12 a 36, 35%; 380 × 0,65 = R$ 247,00",
+  "_perguntas_abertas": [
+    {
+      "turno": 1,
+      "espera": "a carteirinha não foi encontrada no cadastro: pede para conferir o número"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

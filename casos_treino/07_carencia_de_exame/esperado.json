@@ -1,0 +1,31 @@
+{
+  "categoria_documento": "EXAME_DIAGNOSTICO",
+  "decisao": "NEGADO",
+  "valor_solicitado_brl": 90.0,
+  "valor_reembolso_brl": 0.0,
+  "regras_aplicadas": [
+    "ART-21",
+    "ART-23",
+    "TUSS-40301258"
+  ],
+  "protocolo": null,
+  "pendencias": [],
+  "_titulo": "Exame de sangue dentro da carência — documento perfeito, direito ainda não nascido",
+  "_dica": "O documento não tem defeito nenhum: o que falta é tempo de plano. Carência se verifica na data do atendimento, não na do pedido, e cada categoria tem a sua. Se você registrou pendência documental, reveja — não há documento a suprir.",
+  "_data_da_conversa": "2026-05-20",
+  "_perguntas_abertas": [
+    {
+      "turno": 5,
+      "espera": "as carências são por categoria de procedimento e têm prazos diferentes; a de consulta é bem mais curta que a de exame, então uma pode estar cumprida e a outra não"
+    },
+    {
+      "turno": 6,
+      "espera": "a partir do cumprimento do prazo de carência de exames contado da data de adesão"
+    },
+    {
+      "turno": 7,
+      "espera": "não: o reembolso pressupõe atendimento coberto na vigência do plano — despesa anterior à adesão não gera direito"
+    }
+  ],
+  "_carteirinhas_de_terceiro": []
+}

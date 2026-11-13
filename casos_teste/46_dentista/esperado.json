@@ -1,0 +1,22 @@
+{
+  "categoria_documento": "DESPESA_NAO_COBERTA",
+  "decisao": "NEGADO",
+  "valor_solicitado_brl": 350.0,
+  "valor_reembolso_brl": 0.0,
+  "regras_aplicadas": [
+    "ART-51",
+    "ANEXO-IV"
+  ],
+  "_conta": "consulta odontológica de rotina e profilaxia são excluídas sem plano odontológico (Anexo IV, 7.1 e 7.2); exclusão sem pendência (art. 51; Anexo IV, 11.4)",
+  "_perguntas_abertas": [
+    {
+      "turno": 1,
+      "espera": "pode pedir o recibo, ou já adiantar que procedimentos odontológicos não são cobertos sem plano odontológico"
+    },
+    {
+      "turno": 3,
+      "espera": "não: a consulta odontológica de rotina também é excluída (Anexo IV, 7.1)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

@@ -1,0 +1,14 @@
+{
+  "categoria_documento": "EXAME_DIAGNOSTICO",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 220.0,
+  "valor_reembolso_brl": 132.0,
+  "_conta": "teto 3 URS = R$ 285,30 > R$ 220,00; Pleno, 5 meses → até 12, 40% (CIRC-02-2026); 220 × 0,60 = R$ 132,00. Carência de exame (60 dias) cumprida",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "no Essencial, com até 12 meses de adesão, a coparticipação seria 45%: R$ 121,00 (hipótese, pela tabela do art. 44 na redação da CIRC-02-2026)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

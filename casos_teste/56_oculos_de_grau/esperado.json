@@ -1,0 +1,22 @@
+{
+  "categoria_documento": "DESPESA_NAO_COBERTA",
+  "decisao": "NEGADO",
+  "valor_solicitado_brl": 890.0,
+  "valor_reembolso_brl": 0.0,
+  "regras_aplicadas": [
+    "ART-51",
+    "ANEXO-IV"
+  ],
+  "_conta": "óculos de grau e lentes são excluídos (Anexo IV, 4.12), sem pendência (art. 51); documento fiscal de despesa excluída é despesa não coberta, não inválido",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "a receita médica não muda a exclusão: óculos e lentes de grau não são reembolsáveis (Anexo IV, 4.12)"
+    },
+    {
+      "turno": 3,
+      "espera": "sim: consulta médica com oftalmologista é reembolsável, com o recibo dela"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

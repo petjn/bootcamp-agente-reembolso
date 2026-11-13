@@ -1,0 +1,19 @@
+{
+  "carteirinha": "7042 5592 8401 6623",
+  "nome": "Wagner Pessoa Lima",
+  "cpf": "684.025.317-83",
+  "plano": "Pleno",
+  "data_adesao": "2022-01-01",
+  "sessoes_terapia_ano": 0,
+  "status": "ATIVO",
+  "observacao": "Dados fictícios. Caso de teste do 3º lote, nunca usado em ajuste (D92).",
+  "historico": [
+    {
+      "protocolo": "20260000812",
+      "data_atendimento": "2026-04-20",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "PENDENTE_DOCUMENTO",
+      "valor_reembolsado_brl": 0.0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "PENDENTE_DOCUMENTO",
+  "valor_solicitado_brl": 260.0,
+  "valor_reembolso_brl": null,
+  "regras_aplicadas": [
+    "ART-73",
+    "CIRC-02-2026",
+    "TUSS-50000462"
+  ],
+  "protocolo": "ABERTO",
+  "pendencias": [
+    "relatório clínico"
+  ],
+  "_titulo": "Sexta sessão do ano — a exigência de relatório foi antecipada em abril",
+  "_dica": "A sessão a partir da qual se exige relatório clínico mudou por circular. Se você usou o número antigo, concluiu que não era preciso e aprovou. Faltando o documento, o pedido fica pendente com protocolo aberto — não é indeferimento.",
+  "_data_da_conversa": "2026-05-21",
+  "_perguntas_abertas": [
+    {
+      "turno": 5,
+      "espera": "uma circular com vigência em 20/04/2026 antecipou a sessão a partir da qual o relatório clínico passa a ser exigido; nas sessões anteriores a regra era outra"
+    },
+    {
+      "turno": 6,
+      "espera": "não: o pedido fica pendente, com protocolo aberto, esperando o documento — não é indeferimento"
+    },
+    {
+      "turno": 7,
+      "espera": "há prazo para o atendimento da pendência documental, previsto no regulamento"
+    }
+  ],
+  "_carteirinhas_de_terceiro": []
+}

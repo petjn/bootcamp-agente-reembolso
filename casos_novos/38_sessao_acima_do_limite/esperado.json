@@ -1,0 +1,25 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "NEGADO",
+  "valor_solicitado_brl": 200.0,
+  "regras_aplicadas": [
+    "ART-40",
+    "TUSS-50000462"
+  ],
+  "_conta": "40 sessões de terapia no histórico de 2026; esta seria a 41ª > 40 (art. 40; NT-02, Caso 07)",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "o relatório não supre o limite anual (art. 40, § 4º)"
+    },
+    {
+      "turno": 3,
+      "espera": "não: consulta com psiquiatra é consulta médica e não entra no limite (art. 40, § 3º; art. 35, parágrafo único)"
+    },
+    {
+      "turno": 4,
+      "espera": "sim: a contagem reinicia em 1º de janeiro (art. 40, § 1º)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

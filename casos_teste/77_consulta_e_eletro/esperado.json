@@ -1,0 +1,14 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 520.0,
+  "valor_reembolso_brl": 396.08,
+  "_conta": "dois itens, cada um com a sua categoria e o seu teto (art. 74, § 2º; NT-02, 4.4). Consulta: 5 URS = R$ 475,50 > R$ 400,00. Eletrocardiograma: 1 URS = R$ 95,10 < R$ 120,00. Pleno, 86 meses → acima de 36, 20%: 320,00 + 76,08 = R$ 396,08",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "o teto do eletrocardiograma (1 URS, R$ 95,10) limitou o valor pago; depois, 20% de coparticipação"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

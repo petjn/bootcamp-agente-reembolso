@@ -1,0 +1,19 @@
+{
+  "carteirinha": "7042 8190 2276 4458",
+  "nome": "Aline Rocha Bezerra",
+  "cpf": "391.508.264-17",
+  "plano": "Pleno",
+  "data_adesao": "2023-01-10",
+  "sessoes_terapia_ano": 1,
+  "status": "ATIVO",
+  "observacao": "Dados fictícios. Caso de teste, nunca usado em ajuste (D86).",
+  "historico": [
+    {
+      "protocolo": "20260000801",
+      "data_atendimento": "2026-02-17",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 186.42
+    }
+  ]
+}

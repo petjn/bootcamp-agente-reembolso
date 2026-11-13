@@ -1,0 +1,21 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "PENDENTE_DOCUMENTO",
+  "valor_solicitado_brl": 420.0,
+  "pendencias": [
+    "P02",
+    "P06"
+  ],
+  "_conta": "faltam o CPF da paciente (NT-02, C1; P02) e o registro do médico no conselho com a UF (C3; P06; art. 67); pendência com todos os campos de uma vez (art. 18, § 1º), protocolo aberto",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "pede de uma vez o CPF da paciente e o registro do médico no conselho, com a UF"
+    },
+    {
+      "turno": 3,
+      "espera": "não: enquanto pendente, não se apura nem se informa valor (art. 18, parágrafo único)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

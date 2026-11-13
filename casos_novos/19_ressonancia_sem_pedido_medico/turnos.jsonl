@@ -1,0 +1,7 @@
+{"turno": 1, "mensagem": "boa tarde, minha carteirinha é 7042 6905 1187 2034. fiz uma ressonância de crânio particular e quero o reembolso"}
+{"turno": 2, "mensagem": "segue a nota", "anexo": {"filename": "nota_ressonancia.pdf", "mime_type": "application/pdf", "path": "../../anexos/novos/nota_ressonancia.pdf"}}
+{"turno": 3, "mensagem": "pedido médico? a médica me deu um papel quando pediu o exame, tenho que mandar isso?"}
+{"turno": 4, "mensagem": "e até quando eu tenho pra mandar?"}
+{"turno": 5, "mensagem": "achei, tá aqui o pedido", "anexo": {"filename": "pedido_medico_ressonancia.pdf", "mime_type": "application/pdf", "path": "../../anexos/novos/pedido_medico_ressonancia.pdf"}}
+{"turno": 6, "mensagem": "quanto volta então?"}
+{"turno": 7, "mensagem": "obrigada!"}

@@ -1,0 +1,25 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "ESCALADO_ANALISTA",
+  "valor_solicitado_brl": 5200.0,
+  "valor_reembolso_brl": null,
+  "regras_aplicadas": [
+    "ART-78"
+  ],
+  "protocolo": "ABERTO",
+  "pendencias": [],
+  "_titulo": "Avaliação neuropsicológica acima da alçada — competência antes do mérito",
+  "_dica": "Aqui não é a categoria que escala, é o valor. O limite de alçada varia conforme a natureza do pedido, e são dois. Se você apurou e informou um valor, reveja quem tem competência para decidir — e o que se pode dizer antes da análise.",
+  "_data_da_conversa": "2026-05-20",
+  "_perguntas_abertas": [
+    {
+      "turno": 6,
+      "espera": "não: a norma reserva o valor à conclusão da análise humana, então nem estimativa se informa antes dela"
+    },
+    {
+      "turno": 7,
+      "espera": "o prazo de análise previsto no regulamento, com a informação de que o protocolo já está aberto"
+    }
+  ],
+  "_carteirinhas_de_terceiro": []
+}

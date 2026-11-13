@@ -1,0 +1,33 @@
+{
+  "carteirinha": "7042 5814 3390 2716",
+  "nome": "Eduardo Lins Carvalho",
+  "cpf": "593.271.846-30",
+  "plano": "Pleno",
+  "data_adesao": "2024-02-01",
+  "sessoes_terapia_ano": 3,
+  "status": "ATIVO",
+  "observacao": "Dados fictícios. Caso de teste do 2º lote, nunca usado em ajuste (D91).",
+  "historico": [
+    {
+      "protocolo": "20260000901",
+      "data_atendimento": "2026-02-03",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 99.86
+    },
+    {
+      "protocolo": "20260000902",
+      "data_atendimento": "2026-03-10",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 99.86
+    },
+    {
+      "protocolo": "20260000903",
+      "data_atendimento": "2026-04-07",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 99.86
+    }
+  ]
+}

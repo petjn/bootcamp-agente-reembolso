@@ -1,0 +1,26 @@
+{
+  "carteirinha": "7042 8204 6631 5590",
+  "nome": "Ricardo Moura Sampaio",
+  "cpf": "962.580.314-07",
+  "plano": "Pleno",
+  "data_adesao": "2020-08-01",
+  "sessoes_terapia_ano": 0,
+  "status": "ATIVO",
+  "observacao": "Dados fictícios. Caso de teste do 4º lote, nunca usado em ajuste (D93).",
+  "historico": [
+    {
+      "protocolo": "20260000321",
+      "data_atendimento": "2026-02-10",
+      "categoria": "CONSULTA_MEDICA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 300.0
+    },
+    {
+      "protocolo": "20260000488",
+      "data_atendimento": "2026-03-15",
+      "categoria": "EXAME_DIAGNOSTICO",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 150.0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "NEGADO",
+  "valor_solicitado_brl": 300.0,
+  "valor_reembolso_brl": null,
+  "_conta": "atendimento 02/02/2026, pedido 20/05/2026: 107 dias > 90 (art. 12, redação restabelecida pela CIRC-09-2025 desde 01/11/2025) → decadência, indeferido sem exame do mérito (art. 12, parágrafo único). A carência de consulta (15 dias) estava cumprida.",
+  "_data_da_conversa": "2026-05-20",
+  "_perguntas_abertas": [
+    {
+      "turno": 3,
+      "espera": "o prazo de 150 dias valeu para atendimentos de 01/07/2025 a 31/10/2025 (CIRC-04-2025), revogada pela CIRC-09-2025; para atendimento de fevereiro de 2026, o prazo é de 90 dias"
+    },
+    {
+      "turno": 4,
+      "espera": "a consulta é coberta; a perda do prazo não tira a cobertura, mas extingue o direito ao reembolso (Título II; art. 12, parágrafo único)"
+    },
+    {
+      "turno": 5,
+      "espera": "cabe pedido de reanálise em 150 dias (art. 20); como o pedido foi feito depois dos 90 dias, o direito decaiu (art. 12, parágrafo único), e a reanálise só mudaria o resultado se a data do atendimento ou do pedido estivesse errada"
+    }
+  ]
+}

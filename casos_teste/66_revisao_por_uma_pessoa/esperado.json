@@ -1,0 +1,15 @@
+{
+  "decisao": null,
+  "_conta": "sem pedido novo: dúvida sobre a revisão da negativa; o histórico traz a consulta de 04/05/2026 negada",
+  "_perguntas_abertas": [
+    {
+      "turno": 1,
+      "espera": "cabe pedido de reanálise, em 150 dias, conduzido por analista diferente do que decidiu (art. 20); a decisão automatizada pode ter revisão humana a qualquer tempo (art. 77, § 2º)"
+    },
+    {
+      "turno": 2,
+      "espera": "indicar os pontos de discordância, e pode juntar documentação complementar (art. 20, § 1º)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

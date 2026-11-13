@@ -1,0 +1,4 @@
+{"turno": 1, "mensagem": "oi! meu psiquiatra me deu um recibo só com as duas consultas de maio. carteirinha 7042 2270 8841 6593", "anexo": {"filename": "recibo_duas_consultas.pdf", "mime_type": "application/pdf", "path": "../../anexos/teste_novos/recibo_duas_consultas.pdf"}}
+{"turno": 2, "mensagem": "então paga as duas?"}
+{"turno": 3, "mensagem": "isso conta naquele limite de 40 sessões?"}
+{"turno": 4, "mensagem": "show"}

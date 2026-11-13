@@ -1,0 +1,14 @@
+{
+  "categoria_documento": "EXAME_DIAGNOSTICO",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 25.0,
+  "valor_reembolso_brl": 13.75,
+  "_conta": "adesão 06/03/2026, exame 05/05/2026: 60 dias, e a carência do exame é de 60 (art. 23): cumprida. Teto 0,3 URS = R$ 28,53 > R$ 25,00; Essencial, 1 mês → até 12, 45%; 25 × 0,55 = R$ 13,75",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "sim: o exame foi feito com os 60 dias exatos da carência (art. 23), que já a cumprem"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

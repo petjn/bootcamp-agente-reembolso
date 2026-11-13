@@ -1,0 +1,21 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "ESCALADO_ANALISTA",
+  "valor_solicitado_brl": 3500.0,
+  "regras_aplicadas": [
+    "ART-83"
+  ],
+  "_categoria_aceita": "qualquer: a NT-02 não tem categoria para cirurgia",
+  "_conta": "procedimento cirúrgico (Tabela, TUSS-30101034): a NT-02 não tem categoria para ele nem a norma tem carência; caso omisso, resolvido pela área de análise (art. 83; D78); protocolo aberto, sem valor (art. 78, § 3º; NT-02, 6.3)",
+  "_perguntas_abertas": [
+    {
+      "turno": 3,
+      "espera": "não é pelo valor: a análise automática não tem regra para cirurgia (sem categoria nem carência), e o caso vai à área de análise (art. 83)"
+    },
+    {
+      "turno": 4,
+      "espera": "a análise é concluída em até 30 dias corridos do protocolo completo (art. 81)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

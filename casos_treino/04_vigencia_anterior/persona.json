@@ -1,0 +1,34 @@
+{
+  "carteirinha": "7042 6610 4432 0871",
+  "nome": "Beatriz Camargo Villela",
+  "cpf": "371.905.284-60",
+  "plano": "Pleno",
+  "data_adesao": "2024-01-15",
+  "sessoes_terapia_ano": 4,
+  "reembolsado_no_ano_brl": 250.0,
+  "status": "ATIVO",
+  "historico": [
+    {
+      "protocolo": "20260000301",
+      "data_atendimento": "2026-01-20",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 83.34
+    },
+    {
+      "protocolo": "20260000302",
+      "data_atendimento": "2026-02-10",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 83.33
+    },
+    {
+      "protocolo": "20260000303",
+      "data_atendimento": "2026-02-24",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 83.33
+    }
+  ],
+  "observacao": "Dados fictícios. É o que o MCP de elegibilidade devolveria."
+}

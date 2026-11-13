@@ -1,0 +1,357 @@
+[
+  {
+    "dispositivo": "ART-12",
+    "escopo": null,
+    "fonte": "ART-12",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "prazo_dias",
+    "trecho": "prazo de 90 (noventa) dias",
+    "valor": "90"
+  },
+  {
+    "dispositivo": "ART-12",
+    "escopo": null,
+    "fonte": "CIRC-04-2025",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "prazo_dias",
+    "trecho": "prazo de 150 (cento e cinquenta) dias",
+    "valor": "150"
+  },
+  {
+    "dispositivo": "ART-15",
+    "escopo": null,
+    "fonte": "ART-15",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "prazo_dias",
+    "trecho": "prazo de 15 (quinze) dias",
+    "valor": "15"
+  },
+  {
+    "dispositivo": "ART-19",
+    "escopo": null,
+    "fonte": "ART-19",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "prazo_sanar_dias",
+    "trecho": "dispõe de 60 (sessenta) dias corridos para sanar",
+    "valor": "60"
+  },
+  {
+    "dispositivo": "ART-20",
+    "escopo": null,
+    "fonte": "ART-20",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "prazo_dias",
+    "trecho": "prazo de 150 (cento e cinquenta) dias",
+    "valor": "150"
+  },
+  {
+    "dispositivo": "ART-22",
+    "escopo": null,
+    "fonte": "ART-22",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "carencia_dias",
+    "trecho": "carência para consultas médicas em consultório, de qualquer especialidade, inclusive psiquiatria, é de 15 (quinze)",
+    "valor": "15"
+  },
+  {
+    "dispositivo": "ART-23",
+    "escopo": null,
+    "fonte": "ART-23",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "carencia_dias",
+    "trecho": "carência para exames diagnósticos é de 60 (sessenta)",
+    "valor": "60"
+  },
+  {
+    "dispositivo": "ART-24",
+    "escopo": null,
+    "fonte": "ART-24",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "carencia_dias",
+    "trecho": "carência para as terapias de que trata o art. 41 — psicoterapia, fonoaudiologia e terapia ocupacional — é de 150 (cento e cinquenta)",
+    "valor": "150"
+  },
+  {
+    "dispositivo": "ART-25",
+    "escopo": null,
+    "fonte": "ART-25",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "carencia_dias",
+    "trecho": "carência para materiais, órteses, próteses e materiais especiais é de 180 (cento e oitenta)",
+    "valor": "180"
+  },
+  {
+    "dispositivo": "ART-35",
+    "escopo": null,
+    "fonte": "ART-35",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "teto_urs",
+    "trecho": "teto de 5 URS",
+    "valor": "5"
+  },
+  {
+    "dispositivo": "ART-36",
+    "escopo": null,
+    "fonte": "ART-36",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "intervalo_consultas_dias",
+    "trecho": "mesmo profissional no intervalo de 15 (quinze) dias",
+    "valor": "15"
+  },
+  {
+    "dispositivo": "ART-40",
+    "escopo": null,
+    "fonte": "ART-40",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "limite_sessoes_ano",
+    "trecho": "limitado a 40 (quarenta) por beneficiário",
+    "valor": "40"
+  },
+  {
+    "dispositivo": "ART-41",
+    "escopo": null,
+    "fonte": "ART-41",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "teto_urs",
+    "trecho": "teto de 1,2 URS",
+    "valor": "1.2"
+  },
+  {
+    "dispositivo": "ART-41",
+    "escopo": null,
+    "fonte": "CIRC-02-2026",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "teto_urs",
+    "trecho": "teto de 2,8 URS",
+    "valor": "2.8"
+  },
+  {
+    "dispositivo": "ART-41",
+    "escopo": null,
+    "fonte": "CIRC-11-2026",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "teto_urs",
+    "trecho": "teto de 1,6 URS",
+    "valor": "1.6"
+  },
+  {
+    "dispositivo": "ART-41",
+    "escopo": null,
+    "fonte": "ART-41",
+    "metodo": "regex",
+    "parte": "§ 2º",
+    "tipo": "sessoes_para_continuado",
+    "trecho": "pelo menos 8 (oito) sessões",
+    "valor": "8"
+  },
+  {
+    "dispositivo": "ART-41",
+    "escopo": null,
+    "fonte": "ART-41",
+    "metodo": "regex",
+    "parte": "§ 2º",
+    "tipo": "teto_urs",
+    "trecho": "teto é de 1 URS",
+    "valor": "1"
+  },
+  {
+    "dispositivo": "ART-41",
+    "escopo": null,
+    "fonte": "CIRC-02-2026",
+    "herdado_de": "CIRC-11-2026",
+    "metodo": "herdado",
+    "parte": "§ 2º",
+    "tipo": "sessoes_para_continuado",
+    "trecho": "pelo menos 8 (oito) sessões",
+    "valor": "8"
+  },
+  {
+    "dispositivo": "ART-41",
+    "escopo": null,
+    "fonte": "CIRC-02-2026",
+    "metodo": "regex",
+    "parte": "§ 2º",
+    "tipo": "teto_urs",
+    "trecho": "teto é de 2,6 URS",
+    "valor": "2.6"
+  },
+  {
+    "dispositivo": "ART-41",
+    "escopo": null,
+    "fonte": "CIRC-11-2026",
+    "metodo": "regex",
+    "parte": "§ 2º",
+    "tipo": "sessoes_para_continuado",
+    "trecho": "pelo menos 8 (oito) sessões",
+    "valor": "8"
+  },
+  {
+    "dispositivo": "ART-41",
+    "escopo": null,
+    "fonte": "CIRC-11-2026",
+    "metodo": "regex",
+    "parte": "§ 2º",
+    "tipo": "teto_urs",
+    "trecho": "teto é de 1,4 URS",
+    "valor": "1.4"
+  },
+  {
+    "dispositivo": "ART-44",
+    "escopo": null,
+    "fonte": "ART-44",
+    "metodo": "regex",
+    "parte": "§ 2º",
+    "tipo": "coparticipacao",
+    "trecho": "Até 12 meses de adesão De 12 a 36 meses Acima de 36 meses Pleno 30% 20% 10% Essencial 35% 25% 15%",
+    "valor": {
+      "faixas_meses": [
+        12,
+        36
+      ],
+      "percentuais": {
+        "Essencial": [
+          "0.35",
+          "0.25",
+          "0.15"
+        ],
+        "Pleno": [
+          "0.3",
+          "0.2",
+          "0.1"
+        ]
+      }
+    }
+  },
+  {
+    "dispositivo": "ART-44",
+    "escopo": null,
+    "fonte": "CIRC-02-2026",
+    "metodo": "regex",
+    "parte": "§ 2º",
+    "tipo": "coparticipacao",
+    "trecho": "Até 12 meses de adesão De 12 a 36 meses Acima de 36 meses Pleno 40% 30% 20% Essencial 45% 35% 25%",
+    "valor": {
+      "faixas_meses": [
+        12,
+        36
+      ],
+      "percentuais": {
+        "Essencial": [
+          "0.45",
+          "0.35",
+          "0.25"
+        ],
+        "Pleno": [
+          "0.4",
+          "0.3",
+          "0.2"
+        ]
+      }
+    }
+  },
+  {
+    "dispositivo": "ART-45",
+    "escopo": null,
+    "fonte": "ART-45",
+    "metodo": "regex",
+    "parte": "caput",
+    "tipo": "limite_anual_urs",
+    "trecho": "não poderá exceder 48 (quarenta e oito) URS",
+    "valor": "48"
+  },
+  {
+    "dispositivo": "ART-73",
+    "escopo": null,
+    "fonte": "ART-73",
+    "metodo": "regex",
+    "parte": "§ 3º",
+    "tipo": "relatorio_a_partir_da_sessao",
+    "trecho": "a sessão for a 24ª ou posterior",
+    "valor": "24"
+  },
+  {
+    "dispositivo": "ART-73",
+    "escopo": null,
+    "fonte": "ART-73",
+    "metodo": "regex",
+    "parte": "§ 3º",
+    "tipo": "relatorio_excedente_teto_pct",
+    "trecho": "exceder em mais de 75%",
+    "valor": "75"
+  },
+  {
+    "dispositivo": "ART-73",
+    "escopo": null,
+    "fonte": "CIRC-02-2026",
+    "metodo": "regex",
+    "parte": "§ 3º",
+    "tipo": "relatorio_a_partir_da_sessao",
+    "trecho": "a sessão for a 5ª ou posterior",
+    "valor": "5"
+  },
+  {
+    "dispositivo": "ART-73",
+    "escopo": null,
+    "fonte": "CIRC-02-2026",
+    "metodo": "regex",
+    "parte": "§ 3º",
+    "tipo": "relatorio_excedente_teto_pct",
+    "trecho": "exceder em mais de 75%",
+    "valor": "75"
+  },
+  {
+    "dispositivo": "ART-73",
+    "escopo": null,
+    "fonte": "CIRC-11-2026",
+    "metodo": "regex",
+    "parte": "§ 3º",
+    "tipo": "relatorio_a_partir_da_sessao",
+    "trecho": "a sessão for a 10ª ou posterior",
+    "valor": "10"
+  },
+  {
+    "dispositivo": "ART-73",
+    "escopo": null,
+    "fonte": "CIRC-11-2026",
+    "metodo": "regex",
+    "parte": "§ 3º",
+    "tipo": "relatorio_excedente_teto_pct",
+    "trecho": "exceder em mais de 75%",
+    "valor": "75"
+  },
+  {
+    "dispositivo": "ART-78",
+    "escopo": "consultas, exames, terapias e relatórios clínicos",
+    "fonte": "ART-78",
+    "metodo": "regex",
+    "parte": "§ 1º",
+    "tipo": "alcada_brl",
+    "trecho": "R$ 5.000,00 para consultas, exames, terapias e relatórios clínicos",
+    "valor": "5000.00"
+  },
+  {
+    "dispositivo": "ART-78",
+    "escopo": "os procedimentos cirúrgicos e os realizados em regime hospitalar",
+    "fonte": "ART-78",
+    "metodo": "regex",
+    "parte": "§ 1º",
+    "tipo": "alcada_brl",
+    "trecho": "R$ 7.500,00 para os procedimentos cirúrgicos e os realizados em regime hospitalar",
+    "valor": "7500.00"
+  }
+]

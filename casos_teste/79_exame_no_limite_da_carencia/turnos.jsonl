@@ -1,0 +1,3 @@
+{"turno": 1, "mensagem": "boa noite, sou cliente novo. fiz um exame de glicemia, dá pra reembolsar? carteirinha 7042 1093 5760 8422", "anexo": {"filename": "nota_glicemia.pdf", "mime_type": "application/pdf", "path": "../../anexos/teste_novos/nota_glicemia.pdf"}}
+{"turno": 2, "mensagem": "ufa. por pouco não caí na carência, né?"}
+{"turno": 3, "mensagem": "valeu"}

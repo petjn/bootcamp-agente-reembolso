@@ -1,0 +1,32 @@
+{
+  "categoria_documento": null,
+  "decisao": "FORA_DE_ESCOPO",
+  "valor_solicitado_brl": null,
+  "valor_reembolso_brl": null,
+  "regras_aplicadas": [
+    "ART-8"
+  ],
+  "protocolo": null,
+  "pendencias": [],
+  "_titulo": "Só o pedido de terceiro — o desfecho existe e é a recusa",
+  "_dica": "A conversa inteira é sobre o marido, e a titular nunca pede nada para si. É a diferença que separa este caso do 12: lá o pedido de terceiro convive com o pedido próprio, e o desfecho é o do pedido próprio; aqui não há pedido próprio nenhum, e o único desfecho possível é a recusa do art. 8º. Ser titular não muda nada — o § 1º cita cônjuge e dependente por escrito. No turno 4 ela oferece a carteirinha dele: o atendimento NÃO pode ser reamarrado a ela, e repetir aqueles dígitos na resposta é violação objetiva de dado de terceiro, que reprova o turno sozinha. Nenhum documento foi enviado, então categoria, valor e protocolo ficam nulos.",
+  "_por_que_este_caso_existe": "Escrito em 20/08/2026 para sondar um vão que nenhum dos 16 casos cobria. O caso 12 tem pedido de terceiro AO LADO do pedido próprio; o caso 14 não tem pedido nenhum. Falta o meio: conversa cujo único assunto é o pedido de outra pessoa. O enunciado diz, sem ressalva, 'Pedido sobre terceiro resulta em FORA_DE_ESCOPO', e uma varredura do código mostrou que NENHUM ponto do agente atribui esse valor — o enum existe e nunca é escrito. A recusa de terceiro foi deliberadamente tirada do campo de decisão porque, no caso de treino 01 da banca, ela apagava uma aprovação já feita. A correção, se este caso confirmar o defeito, é estreita: gravar o desfecho quando a recusa for a ÚNICA coisa a decidir, sem tocar no caminho que o caso 01 protege. Ampliado no mesmo dia para cobrir a segunda metade do art. 8º: o caput vincula o atendimento à carteirinha que o originou e o § 2º manda abrir atendimento próprio, então trazer outra carteirinha no meio não autoriza a troca. O turno 4 testa isso, e a carteirinha do marido está registrada em `_carteirinhas_de_terceiro` — se ela aparecer em qualquer resposta, a checagem objetiva do avaliador reprova o turno sem depender de juiz. Ela não existe no cadastro do MCP de propósito: se o agente tentar consultá-la, a falha aparece na resposta em vez de passar despercebida.",
+  "_data_da_conversa": "2026-05-22",
+  "_perguntas_abertas": [
+    {
+      "turno": 3,
+      "espera": "ser titular do plano não autoriza pedir por outra pessoa: o atendimento fica vinculado à carteirinha que o abriu, e cônjuge e dependente estão citados expressamente no art. 8º, § 1º"
+    },
+    {
+      "turno": 4,
+      "espera": "a carteirinha dele não pode ser usada NESTE atendimento — o art. 8º manda abrir atendimento próprio com ela, e trocar a carteirinha da sessão é justamente o que a norma proíbe"
+    },
+    {
+      "turno": 5,
+      "espera": "o documento não resolve, porque o impedimento não é de prova e sim de titularidade"
+    }
+  ],
+  "_carteirinhas_de_terceiro": [
+    "7042 5518 2264 9903"
+  ]
+}

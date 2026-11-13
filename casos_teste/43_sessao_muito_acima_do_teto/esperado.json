@@ -1,0 +1,20 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "PENDENTE_DOCUMENTO",
+  "valor_solicitado_brl": 500.0,
+  "pendencias": [
+    "P20"
+  ],
+  "_conta": "2ª sessão do ano (< 5ª), mas o valor pago (R$ 500,00) passa em mais de 75% o teto de 2,8 URS = R$ 266,28 (limite R$ 465,99): o relatório é exigido pela primeira hipótese que ocorrer (art. 73, § 3º, II; CIRC-02-2026) → P20",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "não é pelo número da sessão: o valor pago passou do teto em mais de 75%, e isso também exige o relatório (art. 73, § 3º, II)"
+    },
+    {
+      "turno": 3,
+      "espera": "com valor até 75% acima do teto, não; o relatório volta a ser exigido a partir da 5ª sessão do ano"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

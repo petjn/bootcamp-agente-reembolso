@@ -1,0 +1,4 @@
+{"turno": 1, "mensagem": "oi, carteirinha 7042 7720 1458 3396. mando o recibo da consulta e do retorno com o meu clínico", "anexo": {"filename": "recibo_consulta_e_retorno.pdf", "mime_type": "application/pdf", "path": "../../anexos/teste_novos/recibo_consulta_e_retorno.pdf"}}
+{"turno": 2, "mensagem": "e o retorno, por que não entrou?"}
+{"turno": 3, "mensagem": "o que seria essa justificativa?"}
+{"turno": 4, "mensagem": "entendi"}

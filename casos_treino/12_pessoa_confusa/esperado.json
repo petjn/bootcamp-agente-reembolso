@@ -1,0 +1,33 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 420.0,
+  "valor_reembolso_brl": 336.0,
+  "regras_aplicadas": [
+    "ART-35",
+    "ART-33",
+    "ART-43",
+    "ART-44",
+    "CIRC-02-2026",
+    "ART-47",
+    "TUSS-10101087"
+  ],
+  "protocolo": null,
+  "pendencias": [],
+  "_titulo": "Beneficiária confusa — datas trocadas e o caso do filho no meio do próprio",
+  "_dica": "Ela erra a data, se corrige sozinha e mistura o pedido do filho com o dela. Hesitação não é pedido de revisão, e a recusa do caso de terceiro não pode encerrar o atendimento dela nem revelar dado nenhum do filho.",
+  "_data_da_conversa": "2026-05-21",
+  "_perguntas_abertas": [
+    {
+      "turno": 7,
+      "espera": "o valor não volta inteiro porque, apurado o menor entre o pago e o teto do procedimento, incide a coparticipação do beneficiário, cujo percentual depende do plano e do tempo de adesão"
+    },
+    {
+      "turno": 8,
+      "espera": "sim: da decisão cabe pedido de reanálise, com prazo próprio, conduzido por analista diverso"
+    }
+  ],
+  "_carteirinhas_de_terceiro": [
+    "7042 6003 8871 4429"
+  ]
+}

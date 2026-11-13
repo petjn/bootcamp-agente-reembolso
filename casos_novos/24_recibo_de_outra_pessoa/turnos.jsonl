@@ -1,0 +1,5 @@
+{"turno": 1, "mensagem": "oi, quero reembolso de uma consulta. carteirinha 7042 9014 3376 2280"}
+{"turno": 2, "mensagem": "aqui o recibo", "anexo": {"filename": "recibo_urologia_marcos.pdf", "mime_type": "application/pdf", "path": "../../anexos/novos/recibo_urologia_marcos.pdf"}}
+{"turno": 3, "mensagem": "ah, a consulta foi do meu marido, ele também tem o plano. não dá pra resolver por aqui mesmo?"}
+{"turno": 4, "mensagem": "e se fosse uma consulta minha, o recibo tinha que estar no meu nome?"}
+{"turno": 5, "mensagem": "tá bom, vou pedir pra ele"}

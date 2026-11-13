@@ -1,0 +1,40 @@
+{
+  "carteirinha": "7042 6250 4418 9037",
+  "nome": "Marcos Vieira Toledo",
+  "cpf": "248.596.013-72",
+  "plano": "Essencial",
+  "data_adesao": "2021-03-01",
+  "sessoes_terapia_ano": 4,
+  "status": "ATIVO",
+  "observacao": "Dados fictícios. Caso de teste do 3º lote, nunca usado em ajuste (D92).",
+  "historico": [
+    {
+      "protocolo": "20260000950",
+      "data_atendimento": "2026-01-20",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 107.0
+    },
+    {
+      "protocolo": "20260000951",
+      "data_atendimento": "2026-02-24",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 107.0
+    },
+    {
+      "protocolo": "20260000952",
+      "data_atendimento": "2026-03-24",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 107.0
+    },
+    {
+      "protocolo": "20260000953",
+      "data_atendimento": "2026-04-28",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 107.0
+    }
+  ]
+}

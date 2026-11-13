@@ -1,0 +1,9 @@
+{"turno": 1, "mensagem": "boa tarde moça, é sobre uma consulta que eu fiz, acho que foi em abril"}
+{"turno": 2, "mensagem": "deixa eu ver... 7042 5540 2216 9987, é esse número no cartãozinho"}
+{"turno": 3, "mensagem": "achei o papel", "anexo": {"filename": "recibo_geriatria.pdf", "mime_type": "application/pdf", "path": "../../anexos/teste/recibo_geriatria.pdf"}}
+{"turno": 4, "mensagem": "ué, então foi maio? eu tinha na cabeça que era abril, mas se tá escrito aí"}
+{"turno": 5, "mensagem": "aproveitando que tô falando com você: meu filho também fez uma consulta, o cartão dele é 7042 6003 8871 4429, dá pra ver o dele junto?"}
+{"turno": 6, "mensagem": "ah, tá bom, deixa o dele pra depois então. e o meu, saiu?"}
+{"turno": 7, "mensagem": "e por que não voltam os 420 inteiros? eu paguei tudo isso"}
+{"turno": 8, "mensagem": "sei. e se eu não concordar com o valor, tem como pedir pra alguém olhar de novo?"}
+{"turno": 9, "mensagem": "obrigada, viu. você foi muito atenciosa"}

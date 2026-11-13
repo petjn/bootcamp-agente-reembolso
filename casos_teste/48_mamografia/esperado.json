@@ -1,0 +1,14 @@
+{
+  "categoria_documento": "EXAME_DIAGNOSTICO",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 300.0,
+  "valor_reembolso_brl": 180.0,
+  "_conta": "R$ 300,00 < teto 3,6 URS = R$ 342,36; Pleno, 7 meses → até 12, 40% (CIRC-02-2026); 300 × 0,60 = R$ 180,00. Carência de exame (60 dias) cumprida",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "em conta do beneficiário titular do contrato; conta de dependente maior de idade só com autorização (art. 15, § 2º); não promete crédito na conta do marido"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

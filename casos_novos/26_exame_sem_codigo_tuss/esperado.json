@@ -1,0 +1,27 @@
+{
+  "categoria_documento": "EXAME_DIAGNOSTICO",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 250.0,
+  "valor_reembolso_brl": 142.65,
+  "regras_aplicadas": [
+    "ART-34",
+    "TUSS-40808017",
+    "ART-33",
+    "ART-43",
+    "ART-44",
+    "CIRC-02-2026",
+    "ART-47"
+  ],
+  "_conta": "sem código, o procedimento é classificado pela descrição (art. 34): ultrassonografia de abdome total, TUSS-40808017, 2 URS = R$ 190,20 < R$ 250,00; Essencial, 62 meses → acima de 36, 25% (CIRC-02-2026); 190,20 × 0,75 = R$ 142,65",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "sim: sem o código, o procedimento é classificado pela descrição (art. 34)"
+    },
+    {
+      "turno": 3,
+      "espera": "o teto do exame (R$ 190,20) limitou o valor, e sobre ele incidiu a coparticipação de 25%"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

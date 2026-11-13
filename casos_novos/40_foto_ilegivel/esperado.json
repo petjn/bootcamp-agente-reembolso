@@ -1,0 +1,23 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 300.0,
+  "valor_reembolso_brl": 240.0,
+  "regras_aplicadas": [
+    "ART-35",
+    "ART-33",
+    "ART-43",
+    "ART-44",
+    "CIRC-02-2026",
+    "ART-47",
+    "TUSS-10101175"
+  ],
+  "_conta": "turno 1: a foto não se lê: pendência de nova imagem, não documento inválido (art. 75; NT-02, 1.2 e P27; D78, ponto 1). Turno 2: R$ 300,00 < R$ 475,50; Pleno, 49 meses → acima de 36, 20%; 300 × 0,80 = R$ 240,00",
+  "_perguntas_abertas": [
+    {
+      "turno": 1,
+      "espera": "não deu para ler a imagem: pede nova foto legível do documento inteiro ou o PDF"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

@@ -1,0 +1,35 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 200.0,
+  "valor_reembolso_brl": 121.73,
+  "regras_aplicadas": [
+    "ART-41",
+    "CIRC-11-2026",
+    "ART-33",
+    "ART-43",
+    "ART-44",
+    "ART-47",
+    "TUSS-50000462"
+  ],
+  "protocolo": null,
+  "pendencias": [],
+  "_titulo": "Psicoterapia em março — a circular de abril não alcança este atendimento",
+  "_dica": "O teto e o percentual mudaram em 20/04/2026. Este atendimento é de 10/03: vale a redação anterior. Se o valor saiu maior, você aplicou a circular nova a um fato que ela não alcança.",
+  "_data_da_conversa": "2026-05-18",
+  "_perguntas_abertas": [
+    {
+      "turno": 5,
+      "espera": "o teto da sessão de psicoterapia e o percentual de coparticipação foram alterados por circular com vigência em 20/04/2026; um atendimento posterior a essa data observa a redação nova"
+    },
+    {
+      "turno": 6,
+      "espera": "não: a circular alcança os atendimentos realizados a partir da vigência dela, e o desta beneficiária é anterior — a norma aplicável é a que valia na data do atendimento, não a de hoje"
+    },
+    {
+      "turno": 7,
+      "espera": "sim: há limite de sessões de terapia reembolsáveis por ano civil, somadas todas as modalidades"
+    }
+  ],
+  "_carteirinhas_de_terceiro": []
+}

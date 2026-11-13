@@ -1,0 +1,20 @@
+{
+  "categoria_documento": "EXAME_DIAGNOSTICO",
+  "decisao": "PENDENTE_DOCUMENTO",
+  "valor_solicitado_brl": 700.0,
+  "pendencias": [
+    "P23"
+  ],
+  "_conta": "tomografia de crânio é de alta complexidade (Tabela, TUSS-40901114) → pedido médico (art. 38). O pedido enviado é de 15/01/2026, 113 dias antes do exame (08/05/2026): vale por 90 dias da emissão (NT-02, 9.2) → segue a pendência do pedido médico (P23)",
+  "_perguntas_abertas": [
+    {
+      "turno": 3,
+      "espera": "o pedido foi emitido há mais de 90 dias do exame e já não vale (NT-02, 9.2): é preciso um pedido válido"
+    },
+    {
+      "turno": 4,
+      "espera": "mantém: o pedido médico vale 90 dias da emissão, salvo prazo diverso escrito nele"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

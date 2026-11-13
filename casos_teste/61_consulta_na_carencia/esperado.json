@@ -1,0 +1,14 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "NEGADO",
+  "valor_solicitado_brl": 280.0,
+  "valor_reembolso_brl": 0.0,
+  "_conta": "adesão 08/05/2026, consulta 15/05/2026: 7 dias < 15 (art. 22) → indeferido (art. 21, § 2º)",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "consultas feitas a partir de 23/05/2026 (15 dias da adesão) cumprem a carência"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

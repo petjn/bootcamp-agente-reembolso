@@ -1,0 +1,32 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 420.0,
+  "valor_reembolso_brl": 304.0,
+  "pendencias_no_turno_1": [
+    "P16"
+  ],
+  "regras_aplicadas": [
+    "ART-59",
+    "ANEXO-IV",
+    "ART-35",
+    "ART-33",
+    "ART-43",
+    "ART-44",
+    "CIRC-02-2026",
+    "ART-47",
+    "TUSS-10101055"
+  ],
+  "_conta": "turno 1: consulta e taxa administrativa (Anexo IV, 5.1) num valor só: pendência de discriminação antes de indeferir (art. 59, § 2º; NT-02, Caso 16; P16). Turno 3: discriminado, a taxa sai da base (art. 57; Anexo IV, 11.3); R$ 380,00 < R$ 475,50; Pleno, 55 meses → acima de 36, 20%; 380 × 0,80 = R$ 304,00",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "a taxa administrativa não é reembolsável e não entra no cálculo; sem o valor de cada item, não dá para tirá-la (art. 59; Anexo IV, 5.1)"
+    },
+    {
+      "turno": 4,
+      "espera": "R$ 304,00: só a consulta, abaixo do teto, com 20% de coparticipação"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

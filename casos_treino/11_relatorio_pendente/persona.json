@@ -1,0 +1,48 @@
+{
+  "carteirinha": "7042 1129 6674 8830",
+  "nome": "Túlio Mendes Barcellos",
+  "cpf": "738.014.592-71",
+  "plano": "Pleno",
+  "data_adesao": "2024-06-01",
+  "sessoes_terapia_ano": 6,
+  "reembolsado_no_ano_brl": 610.0,
+  "status": "ATIVO",
+  "historico": [
+    {
+      "protocolo": "20260000400",
+      "data_atendimento": "2026-02-09",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 122.0
+    },
+    {
+      "protocolo": "20260000401",
+      "data_atendimento": "2026-02-27",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 122.0
+    },
+    {
+      "protocolo": "20260000402",
+      "data_atendimento": "2026-03-17",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 122.0
+    },
+    {
+      "protocolo": "20260000403",
+      "data_atendimento": "2026-04-04",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 122.0
+    },
+    {
+      "protocolo": "20260000404",
+      "data_atendimento": "2026-04-22",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 122.0
+    }
+  ],
+  "observacao": "Dados fictícios. É o que o MCP de elegibilidade devolveria."
+}

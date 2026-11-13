@@ -1,0 +1,40 @@
+rodada,data,decisao_certa,artigos_completos,turnos_atendidos,turnos_total,vazamentos,casos_errados,mudancas
+base,2026-10-09,4,4,,132,0,01 02 04 05 06 07 08 09 10 11 15 16 17,
+9,2026-10-11,13,13,98,132,0,03 07 08 12,analise de baixo para cima niveis 0 a 3
+10,2026-10-11,15,15,109,132,0,02 03,D34
+11,2026-10-11,16,16,117,132,0,15,D35
+12,2026-10-13,17,17,118,132,0,,D36
+13,2026-10-13,17,17,121,132,0,,D37
+14,2026-10-13,16,16,116,132,0,09,D38
+15,2026-10-13,17,17,119,132,0,,triagem em codigo; exemplo na reescrita
+16-qwen,2026-10-13,15,15,100,132,0,09 15,teste do Qwen3.5-9B (D41)
+17-12b,2026-10-13,15,15,115,132,0,01 12,teste do gemma4:12b inteiro na GPU (D42)
+17-12b-refeitos,2026-10-14,17,17,123,132,0,,rodada 17 com 01 e 12 refeitos apos a correcao do item sem valor (D42)
+18,2026-10-14,17,17,114,132,0,,e4b com a correcao do item sem valor (D42), comparacao com o 12b
+19,2026-10-14,17,17,121,132,0,,e4b com ajustes da D44 e revisor da resposta
+20-12b,2026-10-14,17,17,123,132,0,,12b com ajustes da D44 sem revisor
+21,2026-10-14,17,17,121,132,0,,padrao D45 com busca D46 (caput nos paragrafos e artigos da decisao)
+22,2026-10-14,17,17,124,132,0,,supervisor registra toda pergunta; quadro de mudancas na norma; no revisar
+23,2026-10-15,17,17,124,132,0,,ajustes D47 (resposta, revisor, pendencia de fronteira, quadro com a data do cliente)
+24,2026-10-15,17,17,125,132,0,,janela 24 mil; sem teto de tokens; traces (D49)
+24-rejulgada,2026-10-15,17,17,129,132,0,,mesmas respostas da 24 com criterios revistos com o usuario (perguntar para ter certeza; pedir documento; citar TUSS)
+25,2026-10-15,17,17,123,132,0,14,D50 (resposta; memoria com o teto que valeu; marca do quadro)
+26,2026-10-15,16,16,113,132,0,06 07 13 15,D52 e D53 (prompts por principio sem frases das conversas de treino)
+27,2026-10-15,17,17,128,132,0,,D54 (regras da rodada 25 sem as frases das conversas de treino; principio no topo)
+27-rejulgada,2026-10-16,17,17,130,132,0,,mesmas respostas da 27; nao e erro deixar de dizer o que nao foi perguntado (08 T6/T7)
+28,2026-10-16,17,17,122,132,0,,D55 e D56 (revisor em campos; NT-02 junto da Tabela; ancoragem; regra condicionada)
+29,2026-10-16,17,17,121,132,0,,D57 a D60 (norma pelo motivo; condicao de saude nao se repete; linha da NT-02 da pendencia)
+30,2026-10-16,17,17,123,132,0,14,D63 (norma do reembolso nao aprovado pelas regras da decisao; art. 8 na busca; perguntar o que o cliente quer)
+31,2026-10-17,17,17,125,132,0,,D63 e D64 (regra de perguntar o que o cliente quer restrita a quem nao disse; saudacao sem opcoes)
+32,2026-10-17,17,17,128,132,0,,D65 e D66 (revisor: pedido inviavel de outra pessoa; dele/dela na descricao do pedido)
+33,2026-10-17,17,17,127,132,0,,D71 e D72 (dois exemplos na regra do quadro; data do outro atendimento dita antes)
+34,2026-10-17,17,17,126,132,0,,D75 (art. 38 e item excluido discriminado no codigo da decisao)
+35,2026-10-17,34,,205,237,0,24 30 32 37 41,D79 e D80 (arvore no codigo; conjunto novo de 39 casos; nao comparavel)
+36,2026-10-18,38,,216,237,0,33,D82 (correcoes do leitor, ordem do Anexo IV, busca; mesmo conjunto da 35)
+37,2026-10-20,39,,227,237,0,,D84 e D85 (complementar ligado ao reembolso; C10 com trecho; memoria por item; itens nao pagos; mesmo conjunto da 35)
+teste1,2026-10-20,8,,28,32,0,,casos de teste 42-49 nunca vistos; codigo da rodada 37 sem ajuste (D86)
+38,2026-10-20,38,,228,241,0,35 36,D87 e D89 (historico no status_pedido; prazo antes da carteirinha; pedido decidido pelo documento; lembrete do art. 8); 39 casos + o 50
+teste2,2026-10-21,12,,47.7,58,0,45 51 56,15 casos de teste nunca vistos (lotes 1 e 2 sem o 47); codigo da D90 sem ajuste; 3 execucoes: turnos 49 47 47 (D91)
+teste3,2026-10-21,8,,23.3,27,0,,3o lote de casos de teste (59-66) nunca vistos; codigo da D92 sem ajuste; 3 execucoes: turnos 23 23 24 (D92)
+teste5,2026-10-21,8,,22.3,25,0,,casos de teste 72-79 nunca vistos; codigo da D93 sem ajuste; 3 execucoes: turnos 23 22 22 (D94)
+39,2026-10-21,63,,281,312,0,71,64 casos essenciais (treino novos e teste sem os 13 que repetiam ramo); codigo da D96; 1 execucao (D97)

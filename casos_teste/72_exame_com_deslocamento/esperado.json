@@ -1,0 +1,14 @@
+{
+  "categoria_documento": "EXAME_DIAGNOSTICO",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 70.0,
+  "valor_reembolso_brl": 28.53,
+  "_conta": "taxa de deslocamento discriminada sai da base (Anexo IV, 5.5; art. 57; art. 59). Hemograma: 0,4 URS = R$ 38,04 < R$ 40,00; Essencial, 40 meses → acima de 36, 25%; 38,04 × 0,75 = R$ 28,53",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "deslocamento não é reembolsável e não entra no cálculo (Anexo IV, 5.5; art. 57)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

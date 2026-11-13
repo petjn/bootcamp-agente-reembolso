@@ -1,0 +1,20 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "PENDENTE_DOCUMENTO",
+  "valor_solicitado_brl": 320.0,
+  "pendencias": [
+    "P18"
+  ],
+  "_conta": "sem assinatura nem carimbo do prestador (NT-02, C7) → P18; pendência, sem valor (art. 18)",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "a assinatura ou o carimbo do profissional no recibo"
+    },
+    {
+      "turno": 3,
+      "espera": "sim: foto legível do documento inteiro é aceita (art. 14; NT-02, 1.2)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

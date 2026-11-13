@@ -1,0 +1,14 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 140.0,
+  "valor_reembolso_brl": 105.0,
+  "_conta": "R$ 140,00 < teto 1,5 URS = R$ 142,65; Essencial, 39 meses → acima de 36, 25%; 140 × 0,75 = R$ 105,00; 1ª sessão do ano, sem relatório",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "pode, desde que o recibo traga cada sessão com a data e o valor de cada uma (NT-02, C6); sem isso, fica pendente"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

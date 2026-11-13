@@ -1,0 +1,18 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 130.0,
+  "valor_reembolso_brl": 91.0,
+  "_conta": "4ª sessão do ano pelo histórico (3 antes) → sem relatório (exigido a partir da 5ª, art. 73, § 3º, CIRC-02-2026); teto 1,5 URS = R$ 142,65 > R$ 130,00; Pleno, 27 meses → 12 a 36, 30%; 130 × 0,70 = R$ 91,00",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "sim: 40 sessões por ano civil, somadas todas as modalidades de terapia (art. 40)"
+    },
+    {
+      "turno": 3,
+      "espera": "a partir da 5ª sessão do ano (ou se o valor passar do teto em mais de 75%); esta foi a 4ª, então a próxima já pede o relatório"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

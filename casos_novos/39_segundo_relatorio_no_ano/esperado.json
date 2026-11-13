@@ -1,0 +1,17 @@
+{
+  "categoria_documento": "RELATORIO_CLINICO",
+  "decisao": "NEGADO",
+  "valor_solicitado_brl": 150.0,
+  "regras_aplicadas": [
+    "NT-02",
+    "TUSS-10104011"
+  ],
+  "_conta": "relatório clínico apresentado sozinho é reembolsável uma vez por ano civil (NT-02, Caso 36; Tabela, TUSS-10104011); o histórico já tem um em 10/02/2026",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "o limite é por beneficiário e ano civil, não por profissional"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

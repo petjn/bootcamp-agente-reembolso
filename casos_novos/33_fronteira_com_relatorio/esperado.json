@@ -1,0 +1,33 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 120.0,
+  "valor_reembolso_brl": 71.33,
+  "pendencias_no_turno_2": [
+    "P25"
+  ],
+  "regras_aplicadas": [
+    "TUSS-50000705",
+    "ART-33",
+    "ART-43",
+    "ART-44",
+    "CIRC-02-2026",
+    "ART-47"
+  ],
+  "_conta": "turno 2: drenagem é procedimento de fronteira (Anexo IV, 3.4), sem indicação no recibo → pendência P25. Turno 3: relatório do profissional assistente, de 02/05/2026 (antes da sessão de 12/05), com a indicação pós-operatória → reembolsável como sessão de terapia (art. 55, parágrafo único; NT-02, Caso 14). Teto 1 URS = R$ 95,10 < R$ 120,00; Essencial, 75 meses → acima de 36, 25%; 95,10 × 0,75 = 71,325 → R$ 71,33",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "pede a indicação clínica do profissional assistente (relatório ou no recibo), contemporânea ao atendimento; pendência, não negativa"
+    },
+    {
+      "turno": 3,
+      "espera": "sim: o relatório anterior à sessão traz a indicação e libera o procedimento; sem repetir o motivo clínico do relatório (art. 7º)"
+    },
+    {
+      "turno": 4,
+      "espera": "R$ 71,33: o teto (R$ 95,10) limitou, com 25% de coparticipação"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

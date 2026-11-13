@@ -1,0 +1,18 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 150.0,
+  "valor_reembolso_brl": 82.5,
+  "_conta": "telessaúde equipara-se ao presencial (art. 70); 1ª sessão do ano, sem relatório; teto 2,8 URS = R$ 266,28 > R$ 150,00 (CIRC-02-2026); Essencial, 12 meses completos em 12/05/2026 → faixa até 12 meses, 45% (art. 44, § 1º; CIRC-02-2026); 150 × 0,55 = R$ 82,50. Carência de 150 dias cumprida",
+  "_perguntas_abertas": [
+    {
+      "turno": 1,
+      "espera": "sim: o atendimento por telessaúde equipara-se ao presencial (art. 70); aprovado, R$ 82,50"
+    },
+    {
+      "turno": 2,
+      "espera": "com 12 meses completos ainda vale a faixa de até 12 meses (45%); a faixa seguinte vale para os atendimentos depois de passar dos 12 meses (art. 44, §§ 1º e 3º)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

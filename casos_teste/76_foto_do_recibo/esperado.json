@@ -1,0 +1,18 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 350.0,
+  "valor_reembolso_brl": 227.5,
+  "_conta": "foto legível é aceita (art. 14; NT-02, 1.2). 5 URS = R$ 475,50 > R$ 350,00; Essencial, 15 meses → 12 a 36, 35%; 350 × 0,65 = R$ 227,50",
+  "_perguntas_abertas": [
+    {
+      "turno": 1,
+      "espera": "sim, a foto legível serve (art. 14); aprovado"
+    },
+    {
+      "turno": 2,
+      "espera": "R$ 227,50: o teto não limitou; coparticipação de 35%"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

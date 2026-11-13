@@ -1,0 +1,53 @@
+{
+    "categoria_documento":  "SESSAO_TERAPIA",
+    "decisao":  "PENDENTE_DOCUMENTO",
+    "valor_solicitado_brl":  150.0,
+    "valor_reembolso_brl":  null,
+    "regras_aplicadas":  [
+                             "ANEXO-IV",
+                             "ART-55",
+                             "ART-60",
+                             "TUSS-50000646"
+                         ],
+    "protocolo":  "ABERTO",
+    "pendencias":  [
+                       "indicação clínica"
+                   ],
+    "_titulo":  "Acupuntura por conta própria — procedimento de fronteira sem indicação clínica",
+    "_dica":  "Acupuntura é procedimento de fronteira (grupo 3 do Anexo IV): só é coberta com indicação clínica expressa. Faltando a indicação, a NT-02 (caso 32 e código P25) manda registrar pendência pedindo o relatório com a condição tratada, com protocolo aberto; só se ele não vier aplica-se a presunção de finalidade estética do art. 55.",
+    "_data_da_conversa":  "2026-05-20",
+    "_perguntas_abertas":  [
+                               {
+                                   "turno":  5,
+                                   "espera":  "não: o benefício percebido pelo beneficiário não substitui a indicação clínica, que é pressuposto da cobertura deste grupo"
+                               },
+                               {
+                                   "turno":  6,
+                                   "espera":  "sim: havendo indicação clínica expressa do profissional assistente, o procedimento de fronteira passa a ser reembolsável"
+                               },
+                               {
+                                   "turno":  7,
+                                   "espera":  "a demonstração se faz por relatório contemporâneo ao atendimento — indicação obtida depois não alcança sessão já realizada sem ela"
+                               }
+                           ],
+    "_carteirinhas_de_terceiro":  [
+
+                                  ],
+    "_gabarito_original":  {
+                               "categoria_documento":  "DESPESA_NAO_COBERTA",
+                               "decisao":  "NEGADO",
+                               "valor_reembolso_brl":  0.0,
+                               "regras_aplicadas":  [
+                                                        "ART-51",
+                                                        "ART-60",
+                                                        "ANEXO-IV",
+                                                        "TUSS-50000646"
+                                                    ],
+                               "protocolo":  null,
+                               "pendencias":  [
+
+                                              ],
+                               "_dica":  "Acupuntura não é excluída de plano nem coberta de plano: é procedimento de fronteira, coberto só com indicação clínica expressa. Sem ela, o desfecho é indeferimento sem apuração de valor — não é pendência documental sanável."
+                           },
+    "_ajuste":  "Ajustado em 2026-10-09 a pedido do usuário: o original indeferia direto; a NT-02 (caso 32 e P25) manda abrir pendência antes."
+}

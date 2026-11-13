@@ -1,0 +1,16 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "PENDENTE_DOCUMENTO",
+  "valor_solicitado_brl": 130.0,
+  "pendencias": [
+    "P10"
+  ],
+  "_conta": "emitido em 10/05/2026 para um atendimento de 14/05/2026: pendência para o prestador esclarecer a data (NT-02, Caso 31; P10); sem valor (art. 18)",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "a data de emissão é anterior à do atendimento: a fonoaudióloga precisa esclarecer ou corrigir a data"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

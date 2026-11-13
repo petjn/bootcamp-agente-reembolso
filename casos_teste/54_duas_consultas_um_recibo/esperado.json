@@ -1,0 +1,18 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 800.0,
+  "valor_reembolso_brl": 300.0,
+  "_conta": "duas consultas com o mesmo psiquiatra com 7 dias de intervalo, sem justificativa clínica: só a primeira é reembolsável (art. 36; NT-02, Caso 34; D93); 5 URS = R$ 475,50 > R$ 400,00; Essencial, 56 meses → acima de 36, 25%; 400 × 0,75 = R$ 300,00",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "não: a segunda consulta com o mesmo profissional em menos de 15 dias depende de justificativa clínica (art. 36); paga-se a primeira, R$ 300,00"
+    },
+    {
+      "turno": 3,
+      "espera": "não: consulta com psiquiatra é consulta médica e não conta como sessão de terapia (art. 35, parágrafo único; art. 40, § 3º)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

@@ -1,0 +1,15 @@
+{
+  "decisao": null,
+  "_conta": "limite anual de 48 URS × R$ 95,10 = R$ 4.564,80 (art. 45); já reembolsados no ano R$ 450,00 pelo histórico; saldo R$ 4.114,80",
+  "_perguntas_abertas": [
+    {
+      "turno": 1,
+      "espera": "R$ 4.114,80 (48 URS, R$ 4.564,80, menos os R$ 450,00 já reembolsados em 2026), ou, sem fazer a conta, o limite e o que já foi reembolsado; não inventa valor"
+    },
+    {
+      "turno": 2,
+      "espera": "qualquer procedimento: o limite soma todos os procedimentos e categorias no ano civil (art. 45)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

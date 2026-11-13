@@ -1,0 +1,35 @@
+{
+  "categoria_documento": "EXAME_DIAGNOSTICO",
+  "decisao": "NEGADO",
+  "valor_solicitado_brl": 180.0,
+  "valor_reembolso_brl": 0.0,
+  "regras_aplicadas": [
+    "ART-45",
+    "ART-33",
+    "ART-43",
+    "ART-44",
+    "CIRC-02-2026",
+    "ART-47",
+    "TUSS-40301082"
+  ],
+  "protocolo": null,
+  "pendencias": [],
+  "_titulo": "Exame no fim do ano — o teto anual acabou, e não é deferimento parcial",
+  "_dica": "Saldo MENOR que o apurado é deferimento parcial; saldo ESGOTADO é indeferimento, e são parágrafos diferentes do mesmo artigo. O limite soma todas as categorias: quem contou só os exames do histórico achou saldo de sobra. O documento não tem defeito e a carência está cumprida — não há pendência a registrar.",
+  "_data_da_conversa": "2026-05-22",
+  "_perguntas_abertas": [
+    {
+      "turno": 4,
+      "espera": "o exame é coberto, e o que impede não é a cobertura: é o limite anual de reembolso por beneficiário, já integralmente consumido pelos pedidos pagos no ano"
+    },
+    {
+      "turno": 5,
+      "espera": "o limite é por beneficiário e por ano civil, somados todos os procedimentos e todas as categorias — consultas, exames e terapias consomem o mesmo saldo"
+    },
+    {
+      "turno": 6,
+      "espera": "enquanto não virar o ano civil o saldo segue esgotado, e o limite não se transfere de um ano para outro"
+    }
+  ],
+  "_carteirinhas_de_terceiro": []
+}

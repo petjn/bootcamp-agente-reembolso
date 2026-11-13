@@ -1,0 +1,21 @@
+{
+  "categoria_documento": "EXAME_DIAGNOSTICO",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 600.0,
+  "valor_reembolso_brl": 390.0,
+  "pendencias_no_turno_1": [
+    "P23"
+  ],
+  "_conta": "turno 1: alta complexidade (TUSS-40901114, art. 38) sem pedido médico → pendência. Turno 2: pedido de 20/04/2026, 15 dias antes do exame (válido por 90, NT-02, 9.2), com nome e CRM. Teto 8 URS = R$ 760,80 > R$ 600,00; Essencial, 15 meses → 12 a 36, 35%; 600 × 0,65 = R$ 390,00",
+  "_perguntas_abertas": [
+    {
+      "turno": 1,
+      "espera": "pendência: o exame é de alta complexidade e precisa do pedido médico (art. 38); sem valor"
+    },
+    {
+      "turno": 3,
+      "espera": "em até 15 dias corridos do deferimento (art. 15)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

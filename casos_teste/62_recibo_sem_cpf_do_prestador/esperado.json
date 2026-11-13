@@ -1,0 +1,16 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "PENDENTE_DOCUMENTO",
+  "valor_solicitado_brl": 120.0,
+  "pendencias": [
+    "P05"
+  ],
+  "_conta": "sem CPF ou CNPJ do prestador (NT-02, C2) → P05; pendência, sem valor (art. 18)",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "não: o registro no conselho (C3) e o CPF ou CNPJ do prestador (C2) são campos diferentes, e os dois são obrigatórios"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

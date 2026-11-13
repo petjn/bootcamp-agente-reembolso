@@ -1,0 +1,25 @@
+{
+  "categoria_documento": "EXAME_DIAGNOSTICO",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 900.0,
+  "valor_reembolso_brl": 630.0,
+  "pendencias_no_turno_2": [
+    "P23"
+  ],
+  "_conta": "turno 2: exame de alta complexidade (Tabela URS, TUSS-40901017) sem pedido médico → pendência P23, campo C9 (art. 38, § 2º; NT-02, Caso 23), sem valor (art. 18, parágrafo único). Turno 5, com o pedido (28/04/2026, válido por 90 dias, NT-02 9.2): teto 12 URS = R$ 1.141,20 > R$ 900,00; Pleno, 26 meses de adesão → 12 a 36 meses, 30% (CIRC-02-2026); 900 × 0,70 = R$ 630,00",
+  "_data_da_conversa": "2026-05-20",
+  "_perguntas_abertas": [
+    {
+      "turno": 3,
+      "espera": "sim: ressonância é exame de alta complexidade e exige o pedido médico (art. 38); sem ele o pedido fica pendente, não negado"
+    },
+    {
+      "turno": 4,
+      "espera": "60 dias corridos da comunicação da pendência, prorrogáveis uma vez (art. 19)"
+    },
+    {
+      "turno": 6,
+      "espera": "R$ 630,00: o teto não limitou (R$ 1.141,20) e a coparticipação foi de 30%; sem repetir a indicação clínica do pedido (art. 7º)"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "carteirinha": "7042 6127 4490 3385",
+  "nome": "Wanderley Souto Aragão",
+  "cpf": "417.226.958-04",
+  "plano": "Pleno",
+  "data_adesao": "2017-06-01",
+  "sessoes_terapia_ano": 0,
+  "reembolsado_no_ano_brl": 4564.8,
+  "status": "ATIVO",
+  "historico": [
+    {
+      "protocolo": "20260000601",
+      "data_atendimento": "2026-01-08",
+      "categoria": "CONSULTA_MEDICA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 380.4
+    },
+    {
+      "protocolo": "20260000602",
+      "data_atendimento": "2026-01-22",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 197.81
+    },
+    {
+      "protocolo": "20260000603",
+      "data_atendimento": "2026-02-05",
+      "categoria": "EXAME_DIAGNOSTICO",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 106.51
+    },
+    {
+      "protocolo": "20260000604",
+      "data_atendimento": "2026-02-19",
+      "categoria": "CONSULTA_MEDICA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 380.4
+    },
+    {
+      "protocolo": "20260000605",
+      "data_atendimento": "2026-03-05",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 1200.0
+    },
+    {
+      "protocolo": "20260000606",
+      "data_atendimento": "2026-03-19",
+      "categoria": "EXAME_DIAGNOSTICO",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 899.28
+    },
+    {
+      "protocolo": "20260000607",
+      "data_atendimento": "2026-04-02",
+      "categoria": "CONSULTA_MEDICA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 400.0
+    },
+    {
+      "protocolo": "20260000608",
+      "data_atendimento": "2026-04-23",
+      "categoria": "CONSULTA_MEDICA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 1000.4
+    }
+  ],
+  "observacao": "Dados fictícios. É o que o MCP de elegibilidade devolveria."
+}

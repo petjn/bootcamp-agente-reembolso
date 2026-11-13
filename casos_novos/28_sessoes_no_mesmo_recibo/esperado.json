@@ -1,0 +1,29 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 480.0,
+  "valor_reembolso_brl": 156.92,
+  "_decisao_aceita_tambem": "APROVADO_PARCIAL (uma sessão saiu pela carência)",
+  "regras_aplicadas": [
+    "ART-21",
+    "ART-24",
+    "TUSS-50000558",
+    "ART-33",
+    "ART-43",
+    "ART-44",
+    "CIRC-02-2026",
+    "ART-47"
+  ],
+  "_conta": "cada sessão pela própria data (art. 24, parágrafo único): adesão 10/12/2025; 04/05 = 145 dias < 150 → sai; 11/05 = 152 e 18/05 = 159 dias → seguem. Cada uma: teto 1,5 URS = R$ 142,65 < R$ 160,00 (art. 41, § 4º: por sessão); Essencial, 5 meses → até 12, 45% (CIRC-02-2026); 142,65 × 0,55 = 78,4575 por sessão; duas: R$ 156,92. Prazo da última sessão (art. 13, § 2º)",
+  "_perguntas_abertas": [
+    {
+      "turno": 3,
+      "espera": "foi feita antes de cumpridos 150 dias da adesão (art. 24, parágrafo único); as outras já estavam fora da carência"
+    },
+    {
+      "turno": 4,
+      "espera": "sessão a sessão: o teto de R$ 142,65 limitou cada uma, e sobre ele incidiu 45% de coparticipação"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

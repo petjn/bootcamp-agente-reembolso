@@ -1,0 +1,5 @@
+{"turno": 1, "mensagem": "oi, carteirinha 7042 4150 8829 6673, queria reembolso da terapia de maio"}
+{"turno": 2, "mensagem": "recibo da sessão", "anexo": {"filename": "recibo_psicoterapia_igor.pdf", "mime_type": "application/pdf", "path": "../../anexos/novos/recibo_psicoterapia_igor.pdf"}}
+{"turno": 3, "mensagem": "pedi o relatório pra psicóloga, olha aqui", "anexo": {"filename": "relatorio_psicoterapia_igor.pdf", "mime_type": "application/pdf", "path": "../../anexos/novos/relatorio_psicoterapia_igor.pdf"}}
+{"turno": 4, "mensagem": "o que está faltando nesse relatório?"}
+{"turno": 5, "mensagem": "ok, vou pedir pra ela completar"}

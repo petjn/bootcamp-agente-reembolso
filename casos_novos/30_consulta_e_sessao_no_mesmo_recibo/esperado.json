@@ -1,0 +1,27 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 500.0,
+  "valor_reembolso_brl": 210.0,
+  "_decisao_aceita_tambem": "APROVADO_PARCIAL (a sessão saiu pela carência)",
+  "_categoria_aceita": "SESSAO_TERAPIA (o documento tem as duas; cada item segue a sua)",
+  "regras_aplicadas": [
+    "ART-21",
+    "ART-24",
+    "TUSS-10101143",
+    "ART-35",
+    "ART-33",
+    "ART-43",
+    "ART-44",
+    "CIRC-02-2026",
+    "ART-47"
+  ],
+  "_conta": "duas apurações independentes (art. 74, § 2º; NT-02, 4.4 e Caso 33; Tabela, 5.5). Adesão 20/12/2025, atendimento 08/05/2026 = 139 dias: consulta (carência de 15, art. 22) segue; sessão de terapia (150, art. 24) sai. Consulta: R$ 350,00 < R$ 475,50; Pleno, 4 meses → até 12, 40%; 350 × 0,60 = R$ 210,00",
+  "_perguntas_abertas": [
+    {
+      "turno": 3,
+      "espera": "a sessão de terapia tem carência de 150 dias (art. 24), e o atendimento foi 139 dias depois da adesão; a consulta, com carência de 15 dias, foi reembolsada"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

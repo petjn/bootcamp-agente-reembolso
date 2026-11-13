@@ -1,0 +1,17 @@
+{
+  "categoria_documento": null,
+  "decisao": "NEGADO",
+  "valor_solicitado_brl": 180.0,
+  "valor_reembolso_brl": 0.0,
+  "regras_aplicadas": [
+    "ART-56"
+  ],
+  "_conta": "quiropraxia não consta da Tabela URS (nem é item do Anexo IV): procedimento não previsto na Tabela não é reembolsável, e a falta de previsão não se sana por pendência (art. 56)",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "o motivo não é estética: o procedimento não consta da Tabela URS (art. 56), seja qual for a finalidade"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

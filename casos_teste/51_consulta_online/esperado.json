@@ -1,0 +1,18 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 250.0,
+  "valor_reembolso_brl": 200.0,
+  "_conta": "telessaúde equipara-se ao presencial, inclusive no teto (art. 35, § 2º; art. 70; NT-02, Caso 22): teto do art. 35, 5 URS = R$ 475,50 > R$ 250,00 (a linha da Tabela, 3,4 URS 'proporcional', contraria a norma; D93); Pleno, 38 meses → acima de 36, 20% (CIRC-02-2026); 250 × 0,80 = R$ 200,00",
+  "_perguntas_abertas": [
+    {
+      "turno": 1,
+      "espera": "sim: o atendimento por telessaúde equipara-se ao presencial (art. 70); pode pedir a carteirinha e o recibo"
+    },
+    {
+      "turno": 3,
+      "espera": "sim: a consulta por telessaúde tem o mesmo teto da consulta em consultório (art. 35, § 2º; art. 70; NT-02, Caso 22)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

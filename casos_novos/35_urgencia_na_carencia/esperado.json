@@ -1,0 +1,23 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 380.0,
+  "valor_reembolso_brl": 228.0,
+  "regras_aplicadas": [
+    "ART-26",
+    "TUSS-10101020",
+    "ART-33",
+    "ART-43",
+    "ART-44",
+    "CIRC-02-2026",
+    "ART-47"
+  ],
+  "_conta": "adesão 01/05/2026, atendimento 09/05/2026: 8 dias < 15 (art. 22), mas a urgência declarada pelo médico no documento, com nome, registro e data, dispensa a carência (art. 26, § 1º; art. 22, § 2º). R$ 380,00 < teto da Tabela (5 URS; o art. 35 é o da consulta em consultório) R$ 475,50; Pleno, 0 meses → até 12, 40%; 380 × 0,60 = R$ 228,00",
+  "_perguntas_abertas": [
+    {
+      "turno": 3,
+      "espera": "estaria, mas atendimento de urgência declarado pelo profissional não tem carência (art. 26)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

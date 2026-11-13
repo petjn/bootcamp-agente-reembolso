@@ -1,0 +1,69 @@
+{
+  "carteirinha": "7042 3086 5541 9927",
+  "nome": "Hélio Nakamura Bezerra",
+  "cpf": "284.590.176-05",
+  "plano": "Pleno",
+  "data_adesao": "2019-04-01",
+  "sessoes_terapia_ano": 0,
+  "reembolsado_no_ano_brl": 4520.0,
+  "status": "ATIVO",
+  "historico": [
+    {
+      "protocolo": "20260000501",
+      "data_atendimento": "2026-01-15",
+      "categoria": "CONSULTA_MEDICA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 380.0
+    },
+    {
+      "protocolo": "20260000502",
+      "data_atendimento": "2026-01-29",
+      "categoria": "EXAME_DIAGNOSTICO",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 76.08
+    },
+    {
+      "protocolo": "20260000503",
+      "data_atendimento": "2026-02-11",
+      "categoria": "CONSULTA_MEDICA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 380.4
+    },
+    {
+      "protocolo": "20260000504",
+      "data_atendimento": "2026-02-26",
+      "categoria": "EXAME_DIAGNOSTICO",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 104.61
+    },
+    {
+      "protocolo": "20260000505",
+      "data_atendimento": "2026-03-12",
+      "categoria": "CONSULTA_MEDICA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 380.4
+    },
+    {
+      "protocolo": "20260000506",
+      "data_atendimento": "2026-03-25",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 1000.0
+    },
+    {
+      "protocolo": "20260000507",
+      "data_atendimento": "2026-04-09",
+      "categoria": "CONSULTA_MEDICA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 1099.11
+    },
+    {
+      "protocolo": "20260000508",
+      "data_atendimento": "2026-04-28",
+      "categoria": "EXAME_DIAGNOSTICO",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 1099.4
+    }
+  ],
+  "observacao": "Dados fictícios. É o que o MCP de elegibilidade devolveria."
+}

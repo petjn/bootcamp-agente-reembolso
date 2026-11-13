@@ -1,0 +1,21 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "NEGADO",
+  "valor_solicitado_brl": 300.0,
+  "regras_aplicadas": [
+    "ART-30",
+    "TUSS-10101063"
+  ],
+  "_conta": "contrato suspenso: sem direito a reembolso do atendimento, ainda que regularizado depois (art. 30; NT-02, Caso 29). O MCP dá a situação de hoje (D78, ponto 14)",
+  "_perguntas_abertas": [
+    {
+      "turno": 3,
+      "espera": "a regularização não alcança o atendimento feito com o contrato suspenso (art. 30, § 2º)"
+    },
+    {
+      "turno": 4,
+      "espera": "a regularização restabelece a cobertura para os atendimentos futuros (art. 30, § 2º)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

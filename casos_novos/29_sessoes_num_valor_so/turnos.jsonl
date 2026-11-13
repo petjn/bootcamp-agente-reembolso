@@ -1,0 +1,4 @@
+{"turno": 1, "mensagem": "olá, quero reembolso da terapia ocupacional de abril. minha carteirinha é 7042 8126 4490 3375", "anexo": {"filename": "recibo_to_abril.pdf", "mime_type": "application/pdf", "path": "../../anexos/novos/recibo_to_abril.pdf"}}
+{"turno": 2, "mensagem": "como assim? o recibo está certinho, tem o valor"}
+{"turno": 3, "mensagem": "e esse relatório é o quê?"}
+{"turno": 4, "mensagem": "ok, vou pedir para a terapeuta"}

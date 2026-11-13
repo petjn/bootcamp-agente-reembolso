@@ -1,0 +1,54 @@
+{
+  "carteirinha": "7042 4150 8829 6673",
+  "nome": "Igor Pacheco Leal",
+  "cpf": "591.326.470-85",
+  "plano": "Pleno",
+  "data_adesao": "2023-03-01",
+  "sessoes_terapia_ano": 6,
+  "status": "ATIVO",
+  "observacao": "Dados fictícios. Caso novo, um ramo da árvore de decisão (D80).",
+  "historico": [
+    {
+      "protocolo": "20260000501",
+      "data_atendimento": "2026-01-13",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 96.0
+    },
+    {
+      "protocolo": "20260000502",
+      "data_atendimento": "2026-01-27",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 96.0
+    },
+    {
+      "protocolo": "20260000503",
+      "data_atendimento": "2026-02-10",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 96.0
+    },
+    {
+      "protocolo": "20260000504",
+      "data_atendimento": "2026-02-24",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 96.0
+    },
+    {
+      "protocolo": "20260000505",
+      "data_atendimento": "2026-03-10",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 96.0
+    },
+    {
+      "protocolo": "20260000506",
+      "data_atendimento": "2026-03-24",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 96.0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "categoria_documento": "EXAME_DIAGNOSTICO",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 120.0,
+  "valor_reembolso_brl": 59.52,
+  "_conta": "cada exame com o próprio teto (art. 37, § 1º): hemograma 0,4 URS = R$ 38,04 < 45,00; glicemia 0,3 URS = R$ 28,53 > 25,00 (vale o pago); TSH 0,3 URS = R$ 28,53 < 50,00. Essencial, 21 meses → 12 a 36, 35% (CIRC-02-2026): 24,73 + 16,25 + 18,54 = R$ 59,52. Carência de exame (60 dias) cumprida",
+  "_perguntas_abertas": [
+    {
+      "turno": 1,
+      "espera": "explica o que é preciso (carteirinha e nota) ou pede os dados; pedido de reembolso"
+    },
+    {
+      "turno": 4,
+      "espera": "o teto de cada exame limitou o hemograma e o TSH; na glicemia valeu o pago; depois, 35% de coparticipação"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

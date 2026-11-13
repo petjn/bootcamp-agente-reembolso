@@ -1,0 +1,20 @@
+{
+  "decisao": "PENDENTE_DOCUMENTO",
+  "valor_solicitado_brl": 300.0,
+  "pendencias": [
+    "P12"
+  ],
+  "_categoria_aceita": "CONSULTA_MEDICA (médico) ou outra: a descrição não diz o que foi feito",
+  "_conta": "'serviços prestados' não descreve o procedimento (NT-02, C5) e não há código: sem descrição suficiente, pendência (art. 34; P12), protocolo aberto, sem valor (art. 18)",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "a descrição do procedimento realizado ou o código TUSS (NT-02, C5; P12)"
+    },
+    {
+      "turno": 3,
+      "espera": "60 dias corridos da comunicação da pendência, prorrogáveis uma vez (art. 19)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

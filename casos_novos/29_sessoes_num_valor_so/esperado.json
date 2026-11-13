@@ -1,0 +1,21 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "PENDENTE_DOCUMENTO",
+  "valor_solicitado_brl": 1200.0,
+  "pendencias": [
+    "P16",
+    "P20"
+  ],
+  "_conta": "8 sessões num valor só: pendência de discriminação do valor de cada sessão (NT-02, C6, 4.4, Caso 03; P16), sem dividir por estimativa; as 8 sessões do ano chegam à 5ª, a partir da qual o relatório é exigido (art. 73, § 3º, CIRC-02-2026; P20); todas as pendências de uma vez (art. 18, § 1º)",
+  "_perguntas_abertas": [
+    {
+      "turno": 2,
+      "espera": "com várias sessões, o recibo tem de trazer o valor de cada uma (NT-02, C6); não se divide o total por estimativa (Caso 03)"
+    },
+    {
+      "turno": 3,
+      "espera": "relatório clínico do profissional, exigido a partir da 5ª sessão do ano (art. 73, § 3º)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

@@ -1,0 +1,35 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 350.0,
+  "valor_reembolso_brl": 262.5,
+  "regras_aplicadas": [
+    "ART-35",
+    "ART-33",
+    "ART-43",
+    "ART-44",
+    "CIRC-02-2026",
+    "ART-47",
+    "TUSS-10101047"
+  ],
+  "protocolo": null,
+  "pendencias": [],
+  "_titulo": "Consulta aprovada — e o beneficiário citando uma circular já revogada",
+  "_dica": "Ele ouviu falar em 150 dias, e isso já foi verdade: uma circular ampliou o prazo e outra a revogou, restabelecendo a redação original. Vale o prazo da redação em vigor, e a circular revogadora é a mais recente por VIGÊNCIA — a numeração não diz isso. O pedido em si está dentro do prazo.",
+  "_data_da_conversa": "2026-05-21",
+  "_perguntas_abertas": [
+    {
+      "turno": 4,
+      "espera": "o prazo em vigor para protocolar o pedido, contado na forma do regulamento — e não os 150 dias que o beneficiário lembra"
+    },
+    {
+      "turno": 5,
+      "espera": "o prazo chegou a ser ampliado por circular, mas ela foi revogada e a redação original restabelecida; entre circulares prevalece a de vigência mais recente, não a de número maior"
+    },
+    {
+      "turno": 6,
+      "espera": "conta-se em dias corridos a partir da data do atendimento constante do documento fiscal, e não da data do pedido; havendo divergência com a data de emissão, prevalece a do atendimento"
+    }
+  ],
+  "_carteirinhas_de_terceiro": []
+}

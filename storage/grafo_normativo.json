@@ -1,0 +1,114 @@
+{
+  "circulares": [
+    {
+      "sigla": "CIRC-04-2025",
+      "arquivo": "circular_04_2025.pdf",
+      "publicacao": "2025-06-12",
+      "inicio_vigencia": "2025-07-01",
+      "ementa": "Dá nova redação ao art. 12 do Regulamento Geral de Reembolso, que dispõe sobre o prazo para protocolar o pedido de reembolso.",
+      "relacoes": [
+        {
+          "tipo": "altera",
+          "alvo": "ART-12",
+          "parte": "caput",
+          "texto": "Art. 12. O pedido de reembolso deverá ser protocolado no prazo de 150 (cento e cinquenta) dias, contados na forma do art. 13."
+        }
+      ]
+    },
+    {
+      "sigla": "CIRC-09-2025",
+      "arquivo": "circular_09_2025.pdf",
+      "publicacao": "2025-10-20",
+      "inicio_vigencia": "2025-11-01",
+      "ementa": "Revoga a Circular Normativa 04/2025 e restabelece a redação original do art. 12 do Regulamento Geral de Reembolso.",
+      "relacoes": [
+        {
+          "tipo": "revoga",
+          "alvo": "CIRC-04-2025"
+        }
+      ]
+    },
+    {
+      "sigla": "CIRC-11-2026",
+      "arquivo": "circular_11_2026.pdf",
+      "publicacao": "2026-01-15",
+      "inicio_vigencia": "2026-02-01",
+      "ementa": "Dá nova redação ao art. 41 do Regulamento Geral de Reembolso, que dispõe sobre o teto da sessão de psicoterapia individual e sobre a exigência de relatório clínico.",
+      "relacoes": [
+        {
+          "tipo": "altera",
+          "alvo": "ART-41",
+          "parte": "caput",
+          "texto": "Art. 41. A sessão de psicoterapia individual tem teto de 1,6 URS por sessão, observados o limite anual do art. 40, a carência do art. 24 e as exigências documentais do Título VII."
+        },
+        {
+          "tipo": "altera",
+          "alvo": "ART-41",
+          "parte": "§ 1º",
+          "texto": "§ 1º Tratando-se de acompanhamento continuado, o teto do caput é substituído pelo do § 2º."
+        },
+        {
+          "tipo": "altera",
+          "alvo": "ART-41",
+          "parte": "§ 2º",
+          "texto": "§ 2º Considera-se acompanhamento continuado o tratamento que, na data da sessão, já conte com pelo menos 8 (oito) sessões realizadas no ano civil, somadas todas as modalidades de terapia; nessa hipótese o teto é de 1,4 URS por sessão."
+        },
+        {
+          "tipo": "revoga_parte",
+          "alvo": "ART-41",
+          "parte": "parágrafo único"
+        },
+        {
+          "tipo": "sobrepoe_tuss",
+          "alvo": "TUSS-50000462"
+        },
+        {
+          "tipo": "altera",
+          "alvo": "ART-73",
+          "parte": "§ 3º",
+          "texto": "§ 3º Nas sessões de terapia de que trata o art. 41, o reembolso fica condicionado à apresentação de relatório clínico circunstanciado, firmado pelo profissional assistente, com indicação da hipótese de manutenção do tratamento, sempre que ocorrer a primeira das seguintes hipóteses: I — a sessão for a 10ª ou posterior no ano civil; II — o valor pago na sessão exceder em mais de 75% o teto aplicável ao procedimento."
+        },
+        {
+          "tipo": "eficacia_futura",
+          "alvo": "ART-41",
+          "parte": "caput",
+          "valor": "1,8 URS",
+          "inicio": "2027-01-01"
+        }
+      ]
+    },
+    {
+      "sigla": "CIRC-02-2026",
+      "arquivo": "circular_02_2026.pdf",
+      "publicacao": "2026-04-20",
+      "inicio_vigencia": "2026-04-20",
+      "ementa": "Revisão extraordinária dos tetos de psicoterapia, da exigência de relatório clínico e do percentual de coparticipação — dá nova redação aos arts. 41 e 44 do Regulamento Geral de Reembolso.",
+      "relacoes": [
+        {
+          "tipo": "altera",
+          "alvo": "ART-41",
+          "parte": "caput",
+          "texto": "Art. 41. A sessão de psicoterapia individual tem teto de 2,8 URS por sessão, observados o limite anual do art. 40, a carência do art. 24 e as exigências documentais do Título VII."
+        },
+        {
+          "tipo": "altera",
+          "alvo": "ART-41",
+          "parte": "§ 2º",
+          "texto": "§ 2º ... nessa hipótese o teto é de 2,6 URS por sessão."
+        },
+        {
+          "tipo": "altera",
+          "alvo": "ART-44",
+          "parte": "§ 2º",
+          "texto": "Plano Até 12 meses de adesão De 12 a 36 meses Acima de 36 meses Pleno 40% 30% 20% Essencial 45% 35% 25%"
+        },
+        {
+          "tipo": "altera",
+          "alvo": "ART-73",
+          "parte": "§ 3º",
+          "texto": "§ 3º Nas sessões de terapia de que trata o art. 41, o reembolso fica condicionado à apresentação de relatório clínico circunstanciado, firmado pelo profissional assistente, sempre que ocorrer a primeira das seguintes hipóteses: I — a sessão for a 5ª ou posterior no ano civil; II — o valor pago na sessão exceder em mais de 75% o teto aplicável ao procedimento."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 400.0,
+  "valor_reembolso_brl": 185.45,
+  "regras_aplicadas": [
+    "ART-41",
+    "CIRC-02-2026",
+    "ART-73",
+    "ART-33",
+    "ART-43",
+    "ART-44",
+    "ART-45",
+    "ART-47",
+    "TUSS-50000462"
+  ],
+  "protocolo": null,
+  "pendencias": [],
+  "_titulo": "Trigésima sessão do ano — o teto do acompanhamento continuado",
+  "_dica": "A partir de certo número de sessões no ano o teto da sessão deixa de ser o do caput e passa a ser o do parágrafo, menor. Quem usou o caput apurou um valor que estoura o saldo do ano e ainda deferiu parcialmente — errou o valor e a decisão. A contagem sai do histórico, não do que o beneficiário disser.",
+  "_data_da_conversa": "2026-05-21",
+  "_perguntas_abertas": [
+    {
+      "turno": 5,
+      "espera": "o valor pago excede o teto da sessão, e sobre o valor apurado ainda incide a coparticipação — por isso não volta o que foi pago"
+    },
+    {
+      "turno": 6,
+      "espera": "o teto da sessão de psicoterapia foi alterado por circular no curso do ano, e há um teto próprio, menor, para quem já acumulou sessões suficientes para caracterizar acompanhamento continuado"
+    },
+    {
+      "turno": 7,
+      "espera": "o limite anual de sessões de terapia soma todas as modalidades, não apenas a psicoterapia"
+    }
+  ],
+  "_carteirinhas_de_terceiro": []
+}

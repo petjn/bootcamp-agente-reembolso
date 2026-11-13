@@ -1,0 +1,22 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 550.0,
+  "valor_reembolso_brl": 356.63,
+  "_conta": "teto 5 URS × R$ 95,10 = R$ 475,50 (art. 35; Tabela URS, TUSS-10101039) < R$ 550,00 pagos; Essencial, 51 meses de adesão em 11/05/2026 → faixa acima de 36 meses, 25% (CIRC-02-2026, art. 3º, atendimento após 20/04/2026); 475,50 × 0,75 = 356,625 → 356,63 (art. 47, meio para cima)",
+  "_data_da_conversa": "2026-05-20",
+  "_perguntas_abertas": [
+    {
+      "turno": 4,
+      "espera": "não: a consulta com psiquiatra é consulta médica e não conta como sessão de terapia no limite anual (art. 35, parágrafo único; art. 40, § 3º; NT-02, item 4.2)"
+    },
+    {
+      "turno": 5,
+      "espera": "o teto da consulta (R$ 475,50) limitou o valor pago, e sobre o teto incidiu a coparticipação de 25%"
+    },
+    {
+      "turno": 6,
+      "espera": "sim, a fotografia é aceita desde que integralmente legível (art. 14; NT-02, item 1.2)"
+    }
+  ]
+}

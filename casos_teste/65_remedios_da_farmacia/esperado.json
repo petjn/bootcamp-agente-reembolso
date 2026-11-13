@@ -1,0 +1,22 @@
+{
+  "categoria_documento": "DESPESA_NAO_COBERTA",
+  "decisao": "NEGADO",
+  "valor_solicitado_brl": 186.4,
+  "valor_reembolso_brl": 0.0,
+  "regras_aplicadas": [
+    "ART-51",
+    "ANEXO-IV"
+  ],
+  "_conta": "medicamentos de uso domiciliar e de uso contínuo são excluídos (Anexo IV, 4.1 e 4.2), sem pendência (art. 51); nota de despesa excluída é despesa não coberta, não inválido (art. 76, § 2º). Sem repetir a condição de saúde",
+  "_perguntas_abertas": [
+    {
+      "turno": 1,
+      "espera": "não: medicamentos de uso domiciliar e contínuo não são reembolsáveis (Anexo IV, 4.1 e 4.2); sem repetir a condição de saúde (art. 7º)"
+    },
+    {
+      "turno": 2,
+      "espera": "a receita e o uso diário não mudam a exclusão"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

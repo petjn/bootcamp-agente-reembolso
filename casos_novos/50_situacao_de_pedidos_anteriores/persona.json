@@ -1,0 +1,26 @@
+{
+  "carteirinha": "7042 1588 6043 2719",
+  "nome": "Lúcia Ferraz Andrade",
+  "cpf": "359.217.604-83",
+  "plano": "Pleno",
+  "data_adesao": "2022-08-01",
+  "sessoes_terapia_ano": 1,
+  "status": "ATIVO",
+  "observacao": "Dados fictícios. Caso de treino do ramo de pedido anterior (D87).",
+  "historico": [
+    {
+      "protocolo": "20260000731",
+      "data_atendimento": "2026-03-10",
+      "categoria": "SESSAO_TERAPIA",
+      "decisao": "APROVADO",
+      "valor_reembolsado_brl": 92.4
+    },
+    {
+      "protocolo": "20260000745",
+      "data_atendimento": "2026-04-02",
+      "categoria": "EXAME_DIAGNOSTICO",
+      "decisao": "NEGADO",
+      "valor_reembolsado_brl": 0.0
+    }
+  ]
+}

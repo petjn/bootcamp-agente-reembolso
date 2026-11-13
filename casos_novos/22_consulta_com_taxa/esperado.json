@@ -1,0 +1,23 @@
+{
+  "categoria_documento": "CONSULTA_MEDICA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 410.0,
+  "valor_reembolso_brl": 228.0,
+  "_decisao_aceita_tambem": "APROVADO_PARCIAL (a taxa sai da base; a norma não diz se isso torna o pedido parcial)",
+  "_conta": "taxa de agendamento não integra a base (Anexo IV, 5.2; art. 57; art. 59): apura-se só a consulta, R$ 380,00 < teto R$ 475,50 (art. 35); Pleno, adesão 03/11/2025 → 6 meses completos em 08/05/2026 → até 12 meses, 40% (CIRC-02-2026); 380 × 0,60 = R$ 228,00",
+  "_data_da_conversa": "2026-05-20",
+  "_perguntas_abertas": [
+    {
+      "turno": 4,
+      "espera": "não: taxas de agendamento não são reembolsáveis e não integram a base de cálculo (Anexo IV, 5.2; art. 57)"
+    },
+    {
+      "turno": 5,
+      "espera": "sem discriminação, registra-se primeiro pendência para a clínica separar os valores (art. 59, § 2º; NT-02, Caso 16); não discriminado, o documento é indeferido (Anexo IV, 11.3)"
+    },
+    {
+      "turno": 6,
+      "espera": "até 15 dias corridos depois do deferimento (art. 15)"
+    }
+  ]
+}

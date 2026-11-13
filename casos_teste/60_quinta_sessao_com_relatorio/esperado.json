@@ -1,0 +1,21 @@
+{
+  "categoria_documento": "SESSAO_TERAPIA",
+  "decisao": "APROVADO",
+  "valor_solicitado_brl": 300.0,
+  "valor_reembolso_brl": 199.71,
+  "pendencias_no_turno_1": [
+    "P20"
+  ],
+  "_conta": "turno 1: 5ª sessão do ano → relatório exigido (art. 73, § 3º, CIRC-02-2026) → P20. Turno 2: relatório com a manutenção; 4 sessões antes → não é continuado (8); teto 2,8 URS = R$ 266,28 < R$ 300,00; Essencial, 62 meses → acima de 36, 25%; 266,28 × 0,75 = 199,71",
+  "_perguntas_abertas": [
+    {
+      "turno": 1,
+      "espera": "pendência: relatório clínico, porque é a 5ª sessão do ano"
+    },
+    {
+      "turno": 3,
+      "espera": "não: o relatório vale para as sessões seguintes do mesmo ano civil, salvo mudança do quadro (art. 73, § 5º)"
+    }
+  ],
+  "_data_da_conversa": "2026-05-20"
+}

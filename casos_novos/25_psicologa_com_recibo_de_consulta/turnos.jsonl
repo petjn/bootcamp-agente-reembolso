@@ -1,0 +1,5 @@
+{"turno": 1, "mensagem": "boa tarde. fiz uma consulta com uma psicóloga e queria o reembolso. carteirinha 7042 4470 1923 8856"}
+{"turno": 2, "mensagem": "recibo", "anexo": {"filename": "recibo_consulta_psicologica.pdf", "mime_type": "application/pdf", "path": "../../anexos/novos/recibo_consulta_psicologica.pdf"}}
+{"turno": 3, "mensagem": "mas no recibo está escrito consulta, não sessão de terapia. consulta não tem carência de 15 dias?"}
+{"turno": 4, "mensagem": "a partir de que dia eu posso pedir então?"}
+{"turno": 5, "mensagem": "entendi"}

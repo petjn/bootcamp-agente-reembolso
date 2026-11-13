@@ -1,0 +1,3 @@
+{"turno": 1, "mensagem": "oi! fiquei doente numa viagem a Lisboa e paguei uma consulta lá. dá pra pedir? carteirinha 7042 9518 3046 2275", "anexo": {"filename": "recibo_lisboa.pdf", "mime_type": "application/pdf", "path": "../../anexos/teste_novos/recibo_lisboa.pdf"}}
+{"turno": 2, "mensagem": "e quanto vou receber em reais?"}
+{"turno": 3, "mensagem": "tá bom, obrigada"}

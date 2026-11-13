@@ -1,0 +1,82 @@
+# ---------------------------------------------------------------- segredos
+# chaves do LangSmith e configuração local: nunca sobem
+.env
+.env.*
+!.env.exemplo
+
+# ---------------------------------------------------------------- Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------- LangGraph Studio
+# banco local do `langgraph dev` (conversas gravadas, ~190 MB)
+.langgraph_api/
+
+# ---------------------------------------------------------------- saídas das rodadas
+# Traces, históricos e logs de cada rodada (~1,5 GB) ficam só na máquina.
+# Sobem os relatórios em Markdown (resultado.md de cada rodada, decisões,
+# análises) e a tabela de evolução em CSV.
+docs/**/*.json
+docs/**/*.jsonl
+docs/**/*.log
+docs/**/*.err
+docs/**/*.txt
+# log local de chamadas ao modelo (LOG_LLM)
+*.log
+
+# ---------------------------------------------------------------- material da banca
+# enunciado da prova e notebooks de referência do curso
+instrucoes_da_prova.pdf
+referencia/
+
+# ---------------------------------------------------------------- fora do repositório (ficam só no PC)
+# casos que não são mais usados, notebook inacabado e configuração do LangGraph Studio
+casos_arquivados/
+notebook/
+langgraph.json
+langgraph.traces.json
+studio.py
+
+# scripts: só os evals por componente
+scripts/*
+!scripts/__init__.py
+!scripts/eval_documento.py
+!scripts/eval_anexo_iv.py
+!scripts/eval_normas.py
+!scripts/eval_reescrita.py
+!scripts/eval_busca.py
+
+# docs: só o essencial para entender o projeto e os resultados
+docs/*
+!docs/decisoes.md
+!docs/evolucao_rodadas.md
+!docs/evolucao_rodadas.csv
+!docs/fluxograma_agente.md
+!docs/grafo_agente.md
+!docs/como_funciona_cada_no.md
+!docs/turno_ponta_a_ponta.md
+!docs/estrategia_chunking.md
+!docs/regras_negocio.md
+!docs/analise_erros/
+docs/analise_erros/*
+!docs/analise_erros/arvore_de_decisao.md
+!docs/analise_erros/cobertura_ramos.md
+!docs/analise_erros/planilha_por_partes.md
+!docs/analise_erros/auditoria_norma_codigo_2.md
+!docs/rodada39/
+docs/rodada39/*
+!docs/rodada39/resultado.md
+!docs/rodada39/selecao.md
+!docs/rodada_teste5/
+docs/rodada_teste5/*
+!docs/rodada_teste5/resultado.md
+
+# ---------------------------------------------------------------- sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+docs/README_original_banca.md
