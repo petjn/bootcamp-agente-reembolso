@@ -26,7 +26,7 @@ código está em `ingest/chunking.py`, `ingest/build.py` e `app/rag`.
 | `acao`, `alvo`, `parte_alvo` | `altera`, `ART-41`, `§ 2º` | só nas circulares (ver abaixo) |
 | `citavel` | `true` / `false` | material de apoio nunca é citado |
 
-**Metadados das circulares declarados por nós.** Decidido com o usuário: o que cada circular faz (`altera`, `revoga`, `sobrepoe_tuss`, `eficacia_futura`), sobre quem e desde quando é registrado a partir da nossa leitura, como orientava o bootcamp ("ler e entender as regras"), e não por expressão regular, que quebra se a frase vier escrita de outro jeito. O texto novo de cada parte continua sendo lido do PDF. Uma checagem no build confirma que o artigo declarado aparece no texto da circular; se não aparecer, o build para.
+**Metadados das circulares declarados à mão.** O que cada circular faz (`altera`, `revoga`, `sobrepoe_tuss`, `eficacia_futura`), sobre quem e desde quando é registrado a partir da leitura das normas, e não por expressão regular, que quebra se a frase vier escrita de outro jeito. O texto novo de cada parte continua sendo lido do PDF. Uma checagem no build confirma que o artigo declarado aparece no texto da circular; se não aparecer, o build para.
 
 O limite dessa decisão: declaramos **o que a norma é** (estrutura e relações). Nunca gravamos **respostas** no código. A conversa, a interpretação do pedido e a explicação continuam com o modelo, e os números continuam saindo do texto (D7).
 
@@ -42,14 +42,14 @@ O limite dessa decisão: declaramos **o que a norma é** (estrutura e relações
 | `manual_rede_credenciada.pdf` | um por **seção** | não citável | material de orientação; ajuda a busca a entender a linguagem do cliente |
 | `faq_interno.docx` | um por **par pergunta e resposta**, marcado como desatualizado | não citável | o próprio FAQ avisa que pode estar desatualizado; serve para entender a pergunta, nunca para decidir |
 
-## Ajustes combinados com o usuário (2026-10-08, tarde)
+## Detalhes por documento
 
 **Contexto que cada chunk carrega.** Duas camadas, para não diluir o embedding de trechos curtos:
 - *Texto que vira embedding:* o cabeçalho curto com nomes (título, capítulo, grupo).
 - *Texto que vai para o modelo junto com o chunk:* o parágrafo de abertura do título ou do grupo, **na íntegra**. No LlamaIndex, isso é metadado excluído do embedding (`excluded_embed_metadata_keys`) e incluído para o LLM.
 - Íntegra em vez de resumo: os parágrafos são curtos (44 a 117 palavras) e vários trazem exceções que um resumo perderia.
 
-**Regulamento.** Cada título abre com um parágrafo explicativo, que o parser de hoje descarta e passa a ser guardado. Os capítulos têm só nome. Exemplo do art. 11 ("O pedido é formalizado..."): cabeçalho `Regulamento Geral — Título II — Do direito ao reembolso — Capítulo I — Das hipóteses e dos requisitos — Art. 11`, mais o parágrafo de abertura do Título II.
+**Regulamento.** Cada título abre com um parágrafo explicativo, que é guardado junto com os trechos do título. Os capítulos têm só nome. Exemplo do art. 11 ("O pedido é formalizado..."): cabeçalho `Regulamento Geral — Título II — Do direito ao reembolso — Capítulo I — Das hipóteses e dos requisitos — Art. 11`, mais o parágrafo de abertura do Título II.
 
 **Anexo IV.** Cada item leva o grupo e o parágrafo de abertura do grupo. Os parágrafos que mudam o sentido da lista:
 - grupo 3: reembolsável com indicação clínica expressa;
@@ -66,7 +66,7 @@ O item 11 ("Regras de aplicação") não é lista de exclusão. São 4 regras so
 **Tabela URS.**
 - O chunk por linha leva código, descrição, categoria e observação, mas **não o teto**. O teto vem da função de cálculo, já resolvido para a data, porque a linha da psicoterapia imprime 1,2 URS, que está desatualizado.
 - A coluna Observação tem 31 textos distintos, vários com regra própria ("Máximo de 12 sessões por ano civil", "Reembolsável uma vez por ano civil", "Exige autorização prévia da auditoria", "Não utilizar: substituído por TUSS-50000462", remissões ao Anexo IV 3.x). O significado de cada um é declarado por nós em campos estruturados.
-- **Achado:** em 124 exames, a coluna "Teto (R$)" não é igual a URS × R$ 95,10. Por exemplo, a dosagem de colesterol total tem 0,3 URS, mas R$ 33,28, que equivale a 0,35 URS. A diferença chega a R$ 4,76. O art. 33 e a seção 2 da própria tabela mandam calcular URS × valor da URS. Aguardando decisão do usuário.
+- **Achado:** em 124 exames, a coluna "Teto (R$)" não é igual a URS × R$ 95,10. Por exemplo, a dosagem de colesterol total tem 0,3 URS, mas R$ 33,28, que equivale a 0,35 URS. A diferença chega a R$ 4,76. O art. 33 e a seção 2 da própria tabela mandam calcular URS × valor da URS, e é assim que o código calcula.
 
 ## O que acontece na busca
 
@@ -79,7 +79,7 @@ O item 11 ("Regras de aplicação") não é lista de exclusão. São 4 regras so
 3. Para cada artigo que sobrou, monta o artigo consolidado na data:
      cada parte na redação vigente, com a fonte marcada.
      Parte que a busca não trouxe é completada pelos metadados,
-     e o caso é registrado no LangSmith como "busca não trouxe a circular"
+     e o caso fica registrado no campo `completados` do resultado da busca
 4. O texto consolidado vai para o modelo explicar e citar
 ```
 

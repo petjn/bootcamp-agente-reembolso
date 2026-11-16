@@ -2,7 +2,7 @@
 
 > Os códigos D (D78, D93...) são entradas do [diário de decisões](../diario_de_decisoes.md); os demais termos estão no [glossário](../README.md#glossário).
 
-Cada ramo da árvore de decisão (`app/decisao.py`, lista `ARVORE`; `arvore_de_decisao.md`) e da conversa, com os casos
+Cada ramo da árvore de decisão (`app/decisao.py`, lista `ARVORE`) e da conversa, com os casos
 que passam por ele: treino (01 a 17), ramos (18 a 41 e 50) e de teste (42 a 79). A primeira versão (D80) cobria só os
 39 casos de ajuste.
 

@@ -7,7 +7,6 @@ ordem:
 
 | Arquivo | O que explica |
 |---|---|
-| [`grafo.md`](como_funciona/grafo.md) | O desenho das etapas do agente e como elas se ligam. |
 | [`cada_etapa.md`](como_funciona/cada_etapa.md) | O que cada etapa faz, com a ideia da "ficha de atendimento" que todas compartilham. Bom primeiro texto. |
 | [`fluxograma.md`](como_funciona/fluxograma.md) | Todos os caminhos possíveis dentro de cada etapa, separando o que o modelo decide do que o código decide. |
 | [`regras_de_negocio.md`](como_funciona/regras_de_negocio.md) | As regras de reembolso das normas que viraram código: prazos, carência, tetos, coparticipação. |
@@ -26,8 +25,6 @@ ordem:
 
 | Arquivo | O que tem |
 |---|---|
-| [`planilha_de_erros.md`](analise_erros/planilha_de_erros.md) | O método: para cada conversa errada, marcar qual etapa errou e contar os erros por etapa. |
-| [`arvore_de_decisao.md`](analise_erros/arvore_de_decisao.md) | Todas as perguntas que as normas mandam fazer para decidir um pedido, na ordem. |
 | [`cobertura_dos_ramos.md`](analise_erros/cobertura_dos_ramos.md) | Para cada caminho da árvore, qual conversa passa por ele. |
 | [`auditoria_normas_x_codigo.md`](analise_erros/auditoria_normas_x_codigo.md) | Leitura das normas inteiras comparada com o código, procurando regras que faltavam. |
 

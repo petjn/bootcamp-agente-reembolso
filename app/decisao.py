@@ -1,4 +1,4 @@
-"""Decisão do pedido de reembolso: a árvore de decisão (docs/analise_erros/arvore_de_decisao.md, D78 e D79),
+"""Decisão do pedido de reembolso: a árvore de decisão (D78 e D79),
 na ordem da NT-02, item 6.1. A lista ARVORE, no fim, é a árvore: um nó por verificação.
 
     6.4   data do atendimento          sem ela, pendência
@@ -265,7 +265,7 @@ def classificar_pela_descricao(item: dict, dia: date) -> list[str]:
 
 
 # ------------------------------------------------------------------ a decisão: a árvore
-# A árvore de decisão (docs/analise_erros/arvore_de_decisao.md) é a lista ARVORE, no fim: cada nó é uma função que
+# A árvore de decisão é a lista ARVORE, no fim: cada nó é uma função que
 # lê a análise, escreve na ficha o que conferiu e devolve o desfecho, ou None para seguir ao próximo nó. A ficha é o
 # caminho percorrido. Cada item do documento segue sozinho onde a norma manda (carência, sessão, cálculo); o item
 # que não passa sai do cálculo e os outros seguem.
@@ -843,7 +843,7 @@ def n_calculo(a: Analise) -> Decisao:
                    memoria=memoria, **a.base())
 
 
-# A árvore, na ordem da NT-02, 6.1 (o número é o nó em docs/analise_erros/arvore_de_decisao.md)
+# A árvore, na ordem da NT-02, 6.1 (o número é o item da NT-02)
 ARVORE = [
     ("6.4", n_data),               # data do atendimento
     ("3", n_anexo_iv),             # exclusão do Anexo IV, item a item; material avulso (4.11) vai a analista

@@ -59,9 +59,7 @@ docs/*
 !docs/resultados/
 !docs/analise_erros/
 docs/analise_erros/*
-!docs/analise_erros/arvore_de_decisao.md
 !docs/analise_erros/cobertura_dos_ramos.md
-!docs/analise_erros/planilha_de_erros.md
 !docs/analise_erros/auditoria_normas_x_codigo.md
 
 # ---------------------------------------------------------------- sistema

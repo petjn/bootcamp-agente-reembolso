@@ -40,7 +40,7 @@ A mesma tabela, para planilha, está em `evolucao.csv`.
 | 22 | 2026-10-14 | 17/17 | 17/17 | 124/132 (94%) | 0 | — | Supervisor registra toda pergunta; quadro "Mudanças de redação" no topo da norma; nó `revisar` no grafo; índice original (D46); 78 min |
 | 23 | 2026-10-15 | 17/17 | 17/17 | 124/132 (94%) | 0 | — | Ajustes da D47 (resposta e revisor; pendência de fronteira ao pé da letra; quadro marca a data do cliente); 78 min |
 | 24 | 2026-10-15 | 17/17 | 17/17 | 125/132 (95%) | 0 | — | Janela de 24 mil, sem teto de tokens no supervisor, traces no LangSmith (D49); 78 min |
-| 24 rejulgada | 2026-10-15 | 17/17 | 17/17 | 129/132 (98%) | 0 | — | Mesmas respostas da 24, com os critérios revistos com o usuário: perguntar para ter certeza, pedir documento para seguir e citar TUSS não são erro (ver rodada24/resultado.md) |
+| 24 rejulgada | 2026-10-15 | 17/17 | 17/17 | 129/132 (98%) | 0 | — | Mesmas respostas da 24, com os critérios revistos: perguntar para ter certeza, pedir documento para seguir e citar TUSS não são erro |
 | 25 | 2026-10-15 | 17/17 | 17/17 | 123/132 (93%) | 0 | 14 (porta) | D50: resposta (TUSS, profissional assistente, documento contemporâneo, data de hoje), memória com o teto que valeu, marca do quadro; 79 min |
 | 26 | 2026-10-15 | 16/17 | 16/17 | 113/132 (86%) | 0 | 06 07 13 (porta), 15 | D52 (revisor não encurta demais, valores com duas casas) e D53 (prompts por princípio, sem frases das conversas de treino); 79 min |
 | 27 | 2026-10-15 | 17/17 | 17/17 | 128/132 (97%) | 0 | — | D54: regras da rodada 25 de volta, escritas sem as frases das conversas de treino, com o princípio no topo; NT-02 citável; sem a data de hoje |
